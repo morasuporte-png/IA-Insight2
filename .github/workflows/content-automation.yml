@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "AI Insights Automation"
           git config user.email "actions@github.com"
-          git add content.json research/*.json index.html
+          git add content.json research/*.json index.html sitemap.xml robots.txt artigos assets scripts/update-content.mjs
           if git diff --cached --quiet; then
             echo "No content changes to commit."
           else

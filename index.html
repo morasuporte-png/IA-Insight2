@@ -1,444 +1,122 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Insights | Hub premium de inteligência artificial</title>
-  <meta name="description" content="AI Insights é um portal editorial em português com notícias, análises e guias sobre inteligência artificial, agentes, automação, ferramentas e negócios." />
+  <title>AI Insights | Notícias e análises de inteligência artificial</title>
+  <meta name="description" content="Portal brasileiro sobre inteligência artificial, agentes, automação, ferramentas, custos e negócios." />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="author" content="AI Insights" />
   <link rel="canonical" href="https://aiinsights.com.br/" />
-  <style>
-    :root {
-      --bg: #05070d;
-      --surface: #0b111d;
-      --panel: #101827;
-      --line: rgba(148, 163, 184, 0.18);
-      --line-strong: rgba(125, 211, 252, 0.42);
-      --text: #f8fafc;
-      --soft: #cbd5e1;
-      --muted: #94a3b8;
-      --cyan: #22d3ee;
-      --blue: #3b82f6;
-      --violet: #8b5cf6;
-      --pink: #d946ef;
-    }
-    [data-theme="bright"] {
-      --bg: #f6f9fc;
-      --surface: #ffffff;
-      --panel: #eef4fb;
-      --line: rgba(15, 23, 42, 0.14);
-      --line-strong: rgba(59, 130, 246, 0.36);
-      --text: #0f172a;
-      --soft: #334155;
-      --muted: #64748b;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; background: var(--bg); }
-    body { margin: 0; color: var(--text); background: radial-gradient(circle at 82% 8%, rgba(34,211,238,.15), transparent 26%), radial-gradient(circle at 10% 62%, rgba(139,92,246,.14), transparent 30%), var(--bg); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    a { color: inherit; text-decoration: none; }
-    button, input { font: inherit; }
-    button { cursor: pointer; }
-    .browser { width: min(1720px, calc(100% - 28px)); margin: 14px auto 28px; border: 1px solid rgba(148,163,184,.2); border-radius: 22px 22px 10px 10px; overflow: hidden; background: #02040a; box-shadow: 0 28px 90px rgba(0,0,0,.45); }
-    .browser-top { height: 58px; display: grid; grid-template-columns: 120px minmax(180px,520px) 120px; align-items: center; gap: 18px; padding: 0 28px; background: linear-gradient(180deg,#24272d,#11141a); border-bottom: 1px solid rgba(255,255,255,.08); }
-    .traffic, .browser-actions { display: flex; gap: 10px; align-items: center; }
-    .traffic span { width: 14px; height: 14px; border-radius: 99px; }
-    .address { justify-self: center; width: min(100%,520px); padding: 10px 18px; border-radius: 8px; background: rgba(255,255,255,.08); color: #d9dde5; text-align: center; font-size: 14px; }
-    .browser-actions { justify-content: flex-end; }
-    .browser-actions span { width: 18px; height: 18px; border: 1px solid rgba(255,255,255,.42); border-radius: 4px; }
-    .app { position: relative; overflow: hidden; background: linear-gradient(180deg, rgba(34,211,238,.04), transparent 40%), var(--bg); }
-    .float-chip { position: absolute; z-index: 0; display: inline-flex; align-items: center; gap: 8px; min-height: 34px; border: 1px solid rgba(125,211,252,.24); border-radius: 999px; padding: 0 13px; color: var(--soft); background: rgba(15,23,42,.5); box-shadow: 0 18px 50px rgba(0,0,0,.18); animation: drift 8s ease-in-out infinite; pointer-events: none; }
-    .float-one { right: 8%; top: 128px; }
-    .float-two { left: 6%; top: 520px; animation-delay: -2.2s; }
-    .float-three { right: 14%; top: 860px; animation-delay: -4.4s; }
-    header, .hero, .chips, .layout, .tools-band, .concept, footer { position: relative; z-index: 1; }
-    header { position: sticky; top: 0; z-index: 8; min-height: 78px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 26px; padding: 0 clamp(20px,4vw,64px); border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(18px); }
-    .brand { display: inline-flex; gap: 8px; align-items: center; font-size: 24px; font-weight: 850; white-space: nowrap; }
-    .brand span { color: var(--cyan); }
-    nav { display: flex; justify-content: center; gap: clamp(18px,2vw,34px); color: var(--soft); font-size: 15px; }
-    nav a { padding: 30px 0 24px; }
-    nav a.active { color: var(--text); border-bottom: 3px solid var(--cyan); }
-    .actions, .hero-actions, .newsletter-form, .search-wrap { display: flex; align-items: center; gap: 12px; }
-    .icon, .btn { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; }
-    .icon { width: 42px; display: grid; place-items: center; color: var(--soft); background: rgba(15,23,42,.58); }
-    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 24px; color: #fff; font-weight: 800; background: rgba(15,23,42,.48); }
-    .btn-primary { border-color: transparent; background: linear-gradient(135deg, var(--cyan), var(--blue) 48%, var(--violet)); box-shadow: 0 14px 34px rgba(59,130,246,.24); }
-    .search-panel { display: none; grid-column: 1 / -1; gap: 10px; width: min(720px, 100%); margin: 0 auto 18px; }
-    .search-panel.open { display: grid; }
-    .search-panel input { min-height: 44px; border: 1px solid var(--line-strong); border-radius: 8px; padding: 0 14px; color: var(--text); background: rgba(2,6,23,.56); }
-    .hero { display: grid; grid-template-columns: minmax(320px,.86fr) minmax(360px,1.14fr); gap: 28px; min-height: 440px; padding: 68px clamp(22px,5vw,78px) 42px; border-bottom: 1px solid var(--line); }
-    .hero-copy { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 650px; }
-    .eyebrow, .badge { display: inline-flex; width: fit-content; min-height: 28px; align-items: center; border-radius: 999px; padding: 0 13px; color: #7dd3fc; background: rgba(59,130,246,.16); font-size: 12px; font-weight: 850; letter-spacing: .04em; }
-    h1 { margin: 18px 0 14px; max-width: 720px; font-size: clamp(38px,5vw,76px); line-height: 1.02; }
-    h1 span { display: block; color: var(--cyan); }
-    .hero p { margin: 0 0 28px; max-width: 580px; color: var(--soft); font-size: 18px; line-height: 1.58; }
-    .hero-visual { position: relative; min-height: 360px; overflow: hidden; border-radius: 8px; border: 1px solid rgba(125,211,252,.16); background: radial-gradient(circle at 50% 45%, rgba(34,211,238,.25), transparent 28%), radial-gradient(circle at 64% 44%, rgba(139,92,246,.28), transparent 28%), linear-gradient(180deg, rgba(15,23,42,.4), rgba(2,6,23,.1)); }
-    .grid-plane { position: absolute; inset: auto -10% 0; height: 54%; background-image: linear-gradient(rgba(34,211,238,.16) 1px,transparent 1px), linear-gradient(90deg,rgba(34,211,238,.16) 1px,transparent 1px); background-size: 42px 42px; transform: perspective(520px) rotateX(62deg); transform-origin: bottom; opacity: .55; animation: gridMove 9s linear infinite; }
-    .brain { position: absolute; inset: 48px 10% auto auto; width: min(390px,78%); aspect-ratio: 1.45; border: 2px solid rgba(34,211,238,.72); border-radius: 55% 48% 50% 45%; box-shadow: inset 0 0 30px rgba(34,211,238,.2), 0 0 50px rgba(34,211,238,.35), 34px 22px 70px rgba(139,92,246,.35); animation: breathe 5.8s ease-in-out infinite; }
-    .brain:before, .brain:after { content: ""; position: absolute; border: 1px solid rgba(139,92,246,.72); border-radius: 50%; }
-    .brain:before { inset: 17% 10% 26% 9%; }
-    .brain:after { right: 17%; bottom: -34%; width: 30%; height: 52%; border-color: rgba(34,211,238,.62); }
-    .node { position: absolute; width: 6px; height: 6px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 18px currentColor; animation: pulse 2.8s ease-in-out infinite; }
-    .n1{left:12%;top:38%}.n2{left:24%;top:22%;animation-delay:.2s}.n3{left:35%;top:50%;animation-delay:.4s}.n4{left:48%;top:28%;animation-delay:.6s}.n5{left:62%;top:58%;animation-delay:.8s}.n6{left:74%;top:32%;animation-delay:1s}.n7{left:86%;top:48%;animation-delay:1.2s}.n8{left:18%;top:66%;animation-delay:1.4s}.n9{left:54%;top:76%;animation-delay:1.6s}.n10{left:70%;top:18%;animation-delay:1.8s}.n11{left:29%;top:72%;animation-delay:2s}.n12{left:43%;top:16%;animation-delay:2.2s}.n13{left:80%;top:70%;animation-delay:2.4s}.n14{left:51%;top:62%;animation-delay:2.6s}
-    .ring { position: absolute; left: 42%; bottom: 15%; width: 260px; height: 78px; border: 1px solid rgba(34,211,238,.48); border-radius: 50%; transform: translateX(-50%); box-shadow: 0 0 24px rgba(34,211,238,.22); animation: orbit 6s ease-in-out infinite; }
-    .ring.two { width: 370px; height: 108px; border-color: rgba(139,92,246,.42); animation-delay: -2s; }
-    .chips { display: flex; gap: 10px; overflow-x: auto; padding: 20px clamp(22px,5vw,78px) 10px; }
-    .chip { flex: 0 0 auto; min-height: 38px; border: 1px solid var(--line); border-radius: 8px; padding: 9px 16px; color: var(--soft); background: rgba(15,23,42,.72); font-size: 14px; }
-    .chip.active { color: #dffbff; border-color: rgba(34,211,238,.8); box-shadow: 0 0 0 3px rgba(34,211,238,.12); }
-    .layout { display: grid; grid-template-columns: minmax(0,1fr) 360px; gap: 28px; padding: 24px clamp(22px,5vw,78px) 56px; }
-    .section-head, .panel-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 16px; }
-    h2 { margin: 0; font-size: 22px; line-height: 1.2; }
-    .section-head a, .panel-head a { color: #7dd3fc; font-size: 14px; font-weight: 800; }
-    .grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
-    .card, .panel, .tool-card { position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in srgb, var(--surface) 78%, transparent); box-shadow: 0 18px 42px rgba(0,0,0,.18); transition: transform .18s ease, border-color .18s ease, opacity .18s ease; }
-    .card { cursor: pointer; }
-    .card:hover, .tool-card:hover { transform: translateY(-3px); border-color: var(--line-strong); }
-    .card:focus-visible, .tool-card:focus-visible, .chip:focus-visible, .icon:focus-visible, .btn:focus-visible { outline: 3px solid rgba(34,211,238,.72); outline-offset: 3px; }
-    .card.hidden, .tool-card.hidden, .empty-state.hidden { display: none; }
-    .media { position: relative; height: 136px; background-size: cover; background-position: center; }
-    .m1 { background: radial-gradient(circle at 50% 35%,rgba(34,211,238,.75),transparent 20%), linear-gradient(135deg,#06111f,#0a2858 48%,#020617); }
-    .m2 { background: radial-gradient(circle at 70% 20%,rgba(217,70,239,.62),transparent 20%), linear-gradient(135deg,#0b1020,#32226f 48%,#05070d); }
-    .m3 { background: linear-gradient(135deg,#09111f,#0e7490 44%,#0f172a); }
-    .m4 { background: radial-gradient(circle at 40% 30%,rgba(34,211,238,.55),transparent 18%), linear-gradient(135deg,#07111f,#1e3a8a 48%,#020617); }
-    .m5 { background: linear-gradient(135deg,#111827,#312e81 50%,#0f172a); }
-    .m6 { background: linear-gradient(135deg,#05151b,#155e75 48%,#0f172a); }
-    .badge { position: absolute; left: 14px; top: 14px; min-height: 24px; border-radius: 5px; color: #dffbff; font-size: 10px; }
-    .body { padding: 16px; }
-    .meta { display: flex; gap: 14px; color: var(--muted); font-size: 12px; text-transform: uppercase; }
-    h3 { margin: 10px 28px 8px 0; min-height: 52px; font-size: 20px; line-height: 1.18; }
-    .body p, .panel p, .tool-card p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.55; }
-    .empty-state { margin-top: 18px; border: 1px dashed var(--line-strong); border-radius: 8px; padding: 18px; color: var(--soft); background: rgba(15,23,42,.28); }
-    .editors { margin-top: 34px; }
-    aside { display: flex; flex-direction: column; gap: 18px; }
-    .panel { padding: 20px; }
-    .newsletter { display: grid; grid-template-columns: 54px 1fr; gap: 16px; }
-    .newsletter-icon, .tool-icon { display: grid; place-items: center; border-radius: 8px; color: #fff; background: linear-gradient(135deg,var(--cyan),var(--blue) 48%,var(--violet)); font-weight: 850; }
-    .newsletter-icon { width: 54px; height: 54px; font-size: 24px; }
-    .newsletter-form { grid-column: 1 / -1; }
-    .newsletter input { min-width: 0; flex: 1; min-height: 42px; border: 1px solid var(--line); border-radius: 6px; padding: 0 14px; color: var(--text); background: rgba(2,6,23,.45); }
-    .form-message { grid-column: 1 / -1; min-height: 20px; color: #7dd3fc; font-size: 13px; }
-    .tool-list { display: grid; gap: 8px; }
-    .tool-row { display: grid; grid-template-columns: 40px 1fr 28px; align-items: center; gap: 12px; min-height: 56px; border-radius: 8px; padding: 8px; color: var(--soft); background: rgba(2,6,23,.2); }
-    .tool-row strong { display: block; color: var(--text); font-size: 14px; }
-    .tool-row small { color: var(--muted); font-size: 12px; }
-    .tools-band { padding: 0 clamp(22px,5vw,78px) 58px; }
-    .tools-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; }
-    .tool-card { padding: 20px; }
-    .tool-card h3 { min-height: 0; margin-right: 0; }
-    .concept { display: grid; grid-template-columns: .8fr 1.2fr; gap: 26px; align-items: center; padding: 42px clamp(22px,5vw,78px); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(2,6,23,.24); }
-    .concept img { width: 100%; border-radius: 8px; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
-    .concept p { color: var(--soft); line-height: 1.65; }
-    .modal { position: fixed; inset: 0; z-index: 20; display: none; place-items: center; padding: 20px; background: rgba(2,6,23,.72); backdrop-filter: blur(14px); }
-    .modal.open { display: grid; }
-    .modal-card { width: min(720px, 100%); border: 1px solid var(--line-strong); border-radius: 10px; padding: 24px; background: var(--surface); box-shadow: 0 34px 90px rgba(0,0,0,.5); }
-    .modal-card h2 { margin: 10px 0; font-size: clamp(28px, 4vw, 44px); }
-    .modal-card p { color: var(--soft); line-height: 1.75; }
-    .source-link { display: inline-flex; margin: 0 0 18px; color: #7dd3fc; font-weight: 800; }
-    .modal-close { float: right; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); background: transparent; }
-    footer { display: flex; justify-content: space-between; gap: 24px; padding: 28px clamp(22px,5vw,78px) 38px; border-top: 1px solid var(--line); color: var(--soft); }
-    .footer-links { display: flex; flex-wrap: wrap; gap: 18px; justify-content: flex-end; }
-    @keyframes drift { 0%,100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(0,-16px,0); } }
-    @keyframes breathe { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-8px) scale(1.02); } }
-    @keyframes pulse { 0%,100% { opacity: .65; transform: scale(1); } 50% { opacity: 1; transform: scale(1.65); } }
-    @keyframes orbit { 0%,100% { transform: translateX(-50%) rotate(0deg) scale(1); } 50% { transform: translateX(-50%) rotate(4deg) scale(1.05); } }
-    @keyframes gridMove { from { background-position: 0 0; } to { background-position: 42px 42px; } }
-    @media (max-width: 1100px) {
-      .browser-top { grid-template-columns: 90px 1fr 70px; padding: 0 18px; }
-      header { grid-template-columns: 1fr auto; }
-      nav { display: none; }
-      .hero, .layout, .concept { grid-template-columns: 1fr; }
-      aside { display: grid; grid-template-columns: 1fr 1fr; }
-      .tools-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
-    }
-    @media (max-width: 760px) {
-      .browser { width: 100%; margin: 0; border-radius: 0; border-left: 0; border-right: 0; }
-      .browser-top { grid-template-columns: 72px 1fr; }
-      .browser-actions, .float-chip { display: none; }
-      header { min-height: 68px; padding: 0 18px; }
-      .brand { font-size: 20px; }
-      .actions .icon:nth-child(2), .actions .btn { display: none; }
-      .hero { padding: 42px 18px 28px; }
-      .hero-actions, .newsletter-form { width: 100%; flex-direction: column; align-items: stretch; }
-      .btn { width: 100%; }
-      .hero-visual { min-height: 270px; }
-      .brain { right: 4%; width: 86%; }
-      .chips, .layout, .tools-band, .concept { padding-left: 18px; padding-right: 18px; }
-      .grid, aside, .tools-grid { grid-template-columns: 1fr; }
-      h3 { min-height: auto; }
-      footer { flex-direction: column; }
-      .footer-links { justify-content: flex-start; }
-    }
-    .browser { width: 100%; max-width: none; margin: 0; border: 0; border-radius: 0; box-shadow: none; background: var(--bg); }
-    .browser-top, .float-chip, .hero-visual { display: none; }
-    .app { min-height: 100vh; background: var(--bg); }
-    .top-strip { position: relative; z-index: 9; display: flex; justify-content: space-between; gap: 18px; padding: 9px clamp(20px,5vw,78px); border-bottom: 1px solid var(--line); color: var(--muted); background: #02040a; font-size: 12px; text-transform: uppercase; }
-    .top-strip strong { color: var(--cyan); }
-    header { position: sticky; min-height: 88px; grid-template-columns: 260px 1fr auto; background: rgba(5,7,13,.96); }
-    .brand { font-size: 30px; letter-spacing: .01em; }
-    nav { justify-content: flex-start; gap: clamp(14px,1.8vw,28px); font-weight: 700; }
-    nav a { padding: 34px 0 28px; }
-    .news-ticker { position: relative; z-index: 2; display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 18px; padding: 11px clamp(20px,5vw,78px); border-bottom: 1px solid var(--line); background: rgba(16,24,39,.72); }
-    .ticker-label { padding: 5px 10px; border-radius: 4px; color: #001018; background: var(--cyan); font-size: 12px; font-weight: 900; text-transform: uppercase; }
-    .ticker-items { display: flex; gap: 22px; overflow: hidden; color: var(--soft); font-size: 14px; white-space: nowrap; }
-    .hero { grid-template-columns: minmax(0,1.25fr) 390px; min-height: auto; gap: 26px; padding: 34px clamp(22px,5vw,78px); background: linear-gradient(180deg, rgba(34,211,238,.06), transparent 70%); }
-    .hero-copy { display: grid; max-width: none; grid-template-columns: 1fr 310px; gap: 26px; align-items: stretch; }
-    .lead-story { display: flex; flex-direction: column; justify-content: flex-end; min-height: 430px; padding: clamp(22px,3.4vw,42px); border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(180deg, rgba(2,6,23,.15), rgba(2,6,23,.92)), radial-gradient(circle at 70% 24%, rgba(34,211,238,.32), transparent 24%), radial-gradient(circle at 30% 62%, rgba(139,92,246,.28), transparent 26%), #07101d; }
-    .lead-story h1 { max-width: 860px; margin: 16px 0 14px; font-size: clamp(42px,5vw,72px); }
-    .lead-story p { max-width: 760px; margin-bottom: 22px; font-size: 19px; }
-    .lead-meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: var(--muted); font-size: 13px; font-weight: 750; text-transform: uppercase; }
-    .front-stack { display: grid; gap: 14px; }
-    .front-card { display: grid; align-content: space-between; min-height: 132px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: rgba(16,24,39,.72); }
-    .front-card strong { color: var(--text); font-size: 18px; line-height: 1.18; }
-    .front-card span { color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }
-    .edition-panel { display: flex; flex-direction: column; gap: 14px; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: rgba(11,17,29,.86); }
-    .edition-panel h2 { font-size: 20px; }
-    .edition-row { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
-    .edition-row time { color: var(--cyan); font-weight: 900; font-size: 13px; }
-    .edition-row p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.4; }
-    .chips { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(2,6,23,.4); }
-    .layout { grid-template-columns: minmax(0,1fr) 330px; padding-top: 32px; }
-    .section-head, .panel-head { padding-bottom: 10px; border-bottom: 2px solid var(--line); }
-    .section-head h2, .panel-head h2 { font-size: 24px; text-transform: uppercase; letter-spacing: .02em; }
-    .grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-    .card { border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; box-shadow: none; background: rgba(11,17,29,.42); }
-    .card:hover { transform: none; background: rgba(16,24,39,.74); }
-    .media { height: 170px; border-bottom: 1px solid var(--line); }
-    .body { padding: 18px; }
-    .body h3 { min-height: 0; margin-right: 0; font-size: 22px; }
-    aside { gap: 14px; }
-    .panel { border-radius: 0; box-shadow: none; background: rgba(11,17,29,.52); }
-    .newsletter { grid-template-columns: 1fr; }
-    .newsletter-icon { display: none; }
-    .tool-row { border-radius: 0; border-bottom: 1px solid var(--line); background: transparent; }
-    .tools-band { padding-top: 12px; border-top: 1px solid var(--line); }
-    .tools-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-    .tool-card { border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; box-shadow: none; background: rgba(11,17,29,.42); }
-    .concept { grid-template-columns: 1fr 1fr; background: #090d15; }
-    .concept img { max-height: 320px; object-fit: cover; }
-    @media (max-width: 1100px) {
-      header { grid-template-columns: 1fr auto; }
-      .hero, .hero-copy { grid-template-columns: 1fr; }
-      .edition-panel { order: -1; }
-    }
-    @media (max-width: 760px) {
-      .top-strip { display: none; }
-      header { min-height: 70px; }
-      .news-ticker { grid-template-columns: 1fr; gap: 8px; }
-      .ticker-items { overflow-x: auto; }
-      .lead-story { min-height: 360px; }
-      .grid, .tools-grid { grid-template-columns: 1fr; }
-    }
-    /* AdSense readiness */
-    .ad-slot { display: grid; place-items: center; min-height: 96px; margin: 18px clamp(22px,5vw,78px); border: 1px dashed rgba(148,163,184,.34); border-radius: 8px; color: var(--muted); background: rgba(15,23,42,.42); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
-    .ad-slot.inline { margin: 24px 0; }
-    .ad-slot.sidebar { min-height: 250px; margin: 0; }
-    .policy-links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 14px; }
-    .cookie-banner { position: fixed; left: 18px; right: 18px; bottom: 18px; z-index: 30; display: none; grid-template-columns: 1fr auto; gap: 18px; align-items: center; max-width: 980px; margin: 0 auto; border: 1px solid var(--line-strong); border-radius: 8px; padding: 16px; color: var(--soft); background: rgba(5,7,13,.96); box-shadow: 0 24px 70px rgba(0,0,0,.45); }
-    .cookie-banner.open { display: grid; }
-    .cookie-banner p { margin: 0; line-height: 1.5; }
-    .cookie-banner a { color: #7dd3fc; font-weight: 800; }
-    .cookie-actions { display: flex; gap: 10px; }
-    @media (max-width: 760px) { .cookie-banner { grid-template-columns: 1fr; } .cookie-actions { flex-direction: column; } }
-    @media (prefers-reduced-motion: reduce) {
-      *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
-  <div class="browser">
-    <div class="browser-top">
-      <div class="traffic" aria-hidden="true"><span style="background:#ff5f57"></span><span style="background:#ffbd2e"></span><span style="background:#28c840"></span></div>
-      <div class="address">aiinsights.com.br</div>
-      <div class="browser-actions" aria-hidden="true"><span></span><span></span></div>
+  <div class="topbar"><strong>AI INSIGHTS</strong><span>11 de julho de 2026 · Inteligência artificial, negócios e automação</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>AI</span> INSIGHTS</a>
+    <nav><a class="active" href="index.html">Capa</a><a  href="index.html#ultimas">Últimas</a><a  href="index.html#editorias">Editorias</a><a  href="index.html#ferramentas">Ferramentas</a><a  href="sobre.html">Sobre</a><a  href="contato.html">Contato</a></nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchButton" aria-label="Pesquisar">⌕</button>
+      <button class="icon-button" id="themeButton" aria-label="Alternar contraste">◐</button>
+      <a class="subscribe-button" href="index.html#newsletter">Newsletter</a>
     </div>
-    <div class="app">
-      <div class="top-strip"><span><strong>AI Insights</strong> Edição Brasil</span><span>11 de julho de 2026 · Inteligência artificial, negócios e automação</span></div>
-      <header>
-        <a href="#topo" class="brand"><span>AI</span> INSIGHTS</a>
-        <nav aria-label="Navegação principal"><a class="active" href="#topo">Capa</a><a href="#featured">Últimas</a><a href="#topics">Editorias</a><a href="#tools">Ferramentas</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a></nav>
-        <div class="actions"><button class="icon" id="searchButton" aria-label="Abrir busca">⌕</button><button class="icon" id="themeButton" aria-label="Alternar tema">◐</button><a href="#newsletter" class="btn btn-primary">Newsletter</a></div>
-        <div class="search-panel" id="searchPanel"><input id="searchInput" type="search" placeholder="Busque por agentes, modelos, automação, custo, segurança..." /></div>
-      </header>
-      <div class="news-ticker"><span class="ticker-label">Ao vivo</span><div class="ticker-items"><span>Agentes gerenciados avançam nas APIs</span><span>Custos de IA entram na pauta das empresas</span><span>Ferramentas disputam fluxos de trabalho completos</span></div></div>
-      <div class="ad-slot" id="ad-topo" aria-label="Espaço de publicidade">Publicidade</div>
-      <section id="topo" class="hero">
-        <div class="hero-copy">
-          <article class="lead-story">
-            <span class="eyebrow">MANCHETE</span>
-            <h1>IA deixa a fase de teste e vira infraestrutura de trabalho.</h1>
-            <p>Empresas, desenvolvedores e criadores entram numa nova etapa: agentes conectados a ferramentas, custos sob controle e decisões editoriais baseadas em fontes reais.</p>
-            <div class="lead-meta"><span>Radar do dia</span><span>6 min de leitura</span><span>Atualizado agora</span></div>
-            <div class="hero-actions"><a href="#featured" class="btn btn-primary">Ler principais análises</a><a href="#newsletter" class="btn">Receber resumo</a></div>
-          </article>
-          <div class="front-stack" aria-label="Chamadas secundárias">
-            <a class="front-card" href="#featured"><span>Negócios</span><strong>Telecoms mostram como IA entra no núcleo da operação</strong></a>
-            <a class="front-card" href="#featured"><span>Agentes</span><strong>APIs avançam para tarefas persistentes e conectadas</strong></a>
-            <a class="front-card" href="#tools"><span>Ferramentas</span><strong>Diretório acompanha o que realmente merece atenção</strong></a>
-          </div>
-        </div>
-        <aside class="edition-panel" aria-label="Últimas atualizações">
-          <h2>Últimas atualizações</h2>
-          <div class="edition-row"><time>14:50</time><p>Vercel publicado e projeto pronto para evolução editorial.</p></div>
-          <div class="edition-row"><time>14:20</time><p>Gestor de aprovação filtra conteúdos antes da publicação.</p></div>
-          <div class="edition-row"><time>13:40</time><p>Pipeline de pesquisa coleta fontes e separa rascunhos.</p></div>
-          <div class="edition-row"><time>12:55</time><p>Newsletter passa a ser produto central de retenção.</p></div>
-        </aside>
-      </section>
-      <section id="topics" class="chips" aria-label="Filtros de temas"><!-- CONTENT:TOPICS:START -->
-<button class="chip active" data-filter="todos">Todos</button><button class="chip" data-filter="Agentes">Agentes</button><button class="chip" data-filter="Modelos">Modelos</button><button class="chip" data-filter="Custos">Custos</button><button class="chip" data-filter="Segurança">Segurança</button><button class="chip" data-filter="Negócios">Negócios</button><button class="chip" data-filter="Produtividade">Produtividade</button>
-<!-- CONTENT:TOPICS:END --></section>
-      <section id="featured" class="layout">
-        <main>
-          <div class="section-head"><h2>Últimas análises</h2><a href="#topics">Filtrar editorias</a></div>
-          <div class="grid">
-            <!-- CONTENT:FEATURED:START -->
-<article class="card" role="button" tabindex="0" aria-label="Deutsche Telekom mostra como IA entra no núcleo das telecomunicações" data-category="Negócios" data-title="Deutsche Telekom mostra como IA entra no núcleo das telecomunicações" data-body="A OpenAI publicou um caso sobre como a Deutsche Telekom está redesenhando partes da operação com IA. O ponto mais relevante para líderes é que a tecnologia deixa de ser apenas chatbot ou piloto isolado e passa a tocar processos centrais: atendimento, produtividade interna, infraestrutura e tomada de decisão. A leitura prática é clara: empresas grandes tendem a buscar ganhos combinados de eficiência, experiência do cliente e padronização operacional, mas precisam de governança forte para evitar automações sem controle." data-source-label="OpenAI News" data-source-url="https://openai.com/index/deutsche-telekom"><div class="media m1"><span class="badge">Negócios</span></div><div class="body"><div class="meta"><span>Radar</span><span>4 min</span></div><h3>Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</h3><p>A adoção de IA em telecom sinaliza uma fase mais operacional: automação, atendimento, infraestrutura e eficiência trabalhando juntos.</p></div></article>
-            <article class="card" role="button" tabindex="0" aria-label="Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP" data-category="Agentes" data-title="Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP" data-body="O Google anunciou expansão dos agentes gerenciados no Gemini API, incluindo tarefas em segundo plano, MCP remoto e novos recursos para desenvolvedores. Isso importa porque agentes úteis precisam sair do fluxo curto de pergunta e resposta e operar tarefas persistentes, conectadas a ferramentas e acompanhadas por controles. Para times técnicos, o sinal é que a arquitetura de agentes está ficando mais próxima de infraestrutura: permissões, execução assíncrona, integração e observabilidade passam a ser tão importantes quanto o modelo escolhido." data-source-label="Google AI Blog" data-source-url="https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"><div class="media m1"><span class="badge">Agentes</span></div><div class="body"><div class="meta"><span>Radar técnico</span><span>4 min</span></div><h3>Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP</h3><p>A expansão de agentes gerenciados no Gemini API reforça a corrida por automações mais longas, integradas e confiáveis.</p></div></article>
-            <article class="card" role="button" tabindex="0" aria-label="Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos" data-category="Negócios" data-title="Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos" data-body="O Google reuniu as principais novidades de IA anunciadas em junho de 2026. O padrão é importante: em vez de uma única grande aposta, a IA aparece distribuída em produtos, APIs, ferramentas de criação, busca, produtividade e infraestrutura. Para empresas, a implicação é que adoção de IA será cada vez menos uma compra isolada e mais uma decisão de ecossistema. O desafio passa a ser escolher onde integrar, como medir retorno e como evitar dependência excessiva de fluxos automáticos sem revisão." data-source-label="Google AI Blog" data-source-url="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"><div class="media m2"><span class="badge">Negócios</span></div><div class="body"><div class="meta"><span>Radar</span><span>4 min</span></div><h3>Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos</h3><p>O pacote de novidades indica uma estratégia de IA embutida em ferramentas, plataformas e fluxos de trabalho.</p></div></article>
-            <article class="card" role="button" tabindex="0" aria-label="Agentes de IA viram a nova camada de trabalho" data-category="Agentes" data-title="Agentes de IA viram a nova camada de trabalho" data-body="O avanço mais importante não é apenas um modelo responder melhor, mas operar fluxos: pesquisar, planejar, editar arquivos, navegar em ferramentas e manter continuidade. Um estudo sobre uso do Codex aponta crescimento de mais de cinco vezes em usuários ativos no primeiro semestre de 2026 e adoção indo além de desenvolvedores. Para empresas, o sinal é claro: a vantagem está em desenhar processos com escopo, permissões, checkpoints e métricas, não em simplesmente trocar prompts." data-source-label="arXiv: The Shift to Agentic AI" data-source-url="https://arxiv.org/abs/2606.26959"><div class="media m4"><span class="badge">Agentes</span></div><div class="body"><div class="meta"><span>Análise</span><span>6 min</span></div><h3>Agentes de IA viram a nova camada de trabalho</h3><p>Evidências recentes mostram uma migração de chatbots para sistemas que executam tarefas completas.</p></div></article>
-            <article class="card" role="button" tabindex="0" aria-label="O custo da IA virou pauta de diretoria" data-category="Custos" data-title="O custo da IA virou pauta de diretoria" data-body="A conversa empresarial saiu do encanto com IA e entrou na conta: quanto custa rodar, escalar e provar retorno? Em Sun Valley, Sam Altman afirmou que reduzir custos de IA virou uma das perguntas centrais de líderes de negócios. A resposta prática tende a combinar modelos diferentes por tarefa, roteamento inteligente, prompts mais enxutos, cache, avaliação contínua e limites claros para agentes. O futuro próximo será menos sobre usar o modelo mais caro sempre e mais sobre montar uma arquitetura econômica por tipo de trabalho." data-source-label="Business Insider: AI cost strategy" data-source-url="https://www.businessinsider.com/sam-altman-sun-valley-conference-cut-ai-costs-2026-7"><div class="media m1"><span class="badge">Custos</span></div><div class="body"><div class="meta"><span>Estratégia</span><span>5 min</span></div><h3>O custo da IA virou pauta de diretoria</h3><p>Executivos já tratam roteamento de modelos, eficiência e ROI como prioridades centrais.</p></div></article>
-<!-- CONTENT:FEATURED:END -->
-          </div>
-          <div class="ad-slot inline" id="ad-meio" aria-label="Espaço de publicidade">Publicidade</div>
-          <div class="section-head editors"><h2>Opinião e contexto</h2><a href="#newsletter">Receber briefing</a></div>
-          <div class="grid">
-            <!-- CONTENT:EDITOR:START -->
-<article class="card" role="button" tabindex="0" aria-label="Grafos de contexto apontam caminho para agentes corporativos mais proativos" data-category="Agentes" data-title="Grafos de contexto apontam caminho para agentes corporativos mais proativos" data-body="Um artigo recente no arXiv discute grafos de contexto para agentes corporativos proativos. A ideia é relevante porque agentes que atuam em empresas precisam entender relações entre pessoas, tarefas, documentos, sistemas e histórico de decisões. Sem esse mapa, a automação tende a ser rasa ou arriscada. A oportunidade está em criar agentes que antecipam necessidades com base em contexto real; o risco está em privacidade, permissões e explicabilidade. Para adoção séria, contexto precisa vir acompanhado de fronteiras claras e auditoria." data-source-label="arXiv AI recent" data-source-url="https://arxiv.org/abs/2607.07721"><div class="media m1"><span class="badge">Agentes</span></div><div class="body"><div class="meta"><span>Pesquisa</span><span>4 min</span></div><h3>Grafos de contexto apontam caminho para agentes corporativos mais proativos</h3><p>Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.</p></div></article>
-<!-- CONTENT:EDITOR:END -->
-          </div><div class="empty-state hidden" id="noResults">Nenhum artigo apareceu com esse filtro. Tente outro tema ou limpe a busca.</div></main><aside>
-          <div class="ad-slot sidebar" id="ad-lateral" aria-label="Espaço de publicidade">Publicidade</div>
-          <section id="newsletter" class="panel newsletter"><span class="newsletter-icon">✉</span><div><h2>Receba o radar semanal</h2><p>Uma curadoria prática com lançamentos, riscos, oportunidades e ferramentas de IA para aplicar no trabalho.</p></div><form class="newsletter-form" id="newsletterForm"><input id="emailInput" type="email" placeholder="Seu e-mail" required /><button type="submit" class="btn btn-primary">Assinar</button><div class="form-message" id="formMessage"></div></form></section>
-          <section class="panel"><div class="panel-head"><h2>Ferramentas em alta</h2><a href="#tools">Ver todas</a></div><div class="tool-list"><!-- CONTENT:TRENDING_TOOLS:START -->
-<a class="tool-row" href="#tools"><span class="tool-icon">CX</span><span><strong>Codex</strong><small>Agentes</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">CW</span><span><strong>ChatGPT Work</strong><small>Produtividade</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">CR</span><span><strong>Claude Reflect</strong><small>Produtividade</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">GB</span><span><strong>Gemini Business Agent</strong><small>Negócios</small></span><span>↗</span></a>
-<!-- CONTENT:TRENDING_TOOLS:END --></div></section>
-        </aside>
-      </section>
-      <section id="tools" class="tools-band"><div class="section-head"><h2>Radar de ferramentas</h2><a href="#newsletter">Receber novidades</a></div><div class="tools-grid"><!-- CONTENT:TOOLS:START -->
-<article class="tool-card" data-category="Agentes"><span class="tool-icon">CX</span><h3>Codex</h3><p>Agente de desenvolvimento que lê projeto, edita arquivos, valida no navegador e opera em ciclos.</p></article><article class="tool-card" data-category="Produtividade"><span class="tool-icon">CW</span><h3>ChatGPT Work</h3><p>Produto agentivo voltado a tarefas profissionais, documentos, planilhas, apps e fluxos longos.</p></article><article class="tool-card" data-category="Produtividade"><span class="tool-icon">CR</span><h3>Claude Reflect</h3><p>Recurso de reflexão para entender padrões de uso, temas e delegação de tarefas com IA.</p></article><article class="tool-card" data-category="Negócios"><span class="tool-icon">GB</span><h3>Gemini Business Agent</h3><p>Camada de IA aplicada a leads, campanhas, atendimento e mensuração em ecossistemas Google.</p></article><article class="tool-card" data-category="Custos"><span class="tool-icon">RM</span><h3>Roteador de Modelos</h3><p>Estratégia para escolher modelos por tarefa, reduzindo custo sem perder qualidade operacional.</p></article><article class="tool-card" data-category="Agentes"><span class="tool-icon">A2</span><h3>A2A Hub</h3><p>Arquitetura para orquestrar agentes e ferramentas entre contas, permissões e ambientes diferentes.</p></article>
-<!-- CONTENT:TOOLS:END --></div></section>
-      <section id="resources" class="concept"><div><span class="eyebrow">ESPECIAL</span><h2>Como o AI Insights decide o que merece virar notícia.</h2><p>O portal combina pesquisa em fontes confiáveis, análise editorial rigorosa e curadoria voltada para quem usa IA em negócios, criação, automação e produto. A prioridade é separar movimento real de ruído.</p></div><img src="assets/ai-insights-concept.png" alt="Mesa editorial visual do AI Insights" /></section>
-      <footer id="about"><div><a href="#topo" class="brand"><span>AI</span> INSIGHTS</a><p>Portal editorial independente sobre inteligência artificial, automação e negócios.</p><div class="policy-links"><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="politica-de-privacidade.html">Privacidade</a><a href="termos-de-uso.html">Termos</a></div></div><div class="footer-links"><a href="#topics">IA Generativa</a><a href="#topics">Automação</a><a href="#tools">Ferramentas</a><a href="politica-editorial.html">Política editorial</a></div></footer>
-    </div>
-  </div>
-  <div class="cookie-banner" id="cookieBanner"><p>Usamos cookies para melhorar a experiência, medir audiência e, futuramente, exibir anúncios personalizados ou não personalizados via Google AdSense. Leia nossa <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p><div class="cookie-actions"><button class="btn" id="cookieReject">Recusar</button><button class="btn btn-primary" id="cookieAccept">Aceitar</button></div></div>
-  <div class="modal" id="articleModal" aria-hidden="true"><div class="modal-card"><button class="modal-close" id="modalClose" aria-label="Fechar">×</button><span class="eyebrow" id="modalCategory">Artigo</span><h2 id="modalTitle"></h2><p id="modalBody"></p><a id="modalSource" class="source-link" href="#" target="_blank" rel="noreferrer">Ver fonte</a><a class="btn btn-primary" href="#newsletter">Receber análises completas</a></div></div>
-  <script>
-    const root = document.documentElement;
-    const searchButton = document.querySelector('#searchButton');
-    const themeButton = document.querySelector('#themeButton');
-    const searchPanel = document.querySelector('#searchPanel');
-    const searchInput = document.querySelector('#searchInput');
-    const chips = document.querySelectorAll('[data-filter]');
-    const cards = document.querySelectorAll('.card');
-    const toolCards = document.querySelectorAll('.tool-card');
-    const modal = document.querySelector('#articleModal');
-    const modalClose = document.querySelector('#modalClose');
-    const modalCategory = document.querySelector('#modalCategory');
-    const modalTitle = document.querySelector('#modalTitle');
-    const modalBody = document.querySelector('#modalBody');
-    const modalSource = document.querySelector('#modalSource');
-    const form = document.querySelector('#newsletterForm');
-    const email = document.querySelector('#emailInput');
-    const formMessage = document.querySelector('#formMessage');
-    const noResults = document.querySelector('#noResults');
-    const cookieBanner = document.querySelector('#cookieBanner');
-    const cookieAccept = document.querySelector('#cookieAccept');
-    const cookieReject = document.querySelector('#cookieReject');
-
-    function normalize(value) {
-      return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    }
-
-    function applyFilters(filter = document.querySelector('.chip.active')?.dataset.filter || 'todos') {
-      const query = normalize(searchInput.value || '');
-      cards.forEach((card) => {
-        const category = card.dataset.category || '';
-        const text = normalize(card.innerText + ' ' + category);
-        const categoryMatch = filter === 'todos' || category === filter;
-        const queryMatch = !query || text.includes(query);
-        card.classList.toggle('hidden', !(categoryMatch && queryMatch));
-      });
-      const visibleCards = [...cards].filter((card) => !card.classList.contains('hidden')).length;
-      noResults.classList.toggle('hidden', visibleCards > 0);
-      toolCards.forEach((card) => {
-        const text = normalize(card.innerText + ' ' + (card.dataset.category || ''));
-        card.classList.toggle('hidden', Boolean(query) && !text.includes(query));
-      });
-    }
-
-    searchButton.addEventListener('click', () => {
-      searchPanel.classList.toggle('open');
-      if (searchPanel.classList.contains('open')) searchInput.focus();
-    });
-
-    themeButton.addEventListener('click', () => {
-      root.dataset.theme = root.dataset.theme === 'bright' ? '' : 'bright';
-    });
-
-    searchInput.addEventListener('input', () => applyFilters());
-
-    chips.forEach((chip) => {
-      chip.addEventListener('click', () => {
-        chips.forEach((item) => item.classList.remove('active'));
-        chip.classList.add('active');
-        applyFilters(chip.dataset.filter);
-        document.querySelector('#featured').scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-
-    cards.forEach((card) => {
-      card.addEventListener('click', () => {
-        modalCategory.textContent = card.dataset.category || 'Artigo';
-        modalTitle.textContent = card.dataset.title || card.querySelector('h3').textContent;
-        modalBody.textContent = card.dataset.body || card.querySelector('p').textContent;
-        modalSource.textContent = card.dataset.sourceLabel ? 'Fonte: ' + card.dataset.sourceLabel : 'Ver fonte';
-        modalSource.href = card.dataset.sourceUrl || '#';
-        modalSource.style.display = card.dataset.sourceUrl ? 'inline-flex' : 'none';
-        modal.classList.add('open');
-        modal.setAttribute('aria-hidden', 'false');
-      });
-      card.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          card.click();
-        }
-      });
-    });
-
-    function closeModal() {
-      modal.classList.remove('open');
-      modal.setAttribute('aria-hidden', 'true');
-    }
-
-    modalClose.addEventListener('click', closeModal);
-    modal.addEventListener('click', (event) => {
-      if (event.target === modal) closeModal();
-    });
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') closeModal();
-    });
-
-    if (!localStorage.getItem('aiInsightsCookieChoice')) cookieBanner?.classList.add('open');
-    cookieAccept?.addEventListener('click', () => { localStorage.setItem('aiInsightsCookieChoice', 'accepted'); cookieBanner.classList.remove('open'); });
-    cookieReject?.addEventListener('click', () => { localStorage.setItem('aiInsightsCookieChoice', 'rejected'); cookieBanner.classList.remove('open'); });
-
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-      const value = email.value.trim();
-      if (!value) return;
-      formMessage.textContent = 'Pronto. Seu e-mail foi registrado nesta demonstração.';
-      email.value = '';
-    });
-  </script>
+    <div class="search-panel" id="searchPanel"><input id="searchInput" type="search" placeholder="Buscar por agentes, modelos, custos..." /></div>
+  </header>
+  <div class="breaking"><span>Ao vivo</span><a href="artigos/deutsche-telekom-mostra-como-ia-entra-no-nucleo-das-telecomunicacoes.html">Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</a><a href="index.html#ferramentas">Ferramentas disputam fluxos completos</a><a href="index.html#editorias">Custos de IA entram na pauta</a></div>
+  <main class="page">
+    <div class="ad-slot" aria-label="Publicidade">Publicidade</div>
+    <section class="front-grid" id="ultimas">
+      <a class="lead-card" href="artigos/deutsche-telekom-mostra-como-ia-entra-no-nucleo-das-telecomunicacoes.html">
+        <span class="kicker">Manchete</span>
+        <h1>Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</h1>
+        <p>A adoção de IA em telecom sinaliza uma fase mais operacional: automação, atendimento, infraestrutura e eficiência trabalhando juntos.</p>
+        <div class="lead-meta">Negócios · 4 min · 14:50</div>
+      </a>
+      <div class="side-stack"><a class="story-card " href="artigos/gemini-api-amplia-agentes-gerenciados-com-tarefas-em-segundo-plano-e-mcp.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP</h3>
+    <p>A expansão de agentes gerenciados no Gemini API reforça a corrida por automações mais longas, integradas e confiáveis.</p>
+    <small>14:20 · 4 min</small>
+  </a><a class="story-card " href="artigos/resumo-de-junho-do-google-mostra-ia-cada-vez-mais-distribuida-nos-produtos.html" data-category="Negócios">
+    <span class="kicker">Negócios</span>
+    <h3>Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos</h3>
+    <p>O pacote de novidades indica uma estratégia de IA embutida em ferramentas, plataformas e fluxos de trabalho.</p>
+    <small>13:40 · 4 min</small>
+  </a><a class="story-card " href="artigos/grafos-de-contexto-apontam-caminho-para-agentes-corporativos-mais-proativos.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Grafos de contexto apontam caminho para agentes corporativos mais proativos</h3>
+    <p>Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.</p>
+    <small>12:55 · 4 min</small>
+  </a></div>
+      <aside class="updates"><h2>Últimas notícias</h2><a class="update-row" href="artigos/deutsche-telekom-mostra-como-ia-entra-no-nucleo-das-telecomunicacoes.html"><time class="live-time">14:50</time><p>Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</p></a><a class="update-row" href="artigos/gemini-api-amplia-agentes-gerenciados-com-tarefas-em-segundo-plano-e-mcp.html"><time class="live-time">14:20</time><p>Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP</p></a><a class="update-row" href="artigos/resumo-de-junho-do-google-mostra-ia-cada-vez-mais-distribuida-nos-produtos.html"><time class="live-time">13:40</time><p>Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos</p></a><a class="update-row" href="artigos/grafos-de-contexto-apontam-caminho-para-agentes-corporativos-mais-proativos.html"><time class="live-time">12:55</time><p>Grafos de contexto apontam caminho para agentes corporativos mais proativos</p></a><a class="update-row" href="artigos/agentes-de-ia-viram-a-nova-camada-de-trabalho.html"><time class="live-time">11:30</time><p>Agentes de IA viram a nova camada de trabalho</p></a><a class="update-row" href="artigos/o-custo-da-ia-virou-pauta-de-diretoria.html"><time class="live-time">10:10</time><p>O custo da IA virou pauta de diretoria</p></a></aside>
+    </section>
+    <section class="topic-row" id="editorias"><button class="topic-chip active" data-filter="todos">Todos</button><button class="topic-chip" data-filter="Agentes">Agentes</button><button class="topic-chip" data-filter="Modelos">Modelos</button><button class="topic-chip" data-filter="Custos">Custos</button><button class="topic-chip" data-filter="Segurança">Segurança</button><button class="topic-chip" data-filter="Negócios">Negócios</button><button class="topic-chip" data-filter="Produtividade">Produtividade</button></section>
+    <section class="content-grid">
+      <div>
+        <div class="section-title"><div><h2>Notícias e análises</h2><p>Atualizações com leitura prática para negócios, produto e operação.</p></div><a class="kicker" href="politica-editorial.html">Política editorial</a></div>
+        <div class="news-grid"><a class="story-card " href="artigos/deutsche-telekom-mostra-como-ia-entra-no-nucleo-das-telecomunicacoes.html" data-category="Negócios">
+    <span class="kicker">Negócios</span>
+    <h3>Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</h3>
+    <p>A adoção de IA em telecom sinaliza uma fase mais operacional: automação, atendimento, infraestrutura e eficiência trabalhando juntos.</p>
+    <small>14:50 · 4 min</small>
+  </a><a class="story-card " href="artigos/gemini-api-amplia-agentes-gerenciados-com-tarefas-em-segundo-plano-e-mcp.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP</h3>
+    <p>A expansão de agentes gerenciados no Gemini API reforça a corrida por automações mais longas, integradas e confiáveis.</p>
+    <small>14:20 · 4 min</small>
+  </a><a class="story-card " href="artigos/resumo-de-junho-do-google-mostra-ia-cada-vez-mais-distribuida-nos-produtos.html" data-category="Negócios">
+    <span class="kicker">Negócios</span>
+    <h3>Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos</h3>
+    <p>O pacote de novidades indica uma estratégia de IA embutida em ferramentas, plataformas e fluxos de trabalho.</p>
+    <small>13:40 · 4 min</small>
+  </a><a class="story-card " href="artigos/grafos-de-contexto-apontam-caminho-para-agentes-corporativos-mais-proativos.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Grafos de contexto apontam caminho para agentes corporativos mais proativos</h3>
+    <p>Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.</p>
+    <small>12:55 · 4 min</small>
+  </a><a class="story-card " href="artigos/agentes-de-ia-viram-a-nova-camada-de-trabalho.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Agentes de IA viram a nova camada de trabalho</h3>
+    <p>Evidências recentes mostram uma migração de chatbots para sistemas que executam tarefas completas.</p>
+    <small>11:30 · 6 min</small>
+  </a><a class="story-card " href="artigos/o-custo-da-ia-virou-pauta-de-diretoria.html" data-category="Custos">
+    <span class="kicker">Custos</span>
+    <h3>O custo da IA virou pauta de diretoria</h3>
+    <p>Executivos já tratam roteamento de modelos, eficiência e ROI como prioridades centrais.</p>
+    <small>10:10 · 5 min</small>
+  </a></div>
+        <div class="ad-slot" aria-label="Publicidade">Publicidade</div>
+        <div class="section-title"><div><h2>Opinião e contexto</h2><p>Leituras para separar movimento real de ruído.</p></div></div>
+        <div class="news-grid"><a class="story-card context-card" href="artigos/grafos-de-contexto-apontam-caminho-para-agentes-corporativos-mais-proativos.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Grafos de contexto apontam caminho para agentes corporativos mais proativos</h3>
+    <p>Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.</p>
+    <small>12:55 · 4 min</small>
+  </a><a class="story-card context-card" href="artigos/agentes-de-ia-viram-a-nova-camada-de-trabalho.html" data-category="Agentes">
+    <span class="kicker">Agentes</span>
+    <h3>Agentes de IA viram a nova camada de trabalho</h3>
+    <p>Evidências recentes mostram uma migração de chatbots para sistemas que executam tarefas completas.</p>
+    <small>11:30 · 6 min</small>
+  </a><a class="story-card context-card" href="artigos/o-custo-da-ia-virou-pauta-de-diretoria.html" data-category="Custos">
+    <span class="kicker">Custos</span>
+    <h3>O custo da IA virou pauta de diretoria</h3>
+    <p>Executivos já tratam roteamento de modelos, eficiência e ROI como prioridades centrais.</p>
+    <small>10:10 · 5 min</small>
+  </a></div>
+      </div>
+      <aside class="rail">
+        <section class="newsletter" id="newsletter"><h2>Receba o radar semanal</h2><p>Uma curadoria prática com lançamentos, riscos, oportunidades e ferramentas de IA.</p><form id="newsletterForm"><input type="email" placeholder="Seu e-mail" required><button class="subscribe-button" type="submit">Assinar</button><small id="formMessage"></small></form></section>
+        <div class="ad-slot" aria-label="Publicidade">Publicidade</div>
+        <section class="tools-panel"><h2>Ferramentas em alta</h2><p>O que está ganhando espaço em agentes, automação e produtividade.</p><a class="update-row" href="#ferramentas"><time class="live-time">CX</time><p>Codex · Agentes</p></a><a class="update-row" href="#ferramentas"><time class="live-time">CW</time><p>ChatGPT Work · Produtividade</p></a><a class="update-row" href="#ferramentas"><time class="live-time">CR</time><p>Claude Reflect · Produtividade</p></a><a class="update-row" href="#ferramentas"><time class="live-time">GB</time><p>Gemini Business Agent · Negócios</p></a></section>
+      </aside>
+    </section>
+    <section id="ferramentas"><div class="section-title"><div><h2>Radar de ferramentas</h2><p>Produtos, conceitos e stacks que merecem acompanhamento.</p></div></div><div class="tools-grid"><article class="tool-card" data-category="Agentes"><span>CX</span><h3>Codex</h3><p>Agente de desenvolvimento que lê projeto, edita arquivos, valida no navegador e opera em ciclos.</p></article><article class="tool-card" data-category="Produtividade"><span>CW</span><h3>ChatGPT Work</h3><p>Produto agentivo voltado a tarefas profissionais, documentos, planilhas, apps e fluxos longos.</p></article><article class="tool-card" data-category="Produtividade"><span>CR</span><h3>Claude Reflect</h3><p>Recurso de reflexão para entender padrões de uso, temas e delegação de tarefas com IA.</p></article><article class="tool-card" data-category="Negócios"><span>GB</span><h3>Gemini Business Agent</h3><p>Camada de IA aplicada a leads, campanhas, atendimento e mensuração em ecossistemas Google.</p></article><article class="tool-card" data-category="Custos"><span>RM</span><h3>Roteador de Modelos</h3><p>Estratégia para escolher modelos por tarefa, reduzindo custo sem perder qualidade operacional.</p></article><article class="tool-card" data-category="Agentes"><span>A2</span><h3>A2A Hub</h3><p>Arquitetura para orquestrar agentes e ferramentas entre contas, permissões e ambientes diferentes.</p></article></div></section>
+    <section class="special-band"><div><span class="kicker">Especial</span><h2>Como o AI Insights decide o que merece virar notícia.</h2><p>O portal combina pesquisa em fontes confiáveis, análise editorial rigorosa e curadoria voltada para quem usa IA em negócios, criação, automação e produto.</p></div><img src="assets/ai-insights-concept.png" alt="Mesa editorial visual do AI Insights"></section>
+  </main>
+  <footer class="site-footer">
+    <div><a class="brand" href="index.html"><span>AI</span> INSIGHTS</a><p>Portal editorial independente sobre inteligência artificial, automação e negócios.</p></div>
+    <div class="footer-links"><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="politica-de-privacidade.html">Privacidade</a><a href="termos-de-uso.html">Termos</a><a href="politica-editorial.html">Política editorial</a></div>
+  </footer>
+  <div class="cookie-banner" id="cookieBanner"><p>Usamos cookies para melhorar a experiência, medir audiência e, futuramente, exibir anúncios via Google AdSense. Leia nossa <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p><div><button class="ghost-button" id="cookieReject">Recusar</button><button class="subscribe-button" id="cookieAccept">Aceitar</button></div></div>
+  <script src="assets/site.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
