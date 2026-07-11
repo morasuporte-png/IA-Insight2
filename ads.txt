@@ -1,0 +1,3 @@
+# AdSense ads.txt
+# Substitua pelo ID real ap?s aprova??o no AdSense:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

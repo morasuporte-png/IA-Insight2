@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiinsights.com.br/sitemap.xml

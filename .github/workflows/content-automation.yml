@@ -1,0 +1,39 @@
+﻿name: AI Insights Content Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Research new AI sources
+        run: node scripts/research-intake.mjs --limit=2
+
+      - name: Review, approve and publish content
+        run: node scripts/editor-chief-review.mjs --publish
+
+      - name: Commit automated content updates
+        run: |
+          git config user.name "AI Insights Automation"
+          git config user.email "actions@github.com"
+          git add content.json research/*.json index.html
+          if git diff --cached --quiet; then
+            echo "No content changes to commit."
+          else
+            git commit -m "Automated AI content refresh"
+            git push
+          fi

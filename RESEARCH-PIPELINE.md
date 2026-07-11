@@ -53,3 +53,9 @@ Nada deve ir ao site sem passar por revisão humana. O coletor cria rascunhos, n
 - Adicionar resumo com IA para transformar rascunhos em textos mais autorais.
 - Adicionar deduplicação semântica por tema.
 - Agendar execução diária.
+
+
+## GitHub Actions
+
+O arquivo .github/workflows/content-automation.yml roda diariamente, coleta fontes, aciona o gestor editorial, publica aprovados e commita as mudanças. A Vercel publica automaticamente cada commit na branch main.
+

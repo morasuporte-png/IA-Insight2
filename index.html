@@ -4,7 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI Insights | Hub premium de inteligência artificial</title>
-  <meta name="description" content="AI Insights é um hub premium em português com artigos, ferramentas, tendências e recursos práticos sobre inteligência artificial." />
+  <meta name="description" content="AI Insights é um portal editorial em português com notícias, análises e guias sobre inteligência artificial, agentes, automação, ferramentas e negócios." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="AI Insights" />
+  <link rel="canonical" href="https://aiinsights.com.br/" />
   <style>
     :root {
       --bg: #05070d;
@@ -165,6 +168,77 @@
       footer { flex-direction: column; }
       .footer-links { justify-content: flex-start; }
     }
+    .browser { width: 100%; max-width: none; margin: 0; border: 0; border-radius: 0; box-shadow: none; background: var(--bg); }
+    .browser-top, .float-chip, .hero-visual { display: none; }
+    .app { min-height: 100vh; background: var(--bg); }
+    .top-strip { position: relative; z-index: 9; display: flex; justify-content: space-between; gap: 18px; padding: 9px clamp(20px,5vw,78px); border-bottom: 1px solid var(--line); color: var(--muted); background: #02040a; font-size: 12px; text-transform: uppercase; }
+    .top-strip strong { color: var(--cyan); }
+    header { position: sticky; min-height: 88px; grid-template-columns: 260px 1fr auto; background: rgba(5,7,13,.96); }
+    .brand { font-size: 30px; letter-spacing: .01em; }
+    nav { justify-content: flex-start; gap: clamp(14px,1.8vw,28px); font-weight: 700; }
+    nav a { padding: 34px 0 28px; }
+    .news-ticker { position: relative; z-index: 2; display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 18px; padding: 11px clamp(20px,5vw,78px); border-bottom: 1px solid var(--line); background: rgba(16,24,39,.72); }
+    .ticker-label { padding: 5px 10px; border-radius: 4px; color: #001018; background: var(--cyan); font-size: 12px; font-weight: 900; text-transform: uppercase; }
+    .ticker-items { display: flex; gap: 22px; overflow: hidden; color: var(--soft); font-size: 14px; white-space: nowrap; }
+    .hero { grid-template-columns: minmax(0,1.25fr) 390px; min-height: auto; gap: 26px; padding: 34px clamp(22px,5vw,78px); background: linear-gradient(180deg, rgba(34,211,238,.06), transparent 70%); }
+    .hero-copy { display: grid; max-width: none; grid-template-columns: 1fr 310px; gap: 26px; align-items: stretch; }
+    .lead-story { display: flex; flex-direction: column; justify-content: flex-end; min-height: 430px; padding: clamp(22px,3.4vw,42px); border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(180deg, rgba(2,6,23,.15), rgba(2,6,23,.92)), radial-gradient(circle at 70% 24%, rgba(34,211,238,.32), transparent 24%), radial-gradient(circle at 30% 62%, rgba(139,92,246,.28), transparent 26%), #07101d; }
+    .lead-story h1 { max-width: 860px; margin: 16px 0 14px; font-size: clamp(42px,5vw,72px); }
+    .lead-story p { max-width: 760px; margin-bottom: 22px; font-size: 19px; }
+    .lead-meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: var(--muted); font-size: 13px; font-weight: 750; text-transform: uppercase; }
+    .front-stack { display: grid; gap: 14px; }
+    .front-card { display: grid; align-content: space-between; min-height: 132px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: rgba(16,24,39,.72); }
+    .front-card strong { color: var(--text); font-size: 18px; line-height: 1.18; }
+    .front-card span { color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+    .edition-panel { display: flex; flex-direction: column; gap: 14px; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: rgba(11,17,29,.86); }
+    .edition-panel h2 { font-size: 20px; }
+    .edition-row { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+    .edition-row time { color: var(--cyan); font-weight: 900; font-size: 13px; }
+    .edition-row p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.4; }
+    .chips { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(2,6,23,.4); }
+    .layout { grid-template-columns: minmax(0,1fr) 330px; padding-top: 32px; }
+    .section-head, .panel-head { padding-bottom: 10px; border-bottom: 2px solid var(--line); }
+    .section-head h2, .panel-head h2 { font-size: 24px; text-transform: uppercase; letter-spacing: .02em; }
+    .grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+    .card { border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; box-shadow: none; background: rgba(11,17,29,.42); }
+    .card:hover { transform: none; background: rgba(16,24,39,.74); }
+    .media { height: 170px; border-bottom: 1px solid var(--line); }
+    .body { padding: 18px; }
+    .body h3 { min-height: 0; margin-right: 0; font-size: 22px; }
+    aside { gap: 14px; }
+    .panel { border-radius: 0; box-shadow: none; background: rgba(11,17,29,.52); }
+    .newsletter { grid-template-columns: 1fr; }
+    .newsletter-icon { display: none; }
+    .tool-row { border-radius: 0; border-bottom: 1px solid var(--line); background: transparent; }
+    .tools-band { padding-top: 12px; border-top: 1px solid var(--line); }
+    .tools-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+    .tool-card { border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; box-shadow: none; background: rgba(11,17,29,.42); }
+    .concept { grid-template-columns: 1fr 1fr; background: #090d15; }
+    .concept img { max-height: 320px; object-fit: cover; }
+    @media (max-width: 1100px) {
+      header { grid-template-columns: 1fr auto; }
+      .hero, .hero-copy { grid-template-columns: 1fr; }
+      .edition-panel { order: -1; }
+    }
+    @media (max-width: 760px) {
+      .top-strip { display: none; }
+      header { min-height: 70px; }
+      .news-ticker { grid-template-columns: 1fr; gap: 8px; }
+      .ticker-items { overflow-x: auto; }
+      .lead-story { min-height: 360px; }
+      .grid, .tools-grid { grid-template-columns: 1fr; }
+    }
+    /* AdSense readiness */
+    .ad-slot { display: grid; place-items: center; min-height: 96px; margin: 18px clamp(22px,5vw,78px); border: 1px dashed rgba(148,163,184,.34); border-radius: 8px; color: var(--muted); background: rgba(15,23,42,.42); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
+    .ad-slot.inline { margin: 24px 0; }
+    .ad-slot.sidebar { min-height: 250px; margin: 0; }
+    .policy-links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 14px; }
+    .cookie-banner { position: fixed; left: 18px; right: 18px; bottom: 18px; z-index: 30; display: none; grid-template-columns: 1fr auto; gap: 18px; align-items: center; max-width: 980px; margin: 0 auto; border: 1px solid var(--line-strong); border-radius: 8px; padding: 16px; color: var(--soft); background: rgba(5,7,13,.96); box-shadow: 0 24px 70px rgba(0,0,0,.45); }
+    .cookie-banner.open { display: grid; }
+    .cookie-banner p { margin: 0; line-height: 1.5; }
+    .cookie-banner a { color: #7dd3fc; font-weight: 800; }
+    .cookie-actions { display: flex; gap: 10px; }
+    @media (max-width: 760px) { .cookie-banner { grid-template-columns: 1fr; } .cookie-actions { flex-direction: column; } }
     @media (prefers-reduced-motion: reduce) {
       *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
     }
@@ -178,32 +252,44 @@
       <div class="browser-actions" aria-hidden="true"><span></span><span></span></div>
     </div>
     <div class="app">
-      <span class="float-chip float-one">Atualizado em 11 de jul de 2026</span>
-      <span class="float-chip float-two">Sinais de mercado</span>
-      <span class="float-chip float-three">Ferramentas em alta</span>
+      <div class="top-strip"><span><strong>AI Insights</strong> Edição Brasil</span><span>11 de julho de 2026 · Inteligência artificial, negócios e automação</span></div>
       <header>
         <a href="#topo" class="brand"><span>AI</span> INSIGHTS</a>
-        <nav aria-label="Navegação principal"><a class="active" href="#topo">Início</a><a href="#featured">Explorar</a><a href="#topics">Temas</a><a href="#tools">Ferramentas</a><a href="#resources">Recursos</a><a href="#about">Sobre</a></nav>
-        <div class="actions"><button class="icon" id="searchButton" aria-label="Abrir busca">⌕</button><button class="icon" id="themeButton" aria-label="Alternar tema">◐</button><a href="#newsletter" class="btn btn-primary">Assinar</a></div>
-        <div class="search-panel" id="searchPanel"><input id="searchInput" type="search" placeholder="Busque por agentes, automação, ferramentas, ética..." /></div>
+        <nav aria-label="Navegação principal"><a class="active" href="#topo">Capa</a><a href="#featured">Últimas</a><a href="#topics">Editorias</a><a href="#tools">Ferramentas</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a></nav>
+        <div class="actions"><button class="icon" id="searchButton" aria-label="Abrir busca">⌕</button><button class="icon" id="themeButton" aria-label="Alternar tema">◐</button><a href="#newsletter" class="btn btn-primary">Newsletter</a></div>
+        <div class="search-panel" id="searchPanel"><input id="searchInput" type="search" placeholder="Busque por agentes, modelos, automação, custo, segurança..." /></div>
       </header>
+      <div class="news-ticker"><span class="ticker-label">Ao vivo</span><div class="ticker-items"><span>Agentes gerenciados avançam nas APIs</span><span>Custos de IA entram na pauta das empresas</span><span>Ferramentas disputam fluxos de trabalho completos</span></div></div>
+      <div class="ad-slot" id="ad-topo" aria-label="Espaço de publicidade">Publicidade</div>
       <section id="topo" class="hero">
         <div class="hero-copy">
-          <span class="eyebrow">RADAR REAL DE IA</span>
-          <h1>Entenda a IA.<span>Decida com vantagem.</span></h1>
-          <p>Briefings em português sobre modelos, agentes, custo, segurança, ferramentas e movimentos reais do mercado de inteligência artificial.</p>
-          <div class="hero-actions"><a href="#featured" class="btn btn-primary">Explorar artigos</a><a href="#tools" class="btn">Ver ferramentas ›</a></div>
+          <article class="lead-story">
+            <span class="eyebrow">MANCHETE</span>
+            <h1>IA deixa a fase de teste e vira infraestrutura de trabalho.</h1>
+            <p>Empresas, desenvolvedores e criadores entram numa nova etapa: agentes conectados a ferramentas, custos sob controle e decisões editoriais baseadas em fontes reais.</p>
+            <div class="lead-meta"><span>Radar do dia</span><span>6 min de leitura</span><span>Atualizado agora</span></div>
+            <div class="hero-actions"><a href="#featured" class="btn btn-primary">Ler principais análises</a><a href="#newsletter" class="btn">Receber resumo</a></div>
+          </article>
+          <div class="front-stack" aria-label="Chamadas secundárias">
+            <a class="front-card" href="#featured"><span>Negócios</span><strong>Telecoms mostram como IA entra no núcleo da operação</strong></a>
+            <a class="front-card" href="#featured"><span>Agentes</span><strong>APIs avançam para tarefas persistentes e conectadas</strong></a>
+            <a class="front-card" href="#tools"><span>Ferramentas</span><strong>Diretório acompanha o que realmente merece atenção</strong></a>
+          </div>
         </div>
-        <div class="hero-visual" aria-label="Visualização de rede neural de inteligência artificial">
-          <div class="grid-plane"></div><div class="brain"><span class="node n1"></span><span class="node n2"></span><span class="node n3"></span><span class="node n4"></span><span class="node n5"></span><span class="node n6"></span><span class="node n7"></span><span class="node n8"></span><span class="node n9"></span><span class="node n10"></span><span class="node n11"></span><span class="node n12"></span><span class="node n13"></span><span class="node n14"></span></div><div class="ring"></div><div class="ring two"></div>
-        </div>
+        <aside class="edition-panel" aria-label="Últimas atualizações">
+          <h2>Últimas atualizações</h2>
+          <div class="edition-row"><time>14:50</time><p>Vercel publicado e projeto pronto para evolução editorial.</p></div>
+          <div class="edition-row"><time>14:20</time><p>Gestor de aprovação filtra conteúdos antes da publicação.</p></div>
+          <div class="edition-row"><time>13:40</time><p>Pipeline de pesquisa coleta fontes e separa rascunhos.</p></div>
+          <div class="edition-row"><time>12:55</time><p>Newsletter passa a ser produto central de retenção.</p></div>
+        </aside>
       </section>
       <section id="topics" class="chips" aria-label="Filtros de temas"><!-- CONTENT:TOPICS:START -->
 <button class="chip active" data-filter="todos">Todos</button><button class="chip" data-filter="Agentes">Agentes</button><button class="chip" data-filter="Modelos">Modelos</button><button class="chip" data-filter="Custos">Custos</button><button class="chip" data-filter="Segurança">Segurança</button><button class="chip" data-filter="Negócios">Negócios</button><button class="chip" data-filter="Produtividade">Produtividade</button>
 <!-- CONTENT:TOPICS:END --></section>
       <section id="featured" class="layout">
         <main>
-          <div class="section-head"><h2>Artigos em destaque</h2><a href="#topics">Filtrar temas</a></div>
+          <div class="section-head"><h2>Últimas análises</h2><a href="#topics">Filtrar editorias</a></div>
           <div class="grid">
             <!-- CONTENT:FEATURED:START -->
 <article class="card" role="button" tabindex="0" aria-label="Deutsche Telekom mostra como IA entra no núcleo das telecomunicações" data-category="Negócios" data-title="Deutsche Telekom mostra como IA entra no núcleo das telecomunicações" data-body="A OpenAI publicou um caso sobre como a Deutsche Telekom está redesenhando partes da operação com IA. O ponto mais relevante para líderes é que a tecnologia deixa de ser apenas chatbot ou piloto isolado e passa a tocar processos centrais: atendimento, produtividade interna, infraestrutura e tomada de decisão. A leitura prática é clara: empresas grandes tendem a buscar ganhos combinados de eficiência, experiência do cliente e padronização operacional, mas precisam de governança forte para evitar automações sem controle." data-source-label="OpenAI News" data-source-url="https://openai.com/index/deutsche-telekom"><div class="media m1"><span class="badge">Negócios</span></div><div class="body"><div class="meta"><span>Radar</span><span>4 min</span></div><h3>Deutsche Telekom mostra como IA entra no núcleo das telecomunicações</h3><p>A adoção de IA em telecom sinaliza uma fase mais operacional: automação, atendimento, infraestrutura e eficiência trabalhando juntos.</p></div></article>
@@ -213,25 +299,28 @@
             <article class="card" role="button" tabindex="0" aria-label="O custo da IA virou pauta de diretoria" data-category="Custos" data-title="O custo da IA virou pauta de diretoria" data-body="A conversa empresarial saiu do encanto com IA e entrou na conta: quanto custa rodar, escalar e provar retorno? Em Sun Valley, Sam Altman afirmou que reduzir custos de IA virou uma das perguntas centrais de líderes de negócios. A resposta prática tende a combinar modelos diferentes por tarefa, roteamento inteligente, prompts mais enxutos, cache, avaliação contínua e limites claros para agentes. O futuro próximo será menos sobre usar o modelo mais caro sempre e mais sobre montar uma arquitetura econômica por tipo de trabalho." data-source-label="Business Insider: AI cost strategy" data-source-url="https://www.businessinsider.com/sam-altman-sun-valley-conference-cut-ai-costs-2026-7"><div class="media m1"><span class="badge">Custos</span></div><div class="body"><div class="meta"><span>Estratégia</span><span>5 min</span></div><h3>O custo da IA virou pauta de diretoria</h3><p>Executivos já tratam roteamento de modelos, eficiência e ROI como prioridades centrais.</p></div></article>
 <!-- CONTENT:FEATURED:END -->
           </div>
-          <div class="section-head editors"><h2>Escolhas do editor</h2><a href="#newsletter">Receber resumo</a></div>
+          <div class="ad-slot inline" id="ad-meio" aria-label="Espaço de publicidade">Publicidade</div>
+          <div class="section-head editors"><h2>Opinião e contexto</h2><a href="#newsletter">Receber briefing</a></div>
           <div class="grid">
             <!-- CONTENT:EDITOR:START -->
 <article class="card" role="button" tabindex="0" aria-label="Grafos de contexto apontam caminho para agentes corporativos mais proativos" data-category="Agentes" data-title="Grafos de contexto apontam caminho para agentes corporativos mais proativos" data-body="Um artigo recente no arXiv discute grafos de contexto para agentes corporativos proativos. A ideia é relevante porque agentes que atuam em empresas precisam entender relações entre pessoas, tarefas, documentos, sistemas e histórico de decisões. Sem esse mapa, a automação tende a ser rasa ou arriscada. A oportunidade está em criar agentes que antecipam necessidades com base em contexto real; o risco está em privacidade, permissões e explicabilidade. Para adoção séria, contexto precisa vir acompanhado de fronteiras claras e auditoria." data-source-label="arXiv AI recent" data-source-url="https://arxiv.org/abs/2607.07721"><div class="media m1"><span class="badge">Agentes</span></div><div class="body"><div class="meta"><span>Pesquisa</span><span>4 min</span></div><h3>Grafos de contexto apontam caminho para agentes corporativos mais proativos</h3><p>Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.</p></div></article>
 <!-- CONTENT:EDITOR:END -->
           </div><div class="empty-state hidden" id="noResults">Nenhum artigo apareceu com esse filtro. Tente outro tema ou limpe a busca.</div></main><aside>
+          <div class="ad-slot sidebar" id="ad-lateral" aria-label="Espaço de publicidade">Publicidade</div>
           <section id="newsletter" class="panel newsletter"><span class="newsletter-icon">✉</span><div><h2>Receba o radar semanal</h2><p>Uma curadoria prática com lançamentos, riscos, oportunidades e ferramentas de IA para aplicar no trabalho.</p></div><form class="newsletter-form" id="newsletterForm"><input id="emailInput" type="email" placeholder="Seu e-mail" required /><button type="submit" class="btn btn-primary">Assinar</button><div class="form-message" id="formMessage"></div></form></section>
           <section class="panel"><div class="panel-head"><h2>Ferramentas em alta</h2><a href="#tools">Ver todas</a></div><div class="tool-list"><!-- CONTENT:TRENDING_TOOLS:START -->
 <a class="tool-row" href="#tools"><span class="tool-icon">CX</span><span><strong>Codex</strong><small>Agentes</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">CW</span><span><strong>ChatGPT Work</strong><small>Produtividade</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">CR</span><span><strong>Claude Reflect</strong><small>Produtividade</small></span><span>↗</span></a><a class="tool-row" href="#tools"><span class="tool-icon">GB</span><span><strong>Gemini Business Agent</strong><small>Negócios</small></span><span>↗</span></a>
 <!-- CONTENT:TRENDING_TOOLS:END --></div></section>
         </aside>
       </section>
-      <section id="tools" class="tools-band"><div class="section-head"><h2>Diretório de ferramentas de IA</h2><a href="#newsletter">Receber novidades</a></div><div class="tools-grid"><!-- CONTENT:TOOLS:START -->
+      <section id="tools" class="tools-band"><div class="section-head"><h2>Radar de ferramentas</h2><a href="#newsletter">Receber novidades</a></div><div class="tools-grid"><!-- CONTENT:TOOLS:START -->
 <article class="tool-card" data-category="Agentes"><span class="tool-icon">CX</span><h3>Codex</h3><p>Agente de desenvolvimento que lê projeto, edita arquivos, valida no navegador e opera em ciclos.</p></article><article class="tool-card" data-category="Produtividade"><span class="tool-icon">CW</span><h3>ChatGPT Work</h3><p>Produto agentivo voltado a tarefas profissionais, documentos, planilhas, apps e fluxos longos.</p></article><article class="tool-card" data-category="Produtividade"><span class="tool-icon">CR</span><h3>Claude Reflect</h3><p>Recurso de reflexão para entender padrões de uso, temas e delegação de tarefas com IA.</p></article><article class="tool-card" data-category="Negócios"><span class="tool-icon">GB</span><h3>Gemini Business Agent</h3><p>Camada de IA aplicada a leads, campanhas, atendimento e mensuração em ecossistemas Google.</p></article><article class="tool-card" data-category="Custos"><span class="tool-icon">RM</span><h3>Roteador de Modelos</h3><p>Estratégia para escolher modelos por tarefa, reduzindo custo sem perder qualidade operacional.</p></article><article class="tool-card" data-category="Agentes"><span class="tool-icon">A2</span><h3>A2A Hub</h3><p>Arquitetura para orquestrar agentes e ferramentas entre contas, permissões e ambientes diferentes.</p></article>
 <!-- CONTENT:TOOLS:END --></div></section>
-      <section id="resources" class="concept"><div><span class="eyebrow">DIREÇÃO VISUAL TRAVADA</span><h2>Baseado no conceito visual que geramos.</h2><p>Esta versão segue a direção de hub premium sobre IA: interface editorial escura, elementos de inteligência em ciano e violeta, descoberta de artigos, captura de newsletter e diretório preparado para automação de conteúdo.</p></div><img src="assets/ai-insights-concept.png" alt="Conceito visual gerado para o site AI Insights" /></section>
-      <footer id="about"><div><a href="#topo" class="brand"><span>AI</span> INSIGHTS</a><p>Inteligência prática para quem está construindo com IA.</p></div><div class="footer-links"><a href="#topics">IA Generativa</a><a href="#topics">Automação</a><a href="#tools">Ferramentas</a><a href="#resources">Recursos</a></div></footer>
+      <section id="resources" class="concept"><div><span class="eyebrow">ESPECIAL</span><h2>Como o AI Insights decide o que merece virar notícia.</h2><p>O portal combina pesquisa em fontes confiáveis, análise editorial rigorosa e curadoria voltada para quem usa IA em negócios, criação, automação e produto. A prioridade é separar movimento real de ruído.</p></div><img src="assets/ai-insights-concept.png" alt="Mesa editorial visual do AI Insights" /></section>
+      <footer id="about"><div><a href="#topo" class="brand"><span>AI</span> INSIGHTS</a><p>Portal editorial independente sobre inteligência artificial, automação e negócios.</p><div class="policy-links"><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="politica-de-privacidade.html">Privacidade</a><a href="termos-de-uso.html">Termos</a></div></div><div class="footer-links"><a href="#topics">IA Generativa</a><a href="#topics">Automação</a><a href="#tools">Ferramentas</a><a href="politica-editorial.html">Política editorial</a></div></footer>
     </div>
   </div>
+  <div class="cookie-banner" id="cookieBanner"><p>Usamos cookies para melhorar a experiência, medir audiência e, futuramente, exibir anúncios personalizados ou não personalizados via Google AdSense. Leia nossa <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p><div class="cookie-actions"><button class="btn" id="cookieReject">Recusar</button><button class="btn btn-primary" id="cookieAccept">Aceitar</button></div></div>
   <div class="modal" id="articleModal" aria-hidden="true"><div class="modal-card"><button class="modal-close" id="modalClose" aria-label="Fechar">×</button><span class="eyebrow" id="modalCategory">Artigo</span><h2 id="modalTitle"></h2><p id="modalBody"></p><a id="modalSource" class="source-link" href="#" target="_blank" rel="noreferrer">Ver fonte</a><a class="btn btn-primary" href="#newsletter">Receber análises completas</a></div></div>
   <script>
     const root = document.documentElement;
@@ -252,6 +341,9 @@
     const email = document.querySelector('#emailInput');
     const formMessage = document.querySelector('#formMessage');
     const noResults = document.querySelector('#noResults');
+    const cookieBanner = document.querySelector('#cookieBanner');
+    const cookieAccept = document.querySelector('#cookieAccept');
+    const cookieReject = document.querySelector('#cookieReject');
 
     function normalize(value) {
       return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -326,6 +418,10 @@
       if (event.key === 'Escape') closeModal();
     });
 
+    if (!localStorage.getItem('aiInsightsCookieChoice')) cookieBanner?.classList.add('open');
+    cookieAccept?.addEventListener('click', () => { localStorage.setItem('aiInsightsCookieChoice', 'accepted'); cookieBanner.classList.remove('open'); });
+    cookieReject?.addEventListener('click', () => { localStorage.setItem('aiInsightsCookieChoice', 'rejected'); cookieBanner.classList.remove('open'); });
+
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       const value = email.value.trim();
@@ -336,6 +432,10 @@
   </script>
 </body>
 </html>
+
+
+
+
 
 
 
