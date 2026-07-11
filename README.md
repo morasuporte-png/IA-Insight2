@@ -14,3 +14,4 @@ Arquivo principal: `index.html`
 - `research-sources.json`: fontes de pesquisa.
 - `editorial-policy.json`: criterios do gestor editorial.
 - `scripts/`: automacoes de pesquisa, aprovacao e publicacao.
+Deploy trigger
