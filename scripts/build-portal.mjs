@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+﻿import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -100,6 +100,9 @@ const css = `:root{--bg:#05070d;--surface:#0b111d;--panel:#101827;--line:rgba(14
 
 const js = `const searchButton=document.querySelector("#searchButton");const searchPanel=document.querySelector("#searchPanel");const searchInput=document.querySelector("#searchInput");const themeButton=document.querySelector("#themeButton");const chips=document.querySelectorAll("[data-filter]");const stories=document.querySelectorAll("[data-category]");const cookieBanner=document.querySelector("#cookieBanner");const cookieAccept=document.querySelector("#cookieAccept");const cookieReject=document.querySelector("#cookieReject");function norm(v){return String(v||"").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}function applyFilter(filter=document.querySelector(".topic-chip.active")?.dataset.filter||"todos"){const q=norm(searchInput?.value||"");stories.forEach((item)=>{const category=item.dataset.category||"";const text=norm(item.innerText+" "+category);const okCategory=filter==="todos"||category===filter;const okQuery=!q||text.includes(q);item.classList.toggle("hidden",!(okCategory&&okQuery))})}searchButton?.addEventListener("click",()=>{searchPanel?.classList.toggle("open");searchInput?.focus()});searchInput?.addEventListener("input",()=>applyFilter());chips.forEach((chip)=>chip.addEventListener("click",()=>{chips.forEach((item)=>item.classList.remove("active"));chip.classList.add("active");applyFilter(chip.dataset.filter)}));themeButton?.addEventListener("click",()=>document.body.classList.toggle("high-contrast"));if(!localStorage.getItem("aiInsightsCookieChoice"))cookieBanner?.classList.add("open");cookieAccept?.addEventListener("click",()=>{localStorage.setItem("aiInsightsCookieChoice","accepted");cookieBanner?.classList.remove("open")});cookieReject?.addEventListener("click",()=>{localStorage.setItem("aiInsightsCookieChoice","rejected");cookieBanner?.classList.remove("open")});document.querySelector("#newsletterForm")?.addEventListener("submit",(event)=>{event.preventDefault();const msg=document.querySelector("#formMessage");if(msg)msg.textContent="Pronto. Seu e-mail foi registrado nesta demonstração."});`;
 
+
+const portalCssFix = `
+body{overflow-x:hidden}.page{max-width:1360px;margin:0 auto}.site-header{grid-template-columns:260px minmax(0,1fr) auto}.front-grid{grid-template-columns:minmax(0,1.08fr) minmax(280px,.74fr) minmax(300px,.7fr);gap:24px;align-items:start}.lead-card{min-width:0;min-height:420px;overflow:hidden;padding:30px 32px}.lead-card h1{max-width:100%;font-size:clamp(36px,3.65vw,54px);line-height:1.04;overflow-wrap:anywhere;text-wrap:balance}.lead-card p{font-size:18px;line-height:1.48}.side-stack{grid-template-rows:none}.story-card{min-width:0;overflow:hidden}.side-stack .story-card{min-height:154px;height:auto;padding:20px}.story-card h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:19px;line-height:1.18}.story-card p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.story-card small{margin-top:auto}.updates{min-width:0;overflow:hidden}.updates h2{font-size:23px}.update-row{grid-template-columns:62px minmax(0,1fr);align-items:start}.update-row p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.content-grid{grid-template-columns:minmax(0,1fr) 310px}.news-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.news-grid .story-card{min-height:220px}.cookie-banner{max-height:26vh;overflow:auto}@media(min-width:1280px){.front-grid{grid-template-columns:minmax(0,1.05fr) 300px 330px}.lead-card h1{font-size:50px}}@media(max-width:1180px){.front-grid{grid-template-columns:1fr}.lead-card{min-height:380px}.side-stack{grid-template-rows:none}.side-stack .story-card{min-height:170px}.content-grid{grid-template-columns:1fr}}@media(max-width:760px){.page{padding:0 16px}.lead-card{min-height:auto;padding:28px 22px}.lead-card h1{font-size:38px}.lead-card p{font-size:16px}.news-grid,.tools-grid{grid-template-columns:1fr}.cookie-banner{bottom:10px;width:calc(100% - 20px)}}`;
 const index = `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -197,7 +200,7 @@ ${articles.map((article) => `  <url><loc>${domain}/artigos/${article.slug}.html<
 </urlset>
 `;
 
-await writeFile(path.join(assetsDir, "site.css"), css, "utf8");
+await writeFile(path.join(assetsDir, "site.css"), css + portalCssFix, "utf8");
 await writeFile(path.join(assetsDir, "site.js"), js, "utf8");
 await writeFile(path.join(siteDir, "index.html"), index, "utf8");
 await writeFile(path.join(siteDir, "sitemap.xml"), sitemap, "utf8");
@@ -208,3 +211,5 @@ for (const article of articles) {
 }
 
 console.log(`Portal reconstruido: ${articles.length} paginas de artigo geradas.`);
+
+
