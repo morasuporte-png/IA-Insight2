@@ -1,0 +1,65 @@
+﻿{
+  "settings": {
+    "defaultLimitPerSource": 3,
+    "language": "pt-BR",
+    "reviewMode": "human-before-publish",
+    "lastUpdated": "2026-07-11"
+  },
+  "sources": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "category": "Modelos",
+      "url": "https://openai.com/news/rss.xml",
+      "weight": 10
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "type": "rss",
+      "category": "Segurança",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "weight": 9
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "category": "Negócios",
+      "url": "https://blog.google/technology/ai/rss/",
+      "weight": 8
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "type": "rss",
+      "category": "Pesquisa",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "weight": 8
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "type": "rss",
+      "category": "Produtividade",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "weight": 7
+    },
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv AI recent",
+      "type": "rss",
+      "category": "Pesquisa",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "weight": 7
+    }
+  ],
+  "searchBacklog": [
+    "AI agents enterprise workflow",
+    "AI model cost efficiency token routing",
+    "AI safety regulation model release",
+    "multimodal AI tools business adoption",
+    "AI coding agents productivity research"
+  ]
+}

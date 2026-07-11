@@ -1,0 +1,146 @@
+{
+  "site": {
+    "name": "AI Insights",
+    "domain": "aiinsights.com.br",
+    "updatedLabel": "Atualizado em 11 de jul de 2026",
+    "heroEyebrow": "RADAR REAL DE IA",
+    "heroTitle": "Entenda a IA.",
+    "heroAccent": "Decida com vantagem.",
+    "heroText": "Briefings em português sobre modelos, agentes, custo, segurança, ferramentas e movimentos reais do mercado de inteligência artificial.",
+    "newsletterTitle": "Receba o radar semanal",
+    "newsletterText": "Uma curadoria prática com lançamentos, riscos, oportunidades e ferramentas de IA para aplicar no trabalho."
+  },
+  "topics": [
+    "Todos",
+    "Agentes",
+    "Modelos",
+    "Custos",
+    "Segurança",
+    "Negócios",
+    "Produtividade"
+  ],
+  "articles": [
+    {
+      "title": "Deutsche Telekom mostra como IA entra no núcleo das telecomunicações",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A adoção de IA em telecom sinaliza uma fase mais operacional: automação, atendimento, infraestrutura e eficiência trabalhando juntos.",
+      "body": "A OpenAI publicou um caso sobre como a Deutsche Telekom está redesenhando partes da operação com IA. O ponto mais relevante para líderes é que a tecnologia deixa de ser apenas chatbot ou piloto isolado e passa a tocar processos centrais: atendimento, produtividade interna, infraestrutura e tomada de decisão. A leitura prática é clara: empresas grandes tendem a buscar ganhos combinados de eficiência, experiência do cliente e padronização operacional, mas precisam de governança forte para evitar automações sem controle.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/deutsche-telekom"
+    },
+    {
+      "title": "Gemini API amplia agentes gerenciados com tarefas em segundo plano e MCP",
+      "category": "Agentes",
+      "type": "Radar técnico",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A expansão de agentes gerenciados no Gemini API reforça a corrida por automações mais longas, integradas e confiáveis.",
+      "body": "O Google anunciou expansão dos agentes gerenciados no Gemini API, incluindo tarefas em segundo plano, MCP remoto e novos recursos para desenvolvedores. Isso importa porque agentes úteis precisam sair do fluxo curto de pergunta e resposta e operar tarefas persistentes, conectadas a ferramentas e acompanhadas por controles. Para times técnicos, o sinal é que a arquitetura de agentes está ficando mais próxima de infraestrutura: permissões, execução assíncrona, integração e observabilidade passam a ser tão importantes quanto o modelo escolhido.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+    },
+    {
+      "title": "Resumo de junho do Google mostra IA cada vez mais distribuída nos produtos",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m2",
+      "excerpt": "O pacote de novidades indica uma estratégia de IA embutida em ferramentas, plataformas e fluxos de trabalho.",
+      "body": "O Google reuniu as principais novidades de IA anunciadas em junho de 2026. O padrão é importante: em vez de uma única grande aposta, a IA aparece distribuída em produtos, APIs, ferramentas de criação, busca, produtividade e infraestrutura. Para empresas, a implicação é que adoção de IA será cada vez menos uma compra isolada e mais uma decisão de ecossistema. O desafio passa a ser escolher onde integrar, como medir retorno e como evitar dependência excessiva de fluxos automáticos sem revisão.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+    },
+    {
+      "title": "Grafos de contexto apontam caminho para agentes corporativos mais proativos",
+      "category": "Agentes",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Pesquisa sobre context graphs sugere uma base para agentes entenderem ambientes empresariais com mais continuidade.",
+      "body": "Um artigo recente no arXiv discute grafos de contexto para agentes corporativos proativos. A ideia é relevante porque agentes que atuam em empresas precisam entender relações entre pessoas, tarefas, documentos, sistemas e histórico de decisões. Sem esse mapa, a automação tende a ser rasa ou arriscada. A oportunidade está em criar agentes que antecipam necessidades com base em contexto real; o risco está em privacidade, permissões e explicabilidade. Para adoção séria, contexto precisa vir acompanhado de fronteiras claras e auditoria.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2607.07721"
+    },
+    {
+      "title": "Agentes de IA viram a nova camada de trabalho",
+      "category": "Agentes",
+      "type": "Análise",
+      "readingTime": "6 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m4",
+      "excerpt": "Evidências recentes mostram uma migração de chatbots para sistemas que executam tarefas completas.",
+      "body": "O avanço mais importante não é apenas um modelo responder melhor, mas operar fluxos: pesquisar, planejar, editar arquivos, navegar em ferramentas e manter continuidade. Um estudo sobre uso do Codex aponta crescimento de mais de cinco vezes em usuários ativos no primeiro semestre de 2026 e adoção indo além de desenvolvedores. Para empresas, o sinal é claro: a vantagem está em desenhar processos com escopo, permissões, checkpoints e métricas, não em simplesmente trocar prompts.",
+      "sourceLabel": "arXiv: The Shift to Agentic AI",
+      "sourceUrl": "https://arxiv.org/abs/2606.26959"
+    },
+    {
+      "title": "O custo da IA virou pauta de diretoria",
+      "category": "Custos",
+      "type": "Estratégia",
+      "readingTime": "5 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "Executivos já tratam roteamento de modelos, eficiência e ROI como prioridades centrais.",
+      "body": "A conversa empresarial saiu do encanto com IA e entrou na conta: quanto custa rodar, escalar e provar retorno? Em Sun Valley, Sam Altman afirmou que reduzir custos de IA virou uma das perguntas centrais de líderes de negócios. A resposta prática tende a combinar modelos diferentes por tarefa, roteamento inteligente, prompts mais enxutos, cache, avaliação contínua e limites claros para agentes. O futuro próximo será menos sobre usar o modelo mais caro sempre e mais sobre montar uma arquitetura econômica por tipo de trabalho.",
+      "sourceLabel": "Business Insider: AI cost strategy",
+      "sourceUrl": "https://www.businessinsider.com/sam-altman-sun-valley-conference-cut-ai-costs-2026-7"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Codex",
+      "initials": "CX",
+      "category": "Agentes",
+      "description": "Agente de desenvolvimento que lê projeto, edita arquivos, valida no navegador e opera em ciclos.",
+      "trending": true
+    },
+    {
+      "name": "ChatGPT Work",
+      "initials": "CW",
+      "category": "Produtividade",
+      "description": "Produto agentivo voltado a tarefas profissionais, documentos, planilhas, apps e fluxos longos.",
+      "trending": true
+    },
+    {
+      "name": "Claude Reflect",
+      "initials": "CR",
+      "category": "Produtividade",
+      "description": "Recurso de reflexão para entender padrões de uso, temas e delegação de tarefas com IA.",
+      "trending": true
+    },
+    {
+      "name": "Gemini Business Agent",
+      "initials": "GB",
+      "category": "Negócios",
+      "description": "Camada de IA aplicada a leads, campanhas, atendimento e mensuração em ecossistemas Google.",
+      "trending": true
+    },
+    {
+      "name": "Roteador de Modelos",
+      "initials": "RM",
+      "category": "Custos",
+      "description": "Estratégia para escolher modelos por tarefa, reduzindo custo sem perder qualidade operacional.",
+      "trending": false
+    },
+    {
+      "name": "A2A Hub",
+      "initials": "A2",
+      "category": "Agentes",
+      "description": "Arquitetura para orquestrar agentes e ferramentas entre contas, permissões e ambientes diferentes.",
+      "trending": false
+    }
+  ]
+}
