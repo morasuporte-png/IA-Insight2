@@ -1,34 +1,17 @@
 {
-  "generatedAt": "2026-07-11T03:28:19.485Z",
+  "generatedAt": "2026-07-12T12:03:47.892Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 10,
-    "approved": 4,
+    "reviewed": 8,
+    "approved": 2,
     "held": 0,
     "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-11-openai-news-1",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-11T03:28:19.468Z"
-    },
-    {
-      "id": "2026-07-11-openai-news-2",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "id": "2026-07-12-openai-news-1",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -44,11 +27,31 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-11T03:28:19.472Z"
+      "reviewedAt": "2026-07-12T12:03:47.887Z"
     },
     {
-      "id": "2026-07-11-google-ai-blog-1",
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "id": "2026-07-12-openai-news-2",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-07-12T12:03:47.888Z"
+    },
+    {
+      "id": "2026-07-12-google-ai-blog-1",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -61,29 +64,29 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-11T03:28:19.475Z"
+      "reviewedAt": "2026-07-12T12:03:47.889Z"
     },
     {
-      "id": "2026-07-11-google-ai-blog-2",
-      "title": "The latest AI news we announced in June 2026",
-      "score": 94,
+      "id": "2026-07-12-google-ai-blog-2",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "score": 97,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-11T03:28:19.476Z"
+      "reviewedAt": "2026-07-12T12:03:47.890Z"
     },
     {
-      "id": "2026-07-11-deepmind-blog-1",
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "score": 92,
+      "id": "2026-07-12-deepmind-blog-1",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "score": 89,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -92,18 +95,18 @@
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:15:recente",
+        "freshness:12:ainda atual",
         "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-11T03:28:19.477Z"
+      "reviewedAt": "2026-07-12T12:03:47.890Z"
     },
     {
-      "id": "2026-07-11-deepmind-blog-2",
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "score": 92,
+      "id": "2026-07-12-deepmind-blog-2",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "score": 89,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -112,17 +115,17 @@
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:15:recente",
+        "freshness:12:ainda atual",
         "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-11T03:28:19.478Z"
+      "reviewedAt": "2026-07-12T12:03:47.890Z"
     },
     {
-      "id": "2026-07-11-the-verge-ai-1",
-      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+      "id": "2026-07-12-the-verge-ai-1",
+      "title": "The fight against AI data centers is just beginning",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -138,12 +141,12 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-11T03:28:19.480Z"
+      "reviewedAt": "2026-07-12T12:03:47.891Z"
     },
     {
-      "id": "2026-07-11-the-verge-ai-2",
-      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "score": 81,
+      "id": "2026-07-12-the-verge-ai-2",
+      "title": "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;",
+      "score": 86,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -154,49 +157,11 @@
         "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "hype_flag:secret",
-        "editorial_caution:5",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-11T03:28:19.481Z"
-    },
-    {
-      "id": "2026-07-11-arxiv-ai-1",
-      "title": "Context Graphs for Proactive Enterprise Agents",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-11T03:28:19.482Z"
-    },
-    {
-      "id": "2026-07-11-arxiv-ai-2",
-      "title": "AI-integrated models for assessing agricultural resilience",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-11T03:28:19.484Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-12T12:03:47.891Z"
     }
   ]
 }

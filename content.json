@@ -2,7 +2,7 @@
   "site": {
     "name": "AI Insights",
     "domain": "aiinsights.com.br",
-    "updatedLabel": "Atualizado em 11 de jul de 2026",
+    "updatedLabel": "Atualizado em 12 de jul de 2026",
     "heroEyebrow": "RADAR REAL DE IA",
     "heroTitle": "Entenda a IA.",
     "heroAccent": "Decida com vantagem.",
@@ -20,6 +20,32 @@
     "Produtividade"
   ],
   "articles": [
+    {
+      "title": "Radar Negócios: New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A Google AI Blog publicou \"New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/"
+    },
+    {
+      "title": "Radar Produtividade: Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m2",
+      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre produtividade. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A Google AI Blog publicou \"Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers\". O gestor editorial classificou o material como Produtividade por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/"
+    },
     {
       "title": "IA entra no centro das telecoms",
       "category": "Negócios",
@@ -71,32 +97,6 @@
       "body": "Um artigo recente no arXiv discute grafos de contexto para agentes corporativos proativos. A ideia é relevante porque agentes que atuam em empresas precisam entender relações entre pessoas, tarefas, documentos, sistemas e histórico de decisões. Sem esse mapa, a automação tende a ser rasa ou arriscada. A oportunidade está em criar agentes que antecipam necessidades com base em contexto real; o risco está em privacidade, permissões e explicabilidade.",
       "sourceLabel": "arXiv AI recent",
       "sourceUrl": "https://arxiv.org/abs/2607.07721"
-    },
-    {
-      "title": "Agentes viram nova camada de trabalho",
-      "category": "Agentes",
-      "type": "Análise",
-      "readingTime": "6 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m4",
-      "excerpt": "A evolução dos modelos leva empresas a redesenhar processos com escopo, permissões e métricas.",
-      "body": "O avanço mais importante não é apenas um modelo responder melhor, mas operar fluxos: pesquisar, planejar, editar arquivos, navegar em ferramentas e manter continuidade. Um estudo sobre uso do Codex aponta crescimento forte no primeiro semestre de 2026 e adoção indo além de desenvolvedores. Para empresas, o sinal é claro: a vantagem está em desenhar processos com escopo, permissões, checkpoints e métricas, não em simplesmente trocar prompts.",
-      "sourceLabel": "arXiv: The Shift to Agentic AI",
-      "sourceUrl": "https://arxiv.org/abs/2606.26959"
-    },
-    {
-      "title": "Custo da IA vira pauta de diretoria",
-      "category": "Custos",
-      "type": "Estratégia",
-      "readingTime": "5 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m5",
-      "excerpt": "Executivos passam a tratar roteamento de modelos, eficiência e retorno como prioridades centrais.",
-      "body": "A conversa empresarial saiu do encanto com IA e entrou na conta: quanto custa rodar, escalar e provar retorno? Em Sun Valley, Sam Altman afirmou que reduzir custos de IA virou uma das perguntas centrais de líderes de negócios. A resposta prática tende a combinar modelos diferentes por tarefa, roteamento inteligente, prompts mais enxutos, cache, avaliação contínua e limites claros para agentes. O futuro próximo será menos sobre usar o modelo mais caro sempre e mais sobre montar uma arquitetura econômica por tipo de trabalho.",
-      "sourceLabel": "Business Insider: AI cost strategy",
-      "sourceUrl": "https://www.businessinsider.com/sam-altman-sun-valley-conference-cut-ai-costs-2026-7"
     }
   ],
   "tools": [
