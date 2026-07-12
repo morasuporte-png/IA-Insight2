@@ -71,22 +71,21 @@ function adSlot(label = "Publicidade") {
 
 function articleCard(article, variant = "") {
   return `<a class="story-card ${variant}" href="artigos/${article.slug}.html" data-category="${esc(article.category)}">
+    <span class="story-media ${esc(article.mediaClass || "m1")}" aria-hidden="true"></span>
     <span class="kicker">${esc(article.category)}</span>
     <h3>${esc(article.title)}</h3>
     <p>${esc(article.excerpt)}</p>
     <small>${esc(article.time)} · ${esc(article.readingTime)}</small>
   </a>`;
 }
-
 function topicButton(topic, index) {
   const filter = topic === "Todos" ? "todos" : topic;
   return `<button class="topic-chip${index === 0 ? " active" : ""}" data-filter="${esc(filter)}">${esc(topic)}</button>`;
 }
 
 function toolCard(tool) {
-  return `<article class="tool-card" data-category="${esc(tool.category)}"><span>${esc(tool.initials)}</span><h3>${esc(tool.name)}</h3><p>${esc(tool.description)}</p></article>`;
+  return `<article class="tool-card" data-category="${esc(tool.category)}"><span class="tool-media">${esc(tool.initials)}</span><h3>${esc(tool.name)}</h3><p>${esc(tool.description)}</p></article>`;
 }
-
 function footer() {
   return `<footer class="site-footer">
     <div><a class="brand" href="index.html"><span>AI</span> INSIGHTS</a><p>Portal editorial independente sobre inteligência artificial, automação e negócios.</p></div>
@@ -102,7 +101,7 @@ const js = `const searchButton=document.querySelector("#searchButton");const sea
 
 
 const portalCssFix = `
-body{overflow-x:hidden}.page{max-width:1360px;margin:0 auto}.site-header{grid-template-columns:260px minmax(0,1fr) auto}.front-grid{grid-template-columns:minmax(0,1.08fr) minmax(280px,.74fr) minmax(300px,.7fr);gap:24px;align-items:start}.lead-card{min-width:0;min-height:420px;overflow:hidden;padding:30px 32px}.lead-card h1{max-width:100%;font-size:clamp(36px,3.65vw,54px);line-height:1.04;overflow-wrap:anywhere;text-wrap:balance}.lead-card p{font-size:18px;line-height:1.48}.side-stack{grid-template-rows:none}.story-card{min-width:0;overflow:hidden}.side-stack .story-card{min-height:154px;height:auto;padding:20px}.story-card h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:19px;line-height:1.18}.story-card p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.story-card small{margin-top:auto}.updates{min-width:0;overflow:hidden}.updates h2{font-size:23px}.update-row{grid-template-columns:62px minmax(0,1fr);align-items:start}.update-row p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.content-grid{grid-template-columns:minmax(0,1fr) 310px}.news-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.news-grid .story-card{min-height:220px}.lead-ad{display:grid;place-items:center;min-height:92px;margin-top:28px;border:1px dashed rgba(125,211,252,.34);border-radius:8px;color:var(--muted);background:rgba(2,6,23,.42);font-size:11px;letter-spacing:.14em;text-transform:uppercase}.cookie-banner{left:50%;right:auto;bottom:22px;transform:translateX(-50%);grid-template-columns:minmax(0,1fr) auto;align-items:center;max-height:none;width:min(760px,calc(100% - 32px));padding:14px 16px;overflow:visible}.cookie-banner p{font-size:14px}.cookie-banner div{display:flex;gap:10px;justify-content:flex-end;white-space:nowrap}@media(min-width:1280px){.front-grid{grid-template-columns:minmax(0,1.05fr) 300px 330px}.lead-card h1{font-size:50px}}@media(max-width:1180px){.front-grid{grid-template-columns:1fr}.lead-card{min-height:380px}.side-stack{grid-template-rows:none}.side-stack .story-card{min-height:170px}.content-grid{grid-template-columns:1fr}}@media(max-width:760px){.page{padding:0 16px}.lead-card{min-height:auto;padding:28px 22px}.lead-ad{min-height:76px}.cookie-banner{grid-template-columns:1fr;bottom:12px;width:calc(100% - 24px);transform:translateX(-50%)}.cookie-banner div{justify-content:stretch}.cookie-banner .ghost-button,.cookie-banner .subscribe-button{flex:1}.lead-card h1{font-size:38px}.lead-card p{font-size:16px}.news-grid,.tools-grid{grid-template-columns:1fr}.cookie-banner{bottom:10px;width:calc(100% - 20px)}}`;
+body{overflow-x:hidden}.page{max-width:1360px;margin:0 auto}.site-header{grid-template-columns:260px minmax(0,1fr) auto}.front-grid{grid-template-columns:minmax(0,1.08fr) minmax(280px,.74fr) minmax(300px,.7fr);gap:24px;align-items:start}.front-grid .updates{grid-column:3;grid-row:1/span 2;height:100%;min-height:556px}.front-grid .side-stack{grid-column:2;grid-row:1/span 2}.front-grid .front-ad{grid-column:1;grid-row:2}.lead-card{min-width:0;min-height:300px;overflow:hidden;padding:30px 32px;background:linear-gradient(180deg,rgba(2,6,23,.18),rgba(2,6,23,.92)),url("ai-operations-news.png");background-size:cover;background-position:center}.lead-card h1{max-width:100%;font-size:clamp(36px,3.65vw,54px);line-height:1.04;overflow-wrap:anywhere;text-wrap:balance}.lead-card p{font-size:18px;line-height:1.48}.side-stack{grid-template-rows:none}.story-card{min-width:0;overflow:hidden}.side-stack .story-card{min-height:154px;height:auto;padding:20px}.story-card h3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:19px;line-height:1.18}.story-card p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.story-card small{margin-top:auto}.updates{min-width:0;overflow:hidden}.updates h2{font-size:23px}.update-row{grid-template-columns:62px minmax(0,1fr);align-items:start}.update-row p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.content-grid{grid-template-columns:minmax(0,1fr) 310px}.news-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.news-grid .story-card{min-height:220px}.front-ad{grid-column:1/2;display:grid;place-items:center;min-height:210px;margin-top:-10px;border:1px dashed rgba(125,211,252,.34);border-radius:8px;color:var(--muted);background:rgba(2,6,23,.42);font-size:12px;letter-spacing:.16em;text-transform:uppercase}.story-media{display:block;aspect-ratio:16/9;margin:-2px -2px 12px;border-radius:7px;background-size:cover;background-position:center}.story-media.m1{background-image:linear-gradient(135deg,rgba(2,6,23,.1),rgba(2,6,23,.35)),url("ai-operations-news.png")}.story-media.m2{background-image:linear-gradient(135deg,rgba(2,6,23,.08),rgba(2,6,23,.34)),url("ai-agents-workflows.png")}.story-media.m3{background-image:radial-gradient(circle at 35% 40%,rgba(124,58,237,.42),transparent 32%),linear-gradient(135deg,#091827,#14213b)}.story-media.m4{background-image:linear-gradient(135deg,rgba(2,6,23,.08),rgba(2,6,23,.34)),url("ai-agents-workflows.png")}.side-stack .story-media{display:none}.tool-media{display:grid;place-items:center;width:44px;height:32px;border-radius:7px;background:linear-gradient(135deg,var(--cyan),var(--violet));font-weight:900}.cookie-banner{left:50%;right:auto;bottom:22px;transform:translateX(-50%);grid-template-columns:minmax(0,1fr) auto;align-items:center;max-height:none;width:min(760px,calc(100% - 32px));padding:14px 16px;overflow:visible}.cookie-banner p{font-size:14px}.cookie-banner div{display:flex;gap:10px;justify-content:flex-end;white-space:nowrap}@media(min-width:1280px){.front-grid{grid-template-columns:minmax(0,1.05fr) 300px 330px}.lead-card h1{font-size:50px}}@media(max-width:1180px){.front-grid{grid-template-columns:1fr}.front-grid .side-stack,.front-grid .updates,.front-grid .front-ad{grid-column:auto;grid-row:auto}.front-ad{grid-column:auto;min-height:120px}.front-grid .updates{min-height:auto}.lead-card{min-height:320px}.side-stack{grid-template-rows:none}.side-stack .story-card{min-height:170px}.content-grid{grid-template-columns:1fr}}@media(max-width:760px){.page{padding:0 16px}.lead-card{min-height:auto;padding:28px 22px}.front-ad{min-height:90px}.cookie-banner{grid-template-columns:1fr;bottom:12px;width:calc(100% - 24px);transform:translateX(-50%)}.cookie-banner div{justify-content:stretch}.cookie-banner .ghost-button,.cookie-banner .subscribe-button{flex:1}.lead-card h1{font-size:38px}.lead-card p{font-size:16px}.news-grid,.tools-grid{grid-template-columns:1fr}.cookie-banner{bottom:10px;width:calc(100% - 20px)}}`;
 const index = `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -124,8 +123,8 @@ const index = `<!doctype html>
         <h1>${esc(lead.title)}</h1>
         <p>${esc(lead.excerpt)}</p>
         <div class="lead-meta">${esc(lead.category)} · ${esc(lead.readingTime)} · ${esc(lead.time)}</div>
-        <span class="lead-ad">Publicidade</span>
       </a>
+      <div class="front-ad" aria-label="Publicidade">Publicidade</div>
       <div class="side-stack">${secondary.map((article) => articleCard(article)).join("")}</div>
       <aside class="updates"><h2>Últimas notícias</h2>${latest.map((article) => `<a class="update-row" href="artigos/${article.slug}.html"><time class="live-time">${esc(article.time)}</time><p>${esc(article.title)}</p></a>`).join("")}</aside>
     </section>
@@ -212,6 +211,8 @@ for (const article of articles) {
 }
 
 console.log(`Portal reconstruido: ${articles.length} paginas de artigo geradas.`);
+
+
 
 
 
