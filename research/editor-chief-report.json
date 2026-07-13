@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-12T12:03:47.892Z",
+  "generatedAt": "2026-07-13T13:31:43.160Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 2,
+    "reviewed": 10,
+    "approved": 3,
     "held": 0,
-    "rejected": 6,
+    "rejected": 7,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-12-openai-news-1",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "id": "2026-07-13-openai-news-1",
+      "title": "Getting started with ChatGPT",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,11 +27,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-12T12:03:47.887Z"
+      "reviewedAt": "2026-07-13T13:31:43.155Z"
     },
     {
-      "id": "2026-07-12-openai-news-2",
-      "title": "ChatGPT is now a partner for your most ambitious work",
+      "id": "2026-07-13-openai-news-2",
+      "title": "GPT-5.5 Bio Bug Bounty",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -47,11 +47,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-12T12:03:47.888Z"
+      "reviewedAt": "2026-07-13T13:31:43.156Z"
     },
     {
-      "id": "2026-07-12-google-ai-blog-1",
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "id": "2026-07-13-google-ai-blog-1",
+      "title": "Ask an AI expert: What exactly is the full stack?",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -64,28 +64,28 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-12T12:03:47.889Z"
+      "reviewedAt": "2026-07-13T13:31:43.157Z"
     },
     {
-      "id": "2026-07-12-google-ai-blog-2",
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "score": 97,
+      "id": "2026-07-13-google-ai-blog-2",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "score": 91,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:19",
-        "freshness:15:recente",
+        "practical_value:16",
+        "freshness:12:ainda atual",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-12T12:03:47.890Z"
+      "reviewedAt": "2026-07-13T13:31:43.157Z"
     },
     {
-      "id": "2026-07-12-deepmind-blog-1",
-      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "id": "2026-07-13-deepmind-blog-1",
+      "title": "Securing the future of AI agents",
       "score": 89,
       "decision": "reject",
       "blockers": [
@@ -101,11 +101,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-12T12:03:47.890Z"
+      "reviewedAt": "2026-07-13T13:31:43.157Z"
     },
     {
-      "id": "2026-07-12-deepmind-blog-2",
-      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "id": "2026-07-13-deepmind-blog-2",
+      "title": "DiffusionGemma: 4x faster text generation",
       "score": 89,
       "decision": "reject",
       "blockers": [
@@ -121,11 +121,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-12T12:03:47.890Z"
+      "reviewedAt": "2026-07-13T13:31:43.158Z"
     },
     {
-      "id": "2026-07-12-the-verge-ai-1",
-      "title": "The fight against AI data centers is just beginning",
+      "id": "2026-07-13-the-verge-ai-1",
+      "title": "Waze is getting a bunch of new AI-powered features",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -141,11 +141,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-12T12:03:47.891Z"
+      "reviewedAt": "2026-07-13T13:31:43.158Z"
     },
     {
-      "id": "2026-07-12-the-verge-ai-2",
-      "title": "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;",
+      "id": "2026-07-13-the-verge-ai-2",
+      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -161,7 +161,44 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-12T12:03:47.891Z"
+      "reviewedAt": "2026-07-13T13:31:43.159Z"
+    },
+    {
+      "id": "2026-07-13-arxiv-ai-1",
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+      "score": 93,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-07-13T13:31:43.159Z"
+    },
+    {
+      "id": "2026-07-13-arxiv-ai-2",
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-07-13T13:31:43.160Z"
     }
   ]
 }
