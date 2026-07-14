@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T13:31:43.160Z",
+  "generatedAt": "2026-07-14T12:19:34.785Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 10,
@@ -10,8 +10,8 @@
   },
   "reviews": [
     {
-      "id": "2026-07-13-openai-news-1",
-      "title": "Getting started with ChatGPT",
+      "id": "2026-07-14-openai-news-1",
+      "title": "How data science teams use ChatGPT Work",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,11 +27,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-13T13:31:43.155Z"
+      "reviewedAt": "2026-07-14T12:19:34.780Z"
     },
     {
-      "id": "2026-07-13-openai-news-2",
-      "title": "GPT-5.5 Bio Bug Bounty",
+      "id": "2026-07-14-openai-news-2",
+      "title": "How sales teams use ChatGPT Work",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -47,28 +47,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-13T13:31:43.156Z"
+      "reviewedAt": "2026-07-14T12:19:34.781Z"
     },
     {
-      "id": "2026-07-13-google-ai-blog-1",
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-13T13:31:43.157Z"
-    },
-    {
-      "id": "2026-07-13-google-ai-blog-2",
-      "title": "Our latest Google Finance upgrades, including a new app",
+      "id": "2026-07-14-google-ai-blog-1",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
       "score": 91,
       "decision": "approve",
       "blockers": [],
@@ -81,18 +64,18 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-13T13:31:43.157Z"
+      "reviewedAt": "2026-07-14T12:19:34.782Z"
     },
     {
-      "id": "2026-07-13-deepmind-blog-1",
-      "title": "Securing the future of AI agents",
-      "score": 89,
+      "id": "2026-07-14-google-ai-blog-2",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "score": 88,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:12:ainda atual",
@@ -100,89 +83,86 @@
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-13T13:31:43.157Z"
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-14T12:19:34.782Z"
     },
     {
-      "id": "2026-07-13-deepmind-blog-2",
-      "title": "DiffusionGemma: 4x faster text generation",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:12:ainda atual",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-13T13:31:43.158Z"
-    },
-    {
-      "id": "2026-07-13-the-verge-ai-1",
-      "title": "Waze is getting a bunch of new AI-powered features",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-13T13:31:43.158Z"
-    },
-    {
-      "id": "2026-07-13-the-verge-ai-2",
-      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-13T13:31:43.159Z"
-    },
-    {
-      "id": "2026-07-13-arxiv-ai-1",
-      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
-      "score": 93,
+      "id": "2026-07-14-deepmind-blog-1",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "score": 95,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:arxiv.org:trusted:22",
+        "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-13T13:31:43.159Z"
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-14T12:19:34.783Z"
     },
     {
-      "id": "2026-07-13-arxiv-ai-2",
-      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "id": "2026-07-14-deepmind-blog-2",
+      "title": "Investing in multi-agent AI safety research",
+      "score": 92,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:12:ainda atual",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-14T12:19:34.783Z"
+    },
+    {
+      "id": "2026-07-14-the-verge-ai-1",
+      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-14T12:19:34.783Z"
+    },
+    {
+      "id": "2026-07-14-the-verge-ai-2",
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-14T12:19:34.784Z"
+    },
+    {
+      "id": "2026-07-14-arxiv-ai-1",
+      "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -198,7 +178,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-13T13:31:43.160Z"
+      "reviewedAt": "2026-07-14T12:19:34.784Z"
+    },
+    {
+      "id": "2026-07-14-arxiv-ai-2",
+      "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-07-14T12:19:34.785Z"
     }
   ]
 }
