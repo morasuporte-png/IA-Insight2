@@ -2,7 +2,7 @@
   "site": {
     "name": "AI Insights",
     "domain": "aiinsights.com.br",
-    "updatedLabel": "Atualizado em 14 de jul de 2026",
+    "updatedLabel": "Atualizado em 15 de jul de 2026",
     "heroEyebrow": "RADAR REAL DE IA",
     "heroTitle": "Entenda a IA.",
     "heroAccent": "Decida com vantagem.",
@@ -21,7 +21,33 @@
   ],
   "articles": [
     {
-      "title": "Radar Negócios: New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "title": "Radar de agentes: How to manage AI investments in the agentic era",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre agentes. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"How to manage AI investments in the agentic era\". O gestor editorial classificou o material como Agentes por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+    },
+    {
+      "title": "Radar de segurança em IA: Our approach to government and national security partnerships",
+      "category": "Segurança",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m2",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre segurança. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"Our approach to government and national security partnerships\". O gestor editorial classificou o material como Segurança por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/government-national-security-partnerships"
+    },
+    {
+      "title": "Radar Negócios: Celebrating 25 years of visual search innovation",
       "category": "Negócios",
       "type": "Radar",
       "readingTime": "4 min",
@@ -29,51 +55,12 @@
       "editorPick": false,
       "mediaClass": "m1",
       "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google AI Blog publicou \"New research shows how AMIE, our medical AI, could help manage health conditions.\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "body": "A Google AI Blog publicou \"Celebrating 25 years of visual search innovation\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
       "sourceLabel": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
     },
     {
-      "title": "Radar Pesquisa: Empowering India’s next generation of innovators with ATL Saathi",
-      "category": "Pesquisa",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m1",
-      "excerpt": "A Google DeepMind Blog publicou uma atualização relevante sobre pesquisa. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google DeepMind Blog publicou \"Empowering India’s next generation of innovators with ATL Saathi\". O gestor editorial classificou o material como Pesquisa por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
-    },
-    {
-      "title": "Radar de agentes: Investing in multi-agent AI safety research",
-      "category": "Agentes",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m2",
-      "excerpt": "A Google DeepMind Blog publicou uma atualização relevante sobre agentes. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google DeepMind Blog publicou \"Investing in multi-agent AI safety research\". O gestor editorial classificou o material como Agentes por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
-    },
-    {
-      "title": "Agentes em foco: Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "category": "Agentes",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": false,
-      "editorPick": true,
-      "mediaClass": "m1",
-      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre agentes. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google AI Blog publicou \"Expanding Managed Agents in Gemini API: background tasks, remote MCP and more\". O gestor editorial classificou o material como Agentes por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
-    },
-    {
-      "title": "Radar Negócios: The latest AI news we announced in June 2026",
+      "title": "Radar Negócios: Our new community investments in Virginia support local jobs and expand energy affordability.",
       "category": "Negócios",
       "type": "Radar",
       "readingTime": "4 min",
@@ -81,22 +68,35 @@
       "editorPick": true,
       "mediaClass": "m2",
       "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google AI Blog publicou \"The latest AI news we announced in June 2026\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "body": "A Google AI Blog publicou \"Our new community investments in Virginia support local jobs and expand energy affordability.\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
       "sourceLabel": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/"
     },
     {
-      "title": "Agentes em foco: Context Graphs for Proactive Enterprise Agents",
-      "category": "Agentes",
-      "type": "Pesquisa",
+      "title": "Radar Negócios: Ask an AI expert: What exactly is the full stack?",
+      "category": "Negócios",
+      "type": "Radar",
       "readingTime": "4 min",
       "featured": false,
       "editorPick": true,
       "mediaClass": "m1",
-      "excerpt": "A arXiv AI recent publicou uma atualização relevante sobre agentes. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A arXiv AI recent publicou \"Context Graphs for Proactive Enterprise Agents\". O gestor editorial classificou o material como Agentes por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "arXiv AI recent",
-      "sourceUrl": "https://arxiv.org/abs/2607.07721"
+      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A Google AI Blog publicou \"Ask an AI expert: What exactly is the full stack?\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/"
+    },
+    {
+      "title": "Radar Negócios: Our latest Google Finance upgrades, including a new app",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A Google AI Blog publicou \"Our latest Google Finance upgrades, including a new app\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
     }
   ],
   "tools": [

@@ -1,57 +1,68 @@
 {
-  "generatedAt": "2026-07-14T12:19:34.785Z",
+  "generatedAt": "2026-07-15T12:20:18.790Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 10,
-    "approved": 3,
-    "held": 0,
-    "rejected": 7,
+    "approved": 4,
+    "held": 1,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-14-openai-news-1",
-      "title": "How data science teams use ChatGPT Work",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-07-15-openai-news-1",
+      "title": "How to manage AI investments in the agentic era",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-14T12:19:34.780Z"
+      "reviewedAt": "2026-07-15T12:20:18.784Z"
     },
     {
-      "id": "2026-07-14-openai-news-2",
-      "title": "How sales teams use ChatGPT Work",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-07-15-openai-news-2",
+      "title": "Our approach to government and national security partnerships",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-14T12:19:34.781Z"
+      "reviewedAt": "2026-07-15T12:20:18.786Z"
     },
     {
-      "id": "2026-07-14-google-ai-blog-1",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "id": "2026-07-15-google-ai-blog-1",
+      "title": "Celebrating 25 years of visual search innovation",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-15T12:20:18.786Z"
+    },
+    {
+      "id": "2026-07-15-google-ai-blog-2",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
       "score": 91,
       "decision": "approve",
       "blockers": [],
@@ -64,18 +75,18 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-14T12:19:34.782Z"
+      "reviewedAt": "2026-07-15T12:20:18.787Z"
     },
     {
-      "id": "2026-07-14-google-ai-blog-2",
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "score": 88,
+      "id": "2026-07-15-deepmind-blog-1",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "score": 89,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:12:ainda atual",
@@ -83,46 +94,32 @@
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-14T12:19:34.782Z"
-    },
-    {
-      "id": "2026-07-14-deepmind-blog-1",
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "score": 95,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-14T12:19:34.783Z"
+      "reviewedAt": "2026-07-15T12:20:18.787Z"
     },
     {
-      "id": "2026-07-14-deepmind-blog-2",
-      "title": "Investing in multi-agent AI safety research",
-      "score": 92,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-07-15-deepmind-blog-2",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "score": 89,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:12:ainda atual",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-14T12:19:34.783Z"
+      "reviewedAt": "2026-07-15T12:20:18.787Z"
     },
     {
-      "id": "2026-07-14-the-verge-ai-1",
-      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+      "id": "2026-07-15-the-verge-ai-1",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -138,31 +135,28 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-14T12:19:34.783Z"
+      "reviewedAt": "2026-07-15T12:20:18.788Z"
     },
     {
-      "id": "2026-07-14-the-verge-ai-2",
-      "title": "New York becomes the first state to enact a data center moratorium",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-07-15-the-verge-ai-2",
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-14T12:19:34.784Z"
+      "reviewedAt": "2026-07-15T12:20:18.788Z"
     },
     {
-      "id": "2026-07-14-arxiv-ai-1",
-      "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
+      "id": "2026-07-15-arxiv-ai-1",
+      "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -178,11 +172,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-14T12:19:34.784Z"
+      "reviewedAt": "2026-07-15T12:20:18.789Z"
     },
     {
-      "id": "2026-07-14-arxiv-ai-2",
-      "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+      "id": "2026-07-15-arxiv-ai-2",
+      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -198,7 +192,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-14T12:19:34.785Z"
+      "reviewedAt": "2026-07-15T12:20:18.789Z"
     }
   ]
 }
