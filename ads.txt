@@ -1,3 +1,4 @@
-# AdSense ads.txt
-# Substitua pelo ID real ap?s aprova??o no AdSense:
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# AI Insights ads.txt
+# Adicione abaixo a linha real copiada do Google AdSense quando sua conta/site forem criados.
+# Formato esperado pelo Google:
+# google.com, pub-SEU_ID_REAL, DIRECT, f08c47fec0942fa0

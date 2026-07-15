@@ -7,7 +7,7 @@ const siteDir = path.resolve(scriptDir, "..");
 const contentPath = path.join(siteDir, "content.json");
 const assetsDir = path.join(siteDir, "assets");
 const articlesDir = path.join(siteDir, "artigos");
-const domain = "https://aiinsights.com.br";
+const domain = "https://ia-insight2.vercel.app";
 
 const content = JSON.parse((await readFile(contentPath, "utf8")).replace(/^\uFEFF/, ""));
 await mkdir(assetsDir, { recursive: true });

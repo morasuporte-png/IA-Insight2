@@ -15,6 +15,7 @@ const publishScript = path.join(scriptDir, "publish-approved.mjs");
 const args = new Set(process.argv.slice(2));
 const shouldPublish = args.has("--publish");
 const dryRun = args.has("--dry-run");
+const publishMax = Number(process.argv.find((arg) => arg.startsWith("--publish-max="))?.split("=")[1] || 2);
 
 const readJson = async (file) => JSON.parse((await readFile(file, "utf8")).replace(/^\uFEFF/, ""));
 const drafts = await readJson(draftsPath);
@@ -92,7 +93,14 @@ function publicationBody(item) {
   const source = item.sourceLabel || "fonte monitorada";
   const title = item.title || "atualização de IA";
   const category = item.category || "IA";
-  return `A ${source} publicou "${title}". O gestor editorial classificou o material como ${category} por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.`;
+  const summary = item.excerpt || "A fonte original publicou uma atualização relevante para o mercado de inteligência artificial.";
+  return [
+    `A ${source} publicou "${title}". O gestor editorial classificou o material como ${category} por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.`,
+    `O primeiro ponto de atenção é o efeito prático. ${summary} Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.`,
+    `Para empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.`,
+    `Para criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.`,
+    `Também há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.`
+  ].join("\n\n");
 }
 function scoreDraft(item) {
   const reasons = [];
@@ -122,7 +130,7 @@ function scoreDraft(item) {
   reasons.push(`freshness:${fresh.score}:${fresh.reason}`);
 
   const length = `${item.excerpt || ""} ${item.body || ""}`.trim().length;
-  const clarityScore = length >= 260 && length <= 900 ? 10 : length >= 180 ? 7 : 3;
+  const clarityScore = length >= 300 && length <= 1400 ? 10 : length >= 220 ? 7 : 3;
   reasons.push(`clarity:${clarityScore}`);
 
   const hype = includesAny(text, policy.hypePatterns);
@@ -133,6 +141,7 @@ function scoreDraft(item) {
   if (source.tier === "unknown" && sourceScore < 15) reasons.push("unknown_source_requires_stronger_context");
   if (practicalScore < 14) blockers.push("low_practical_value");
   if (practicalScore < 14) reasons.push("low_practical_signal");
+  if (length < 220) blockers.push("thin_source_context");
 
   const score = sourceScore + aiScore + practicalScore + fresh.score + clarityScore + safetyScore;
   const threshold = policy.thresholds.autoApprove;
@@ -215,7 +224,7 @@ console.log(`Editor-chefe revisou ${reviews.length}: ${report.summary.approved} 
 
 if (shouldPublish && !dryRun && report.summary.approved > 0) {
   await new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, [publishScript, "--max=6"], { cwd: siteDir, stdio: "inherit" });
+    const child = spawn(process.execPath, [publishScript, `--max=${publishMax}`], { cwd: siteDir, stdio: "inherit" });
     child.on("exit", (code) => code === 0 ? resolve() : reject(new Error(`publish-approved exited with ${code}`)));
   });
 }

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://aiinsights.com.br/sitemap.xml
+Sitemap: https://ia-insight2.vercel.app/sitemap.xml

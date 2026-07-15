@@ -3,7 +3,8 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"
+    # 06:00 America/Sao_Paulo = 09:00 UTC.
+    - cron: "0 9 * * *"
 
 permissions:
   contents: write
@@ -11,6 +12,9 @@ permissions:
 jobs:
   refresh-content:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ai-insights-content-refresh
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,7 +28,7 @@ jobs:
         run: node scripts/research-intake.mjs --limit=2
 
       - name: Review, approve and publish content
-        run: node scripts/editor-chief-review.mjs --publish
+        run: node scripts/editor-chief-review.mjs --publish --publish-max=2
 
       - name: Commit automated content updates
         run: |
