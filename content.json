@@ -2,7 +2,7 @@
   "site": {
     "name": "AI Insights",
     "domain": "ia-insight2.vercel.app",
-    "updatedLabel": "Atualizado em 15 de jul de 2026",
+    "updatedLabel": "Atualizado em 16 de jul de 2026",
     "heroEyebrow": "RADAR REAL DE IA",
     "heroTitle": "Entenda a IA.",
     "heroAccent": "Decida com vantagem.",
@@ -20,6 +20,32 @@
     "Produtividade"
   ],
   "articles": [
+    {
+      "title": "Radar de segurança em IA: The US is advancing AI safety through state and federal action",
+      "category": "Segurança",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre segurança. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"The US is advancing AI safety through state and federal action\". O gestor editorial classificou o material como Segurança por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+    },
+    {
+      "title": "Radar Modelos: GPT-Red: Unlocking Self-Improvement for Robustness",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m2",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre modelos. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"GPT-Red: Unlocking Self-Improvement for Robustness\". O gestor editorial classificou o material como Modelos por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/unlocking-self-improvement-gpt-red"
+    },
     {
       "title": "Radar de agentes: How to manage AI investments in the agentic era",
       "category": "Agentes",
@@ -71,32 +97,6 @@
       "body": "A Google AI Blog publicou \"Our new community investments in Virginia support local jobs and expand energy affordability.\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
       "sourceLabel": "Google AI Blog",
       "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/"
-    },
-    {
-      "title": "Radar Negócios: Ask an AI expert: What exactly is the full stack?",
-      "category": "Negócios",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": false,
-      "editorPick": true,
-      "mediaClass": "m1",
-      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google AI Blog publicou \"Ask an AI expert: What exactly is the full stack?\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/"
-    },
-    {
-      "title": "Radar Negócios: Our latest Google Finance upgrades, including a new app",
-      "category": "Negócios",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": false,
-      "editorPick": true,
-      "mediaClass": "m2",
-      "excerpt": "A Google AI Blog publicou uma atualização relevante sobre negócios. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A Google AI Blog publicou \"Our latest Google Finance upgrades, including a new app\". O gestor editorial classificou o material como Negócios por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A leitura executiva: acompanhe como essa atualização pode afetar decisões de produto, automação, custos, governança ou adoção de IA nos próximos ciclos. A fonte original deve ser preservada para auditoria e aprofundamento.",
-      "sourceLabel": "Google AI Blog",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
     }
   ],
   "tools": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T12:20:18.790Z",
+  "generatedAt": "2026-07-16T11:03:37.684Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 10,
@@ -10,8 +10,8 @@
   },
   "reviews": [
     {
-      "id": "2026-07-15-openai-news-1",
-      "title": "How to manage AI investments in the agentic era",
+      "id": "2026-07-16-openai-news-1",
+      "title": "The US is advancing AI safety through state and federal action",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,11 +24,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-15T12:20:18.784Z"
+      "reviewedAt": "2026-07-16T11:03:37.678Z"
     },
     {
-      "id": "2026-07-15-openai-news-2",
-      "title": "Our approach to government and national security partnerships",
+      "id": "2026-07-16-openai-news-2",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -41,28 +41,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-15T12:20:18.786Z"
+      "reviewedAt": "2026-07-16T11:03:37.680Z"
     },
     {
-      "id": "2026-07-15-google-ai-blog-1",
-      "title": "Celebrating 25 years of visual search innovation",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-15T12:20:18.786Z"
-    },
-    {
-      "id": "2026-07-15-google-ai-blog-2",
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "id": "2026-07-16-google-ai-blog-1",
+      "title": "The latest AI news we announced in May 2026",
       "score": 91,
       "decision": "approve",
       "blockers": [],
@@ -75,12 +58,49 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-15T12:20:18.787Z"
+      "reviewedAt": "2026-07-16T11:03:37.680Z"
     },
     {
-      "id": "2026-07-15-deepmind-blog-1",
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "score": 89,
+      "id": "2026-07-16-google-ai-blog-2",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "score": 91,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:12:ainda atual",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-16T11:03:37.680Z"
+    },
+    {
+      "id": "2026-07-16-deepmind-blog-1",
+      "title": "Our approach to bioresilience",
+      "score": 92,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-16T11:03:37.681Z"
+    },
+    {
+      "id": "2026-07-16-deepmind-blog-2",
+      "title": "Powering the future of robotics in Europe",
+      "score": 86,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -90,36 +110,33 @@
         "ai_relevance:20",
         "practical_value:13",
         "freshness:12:ainda atual",
-        "clarity:10",
+        "clarity:7",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-15T12:20:18.787Z"
+      "reviewedAt": "2026-07-16T11:03:37.681Z"
     },
     {
-      "id": "2026-07-15-deepmind-blog-2",
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "id": "2026-07-16-the-verge-ai-1",
+      "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
       "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
-        "freshness:12:ainda atual",
+        "practical_value:16",
+        "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-15T12:20:18.787Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-16T11:03:37.682Z"
     },
     {
-      "id": "2026-07-15-the-verge-ai-1",
-      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "id": "2026-07-16-the-verge-ai-2",
+      "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -135,28 +152,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-15T12:20:18.788Z"
+      "reviewedAt": "2026-07-16T11:03:37.682Z"
     },
     {
-      "id": "2026-07-15-the-verge-ai-2",
-      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-15T12:20:18.788Z"
-    },
-    {
-      "id": "2026-07-15-arxiv-ai-1",
-      "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
+      "id": "2026-07-16-arxiv-ai-1",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -172,11 +172,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-15T12:20:18.789Z"
+      "reviewedAt": "2026-07-16T11:03:37.683Z"
     },
     {
-      "id": "2026-07-15-arxiv-ai-2",
-      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
+      "id": "2026-07-16-arxiv-ai-2",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -192,7 +192,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-15T12:20:18.789Z"
+      "reviewedAt": "2026-07-16T11:03:37.683Z"
     }
   ]
 }
