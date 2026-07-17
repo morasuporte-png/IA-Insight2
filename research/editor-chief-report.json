@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-16T11:03:37.684Z",
+  "generatedAt": "2026-07-17T10:50:39.804Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 10,
     "approved": 4,
-    "held": 1,
-    "rejected": 5,
+    "held": 0,
+    "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-16-openai-news-1",
-      "title": "The US is advancing AI safety through state and federal action",
+      "id": "2026-07-17-openai-news-1",
+      "title": "Why teens deserve access to safe AI",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,11 +24,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-16T11:03:37.678Z"
+      "reviewedAt": "2026-07-17T10:50:39.798Z"
     },
     {
-      "id": "2026-07-16-openai-news-2",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "id": "2026-07-17-openai-news-2",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -41,46 +41,46 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-16T11:03:37.680Z"
+      "reviewedAt": "2026-07-17T10:50:39.799Z"
     },
     {
-      "id": "2026-07-16-google-ai-blog-1",
-      "title": "The latest AI news we announced in May 2026",
-      "score": 91,
+      "id": "2026-07-17-google-ai-blog-1",
+      "title": "Connect more of your apps to Search",
+      "score": 94,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
-        "freshness:12:ainda atual",
+        "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-16T11:03:37.680Z"
+      "reviewedAt": "2026-07-17T10:50:39.800Z"
     },
     {
-      "id": "2026-07-16-google-ai-blog-2",
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "score": 91,
+      "id": "2026-07-17-google-ai-blog-2",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "score": 94,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
-        "freshness:12:ainda atual",
+        "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-16T11:03:37.680Z"
+      "reviewedAt": "2026-07-17T10:50:39.800Z"
     },
     {
-      "id": "2026-07-16-deepmind-blog-1",
-      "title": "Our approach to bioresilience",
-      "score": 92,
+      "id": "2026-07-17-deepmind-blog-1",
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "score": 89,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -89,18 +89,18 @@
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:15:recente",
+        "freshness:12:ainda atual",
         "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-16T11:03:37.681Z"
+      "reviewedAt": "2026-07-17T10:50:39.801Z"
     },
     {
-      "id": "2026-07-16-deepmind-blog-2",
-      "title": "Powering the future of robotics in Europe",
-      "score": 86,
+      "id": "2026-07-17-deepmind-blog-2",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "score": 82,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -109,34 +109,17 @@
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:12:ainda atual",
+        "freshness:8:pode ser evergreen",
         "clarity:7",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-16T11:03:37.681Z"
+      "reviewedAt": "2026-07-17T10:50:39.801Z"
     },
     {
-      "id": "2026-07-16-the-verge-ai-1",
-      "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-16T11:03:37.682Z"
-    },
-    {
-      "id": "2026-07-16-the-verge-ai-2",
-      "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
+      "id": "2026-07-17-the-verge-ai-1",
+      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -152,11 +135,31 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-16T11:03:37.682Z"
+      "reviewedAt": "2026-07-17T10:50:39.802Z"
     },
     {
-      "id": "2026-07-16-arxiv-ai-1",
-      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "id": "2026-07-17-the-verge-ai-2",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-17T10:50:39.802Z"
+    },
+    {
+      "id": "2026-07-17-arxiv-ai-1",
+      "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -172,11 +175,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-16T11:03:37.683Z"
+      "reviewedAt": "2026-07-17T10:50:39.803Z"
     },
     {
-      "id": "2026-07-16-arxiv-ai-2",
-      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "id": "2026-07-17-arxiv-ai-2",
+      "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -192,7 +195,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-16T11:03:37.683Z"
+      "reviewedAt": "2026-07-17T10:50:39.803Z"
     }
   ]
 }
