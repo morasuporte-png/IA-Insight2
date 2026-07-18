@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-17T10:50:39.804Z",
+  "generatedAt": "2026-07-18T10:21:12.862Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 10,
-    "approved": 4,
-    "held": 0,
+    "approved": 1,
+    "held": 3,
     "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-17-openai-news-1",
-      "title": "Why teens deserve access to safe AI",
+      "id": "2026-07-18-openai-news-1",
+      "title": "A scorecard for the AI age",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,83 +24,66 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-17T10:50:39.798Z"
+      "reviewedAt": "2026-07-18T10:21:12.856Z"
     },
     {
-      "id": "2026-07-17-openai-news-2",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-17T10:50:39.799Z"
-    },
-    {
-      "id": "2026-07-17-google-ai-blog-1",
-      "title": "Connect more of your apps to Search",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-17T10:50:39.800Z"
-    },
-    {
-      "id": "2026-07-17-google-ai-blog-2",
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-17T10:50:39.800Z"
-    },
-    {
-      "id": "2026-07-17-deepmind-blog-1",
-      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-      "score": 89,
+      "id": "2026-07-18-openai-news-2",
+      "title": "Separating signal from noise in coding evaluations",
+      "score": 93,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:12:ainda atual",
+        "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-17T10:50:39.801Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-07-18T10:21:12.857Z"
     },
     {
-      "id": "2026-07-17-deepmind-blog-2",
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "score": 82,
+      "id": "2026-07-18-google-ai-blog-1",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "score": 87,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-18T10:21:12.858Z"
+    },
+    {
+      "id": "2026-07-18-google-ai-blog-2",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "score": 87,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-18T10:21:12.858Z"
+    },
+    {
+      "id": "2026-07-18-deepmind-blog-1",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "score": 85,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -110,16 +93,53 @@
         "ai_relevance:20",
         "practical_value:13",
         "freshness:8:pode ser evergreen",
-        "clarity:7",
+        "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-17T10:50:39.801Z"
+      "reviewedAt": "2026-07-18T10:21:12.859Z"
     },
     {
-      "id": "2026-07-17-the-verge-ai-1",
-      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+      "id": "2026-07-18-deepmind-blog-2",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "score": 85,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-18T10:21:12.859Z"
+    },
+    {
+      "id": "2026-07-18-the-verge-ai-1",
+      "title": "TikTok is testing an AI likeness detection tool",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-18T10:21:12.860Z"
+    },
+    {
+      "id": "2026-07-18-the-verge-ai-2",
+      "title": "Apple’s plot to crush OpenAI",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -135,31 +155,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-17T10:50:39.802Z"
+      "reviewedAt": "2026-07-18T10:21:12.860Z"
     },
     {
-      "id": "2026-07-17-the-verge-ai-2",
-      "title": "Google is renaming NotebookLM to Gemini Notebook",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-17T10:50:39.802Z"
-    },
-    {
-      "id": "2026-07-17-arxiv-ai-1",
-      "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+      "id": "2026-07-18-arxiv-ai-1",
+      "title": "IMEX Interaction-Based Model Explanation",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -175,11 +175,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-17T10:50:39.803Z"
+      "reviewedAt": "2026-07-18T10:21:12.861Z"
     },
     {
-      "id": "2026-07-17-arxiv-ai-2",
-      "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+      "id": "2026-07-18-arxiv-ai-2",
+      "title": "RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -195,7 +195,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-17T10:50:39.803Z"
+      "reviewedAt": "2026-07-18T10:21:12.861Z"
     }
   ]
 }
