@@ -1,34 +1,17 @@
 {
-  "generatedAt": "2026-07-18T10:21:12.862Z",
+  "generatedAt": "2026-07-19T10:37:53.019Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 10,
-    "approved": 1,
+    "reviewed": 8,
+    "approved": 0,
     "held": 3,
-    "rejected": 6,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-18-openai-news-1",
-      "title": "A scorecard for the AI age",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-18T10:21:12.856Z"
-    },
-    {
-      "id": "2026-07-18-openai-news-2",
-      "title": "Separating signal from noise in coding evaluations",
+      "id": "2026-07-19-openai-news-1",
+      "title": "Helping K–12 educators build practical AI skills",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -44,102 +27,105 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-18T10:21:12.857Z"
+      "reviewedAt": "2026-07-19T10:37:53.015Z"
     },
     {
-      "id": "2026-07-18-google-ai-blog-1",
-      "title": "How we used Gemini to build Google I/O 2026",
-      "score": 87,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:8:pode ser evergreen",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-18T10:21:12.858Z"
-    },
-    {
-      "id": "2026-07-18-google-ai-blog-2",
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "score": 87,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:8:pode ser evergreen",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-18T10:21:12.858Z"
-    },
-    {
-      "id": "2026-07-18-deepmind-blog-1",
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "score": 85,
+      "id": "2026-07-19-openai-news-2",
+      "title": "Introducing GPT-Live",
+      "score": 93,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:8:pode ser evergreen",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-18T10:21:12.859Z"
-    },
-    {
-      "id": "2026-07-18-deepmind-blog-2",
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "score": 85,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:8:pode ser evergreen",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-18T10:21:12.859Z"
-    },
-    {
-      "id": "2026-07-18-the-verge-ai-1",
-      "title": "TikTok is testing an AI likeness detection tool",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-18T10:21:12.860Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-07-19T10:37:53.016Z"
     },
     {
-      "id": "2026-07-18-the-verge-ai-2",
-      "title": "Apple’s plot to crush OpenAI",
+      "id": "2026-07-19-google-ai-blog-1",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "score": 87,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-19T10:37:53.017Z"
+    },
+    {
+      "id": "2026-07-19-google-ai-blog-2",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "score": 87,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-07-19T10:37:53.017Z"
+    },
+    {
+      "id": "2026-07-19-deepmind-blog-1",
+      "title": "Introducing Gemini Omni",
+      "score": 82,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:8:pode ser evergreen",
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-19T10:37:53.017Z"
+    },
+    {
+      "id": "2026-07-19-deepmind-blog-2",
+      "title": "Introducing Google Antigravity 2.0",
+      "score": 82,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:8:pode ser evergreen",
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-07-19T10:37:53.018Z"
+    },
+    {
+      "id": "2026-07-19-the-verge-ai-1",
+      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -155,47 +141,24 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-18T10:21:12.860Z"
+      "reviewedAt": "2026-07-19T10:37:53.018Z"
     },
     {
-      "id": "2026-07-18-arxiv-ai-1",
-      "title": "IMEX Interaction-Based Model Explanation",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-07-19-the-verge-ai-2",
+      "title": "The apps, gadgets, and tools every reader needs",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
-        "source:arxiv.org:trusted:22",
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-18T10:21:12.861Z"
-    },
-    {
-      "id": "2026-07-18-arxiv-ai-2",
-      "title": "RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-18T10:21:12.861Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-07-19T10:37:53.019Z"
     }
   ]
 }
