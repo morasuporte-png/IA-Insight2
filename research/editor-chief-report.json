@@ -1,34 +1,17 @@
 {
-  "generatedAt": "2026-07-20T11:49:17.231Z",
+  "generatedAt": "2026-07-21T11:11:52.788Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 10,
-    "approved": 3,
-    "held": 4,
-    "rejected": 3,
+    "reviewed": 8,
+    "approved": 1,
+    "held": 0,
+    "rejected": 7,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-20-openai-news-1",
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "score": 99,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:19",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-20T11:49:17.225Z"
-    },
-    {
-      "id": "2026-07-20-openai-news-2",
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "id": "2026-07-21-openai-news-1",
+      "title": "Safety and alignment in an era of long-horizon models",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -41,79 +24,71 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-20T11:49:17.226Z"
+      "reviewedAt": "2026-07-21T11:11:52.785Z"
     },
     {
-      "id": "2026-07-20-google-ai-blog-1",
-      "title": "Catch up on 12 major I/O 2026 moments",
-      "score": 87,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:8:pode ser evergreen",
-        "clarity:10",
-        "editorial_caution:10"
+      "id": "2026-07-21-openai-news-2",
+      "title": "How ChatGPT adoption has expanded",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-20T11:49:17.227Z"
-    },
-    {
-      "id": "2026-07-20-google-ai-blog-2",
-      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-      "score": 87,
-      "decision": "hold",
-      "blockers": [],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
-        "freshness:8:pode ser evergreen",
+        "practical_value:13",
+        "freshness:12:ainda atual",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-20T11:49:17.227Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-07-21T11:11:52.786Z"
     },
     {
-      "id": "2026-07-20-deepmind-blog-1",
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "score": 88,
-      "decision": "hold",
-      "blockers": [],
+      "id": "2026-07-21-deepmind-blog-1",
+      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+      "score": 85,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:8:pode ser evergreen",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-20T11:49:17.227Z"
+      "reviewedAt": "2026-07-21T11:11:52.786Z"
     },
     {
-      "id": "2026-07-20-deepmind-blog-2",
-      "title": "Making it easier to understand how content was created and edited",
-      "score": 88,
-      "decision": "hold",
-      "blockers": [],
+      "id": "2026-07-21-deepmind-blog-2",
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "score": 85,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:8:pode ser evergreen",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-20T11:49:17.228Z"
+      "reviewedAt": "2026-07-21T11:11:52.787Z"
     },
     {
-      "id": "2026-07-20-the-verge-ai-1",
-      "title": "China delivers a one-two punch to America’s AI dominance",
+      "id": "2026-07-21-the-verge-ai-1",
+      "title": "America needs to stop getting shocked by Chinese AI",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -129,11 +104,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-20T11:49:17.228Z"
+      "reviewedAt": "2026-07-21T11:11:52.787Z"
     },
     {
-      "id": "2026-07-20-the-verge-ai-2",
-      "title": "I hate that I don’t hate this song made with Suno",
+      "id": "2026-07-21-the-verge-ai-2",
+      "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -149,28 +124,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-20T11:49:17.229Z"
+      "reviewedAt": "2026-07-21T11:11:52.787Z"
     },
     {
-      "id": "2026-07-20-arxiv-ai-1",
-      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-20T11:49:17.229Z"
-    },
-    {
-      "id": "2026-07-20-arxiv-ai-2",
-      "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+      "id": "2026-07-21-arxiv-ai-1",
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -186,7 +144,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-20T11:49:17.230Z"
+      "reviewedAt": "2026-07-21T11:11:52.788Z"
+    },
+    {
+      "id": "2026-07-21-arxiv-ai-2",
+      "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-07-21T11:11:52.788Z"
     }
   ]
 }
