@@ -1,17 +1,34 @@
 {
-  "generatedAt": "2026-07-29T11:28:55.295Z",
+  "generatedAt": "2026-07-30T11:10:48.666Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 10,
-    "approved": 3,
-    "held": 0,
-    "rejected": 7,
+    "reviewed": 9,
+    "approved": 2,
+    "held": 1,
+    "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-29-openai-news-1",
-      "title": "Scientific computing in the age of agentic AI",
+      "id": "2026-07-30-openai-news-1",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-07-30T11:10:48.662Z"
+    },
+    {
+      "id": "2026-07-30-openai-news-2",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,30 +44,13 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-29T11:28:55.291Z"
+      "reviewedAt": "2026-07-30T11:10:48.663Z"
     },
     {
-      "id": "2026-07-29-openai-news-2",
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:12:ainda atual",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-29T11:28:55.292Z"
-    },
-    {
-      "id": "2026-07-29-google-ai-blog-1",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "score": 94,
-      "decision": "approve",
+      "id": "2026-07-30-google-ai-blog-1",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "score": 89,
+      "decision": "hold",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
@@ -58,32 +58,16 @@
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "hype_flag:ultimate",
+        "editorial_caution:5"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-29T11:28:55.292Z"
+      "reviewedAt": "2026-07-30T11:10:48.663Z"
     },
     {
-      "id": "2026-07-29-google-ai-blog-2",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-07-29T11:28:55.293Z"
-    },
-    {
-      "id": "2026-07-29-deepmind-blog-1",
-      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-      "score": 82,
+      "id": "2026-07-30-deepmind-blog-1",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "score": 89,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -92,17 +76,17 @@
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:13",
-        "freshness:8:pode ser evergreen",
+        "freshness:15:recente",
         "clarity:7",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-29T11:28:55.293Z"
+      "reviewedAt": "2026-07-30T11:10:48.664Z"
     },
     {
-      "id": "2026-07-29-deepmind-blog-2",
-      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "id": "2026-07-30-deepmind-blog-2",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
       "score": 85,
       "decision": "reject",
       "blockers": [
@@ -118,11 +102,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-29T11:28:55.293Z"
+      "reviewedAt": "2026-07-30T11:10:48.664Z"
     },
     {
-      "id": "2026-07-29-the-verge-ai-1",
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
+      "id": "2026-07-30-the-verge-ai-1",
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -138,11 +122,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-29T11:28:55.293Z"
+      "reviewedAt": "2026-07-30T11:10:48.664Z"
     },
     {
-      "id": "2026-07-29-the-verge-ai-2",
-      "title": "AI’s finally expensive enough to make Wall Street nervous",
+      "id": "2026-07-30-the-verge-ai-2",
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -158,11 +142,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-29T11:28:55.294Z"
+      "reviewedAt": "2026-07-30T11:10:48.665Z"
     },
     {
-      "id": "2026-07-29-arxiv-ai-1",
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
+      "id": "2026-07-30-arxiv-ai-1",
+      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -178,27 +162,24 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-29T11:28:55.294Z"
+      "reviewedAt": "2026-07-30T11:10:48.665Z"
     },
     {
-      "id": "2026-07-29-arxiv-ai-2",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-07-30-arxiv-ai-2",
+      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
+      "score": 93,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:arxiv.org:trusted:22",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-29T11:28:55.295Z"
+      "reviewedAt": "2026-07-30T11:10:48.666Z"
     }
   ]
 }
