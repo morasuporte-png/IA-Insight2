@@ -1,88 +1,111 @@
 {
-  "generatedAt": "2026-07-31T11:31:32.800Z",
+  "generatedAt": "2026-08-01T10:43:41.561Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 3,
-    "held": 0,
-    "rejected": 5,
+    "reviewed": 6,
+    "approved": 0,
+    "held": 2,
+    "rejected": 4,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-07-31-openai-news-1",
-      "title": "Advancing responsible AI across Europe",
-      "score": 99,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-08-01-openai-news-1",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:19",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-31T11:31:32.796Z"
+      "reviewedAt": "2026-08-01T10:43:41.558Z"
     },
     {
-      "id": "2026-07-31-openai-news-2",
-      "title": "Univé builds an AI-ready workforce",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-08-01-openai-news-2",
+      "title": "Building abundant intelligence",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-07-31T11:31:32.797Z"
+      "reviewedAt": "2026-08-01T10:43:41.558Z"
     },
     {
-      "id": "2026-07-31-deepmind-blog-1",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "score": 95,
-      "decision": "approve",
+      "id": "2026-08-01-deepmind-blog-1",
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "score": 85,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:8:pode ser evergreen",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-01T10:43:41.559Z"
+    },
+    {
+      "id": "2026-08-01-deepmind-blog-2",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "score": 84,
+      "decision": "hold",
       "blockers": [],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:16",
-        "freshness:15:recente",
+        "freshness:4:antigo",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-31T11:31:32.798Z"
+      "reviewedAt": "2026-08-01T10:43:41.559Z"
     },
     {
-      "id": "2026-07-31-deepmind-blog-2",
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "id": "2026-08-01-the-verge-ai-1",
+      "title": "Google Earth&#8217;s AI deepfake tool only lasted one day",
       "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "clarity:10",
+        "editorial_caution:10"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-07-31T11:31:32.798Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-08-01T10:43:41.560Z"
     },
     {
-      "id": "2026-07-31-the-verge-ai-1",
-      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "id": "2026-08-01-the-verge-ai-2",
+      "title": "Here’s the problem with putting an AI image generator in Google Earth",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -98,67 +121,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-31T11:31:32.798Z"
-    },
-    {
-      "id": "2026-07-31-the-verge-ai-2",
-      "title": "The loss of Situational Awareness",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-07-31T11:31:32.799Z"
-    },
-    {
-      "id": "2026-07-31-arxiv-ai-1",
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-31T11:31:32.799Z"
-    },
-    {
-      "id": "2026-07-31-arxiv-ai-2",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-07-31T11:31:32.799Z"
+      "reviewedAt": "2026-08-01T10:43:41.560Z"
     }
   ]
 }
