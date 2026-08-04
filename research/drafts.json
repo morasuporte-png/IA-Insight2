@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:29:19.074Z",
+  "generatedAt": "2026-08-04T11:27:35.573Z",
   "status": "editor-chief-reviewed",
   "summary": {
     "newDrafts": 8,
@@ -13,6 +13,262 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-08-04-openai-news-1",
+      "status": "reject",
+      "title": "Apple is getting this wrong",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "body": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/apple-is-getting-this-wrong",
+      "sourcePublished": "Mon, 03 Aug 2026 22:00:00 GMT",
+      "collectedAt": "2026-08-04T11:27:34.277Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-openai-news-2",
+      "status": "reject",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversa...",
+      "body": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversa... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "sourcePublished": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "collectedAt": "2026-08-04T11:27:34.277Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-deepmind-blog-1",
+      "status": "reject",
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.",
+      "body": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+      "sourcePublished": "Tue, 17 Mar 2026 16:03:47 +0000",
+      "collectedAt": "2026-08-04T11:27:35.223Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-deepmind-blog-2",
+      "status": "reject",
+      "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+      "category": "Pesquisa",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.",
+      "body": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/10-years-of-alphago/",
+      "sourcePublished": "Mon, 09 Mar 2026 13:52:36 +0000",
+      "collectedAt": "2026-08-04T11:27:35.223Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-the-verge-ai-1",
+      "status": "reject",
+      "title": "Can Reddit fend off a new wave of AI SEO spam?",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Earlier this year, a Reddit user had asked members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a produc...",
+      "body": "Earlier this year, a Reddit user had asked members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a produc... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "sourcePublished": "2026-08-04T06:00:00-04:00",
+      "collectedAt": "2026-08-04T11:27:35.261Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-the-verge-ai-2",
+      "status": "reject",
+      "title": "Europe’s AI labeling and transparency rules are now in effect",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new...",
+      "body": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "sourcePublished": "2026-08-03T13:38:45-04:00",
+      "collectedAt": "2026-08-04T11:27:35.261Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-arxiv-ai-1",
+      "status": "reject",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "category": "Produtividade",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for th...",
+      "body": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for th... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2607.28632",
+      "sourcePublished": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-04T11:27:35.573Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-04-arxiv-ai-2",
+      "status": "reject",
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "category": "Modelos",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces re...",
+      "body": "arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces re... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2607.28642",
+      "sourcePublished": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-04T11:27:35.573Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-08-03-openai-news-1",
       "status": "reject",
