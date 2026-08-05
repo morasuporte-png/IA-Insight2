@@ -1,17 +1,34 @@
 {
-  "generatedAt": "2026-08-04T11:27:35.640Z",
+  "generatedAt": "2026-08-05T11:23:45.406Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 0,
-    "held": 0,
-    "rejected": 8,
+    "reviewed": 10,
+    "approved": 3,
+    "held": 2,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-04-openai-news-1",
-      "title": "Apple is getting this wrong",
+      "id": "2026-08-05-openai-news-1",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-05T11:23:45.400Z"
+    },
+    {
+      "id": "2026-08-05-openai-news-2",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,31 +44,62 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-04T11:27:35.635Z"
+      "reviewedAt": "2026-08-05T11:23:45.401Z"
     },
     {
-      "id": "2026-08-04-openai-news-2",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-05-google-ai-blog-1",
+      "title": "The latest AI news we announced in July 2026",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
-        "source:openai.com:trusted:25",
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-04T11:27:35.636Z"
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-08-05T11:23:45.402Z"
     },
     {
-      "id": "2026-08-04-deepmind-blog-1",
-      "title": "Measuring progress toward AGI: A cognitive framework",
+      "id": "2026-08-05-google-ai-blog-2",
+      "title": "Inside our 353,000-person vibe coding course",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-08-05T11:23:45.402Z"
+    },
+    {
+      "id": "2026-08-05-deepmind-blog-1",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "score": 84,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-05T11:23:45.403Z"
+    },
+    {
+      "id": "2026-08-05-deepmind-blog-2",
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
       "score": 81,
       "decision": "reject",
       "blockers": [
@@ -67,31 +115,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-04T11:27:35.637Z"
+      "reviewedAt": "2026-08-05T11:23:45.403Z"
     },
     {
-      "id": "2026-08-04-deepmind-blog-2",
-      "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:4:antigo",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-04T11:27:35.637Z"
-    },
-    {
-      "id": "2026-08-04-the-verge-ai-1",
-      "title": "Can Reddit fend off a new wave of AI SEO spam?",
+      "id": "2026-08-05-the-verge-ai-1",
+      "title": "Google Assistant will disappear from your phone next month",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -107,31 +135,28 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-04T11:27:35.638Z"
+      "reviewedAt": "2026-08-05T11:23:45.404Z"
     },
     {
-      "id": "2026-08-04-the-verge-ai-2",
-      "title": "Europe’s AI labeling and transparency rules are now in effect",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-05-the-verge-ai-2",
+      "title": "Trump’s AI testing plan is limited and vague",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-04T11:27:35.638Z"
+      "reviewedAt": "2026-08-05T11:23:45.404Z"
     },
     {
-      "id": "2026-08-04-arxiv-ai-1",
-      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "id": "2026-08-05-arxiv-ai-1",
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -147,11 +172,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-04T11:27:35.639Z"
+      "reviewedAt": "2026-08-05T11:23:45.405Z"
     },
     {
-      "id": "2026-08-04-arxiv-ai-2",
-      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "id": "2026-08-05-arxiv-ai-2",
+      "title": "Self-Organising Digital Circuits",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -167,7 +192,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-04T11:27:35.639Z"
+      "reviewedAt": "2026-08-05T11:23:45.405Z"
     }
   ]
 }
