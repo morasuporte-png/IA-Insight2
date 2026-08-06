@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T11:23:45.339Z",
+  "generatedAt": "2026-08-06T11:26:32.681Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 10,
+    "newDrafts": 8,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,257 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-08-06-openai-news-1",
+      "status": "approved",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development...",
+      "body": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/circles",
+      "sourcePublished": "Mon, 03 Aug 2026 00:00:00 GMT",
+      "collectedAt": "2026-08-06T11:26:31.681Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 96,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-08-06-openai-news-2",
+      "status": "approved",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "body": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/hp-frontier-partnership",
+      "sourcePublished": "Sun, 28 Jun 2026 17:00:00 GMT",
+      "collectedAt": "2026-08-06T11:26:31.681Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:12:ainda atual",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-08-06-deepmind-blog-1",
+      "status": "reject",
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "3.1 Pro is designed for tasks where a simple answer isn’t enough.",
+      "body": "3.1 Pro is designed for tasks where a simple answer isn’t enough. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+      "sourcePublished": "Thu, 19 Feb 2026 16:06:14 +0000",
+      "collectedAt": "2026-08-06T11:26:32.293Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-06-deepmind-blog-2",
+      "status": "reject",
+      "title": "A new way to express yourself: Gemini can now create music",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
+      "body": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "sourcePublished": "Wed, 18 Feb 2026 16:01:38 +0000",
+      "collectedAt": "2026-08-06T11:26:32.293Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-06-the-verge-ai-1",
+      "status": "reject",
+      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegati...",
+      "body": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegati... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "sourcePublished": "2026-08-06T05:33:11-04:00",
+      "collectedAt": "2026-08-06T11:26:32.473Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "hype_flag:secret",
+        "editorial_caution:5",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-06-the-verge-ai-2",
+      "status": "reject",
+      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, a...",
+      "body": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, a... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "sourcePublished": "2026-08-05T20:25:10-04:00",
+      "collectedAt": "2026-08-06T11:26:32.473Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-06-arxiv-ai-1",
+      "status": "reject",
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "category": "Pesquisa",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "arXiv:2608.04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of intera...",
+      "body": "arXiv:2608.04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of intera... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2608.04012",
+      "sourcePublished": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-06T11:26:32.681Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-06-arxiv-ai-2",
+      "status": "reject",
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "category": "Agentes",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "arXiv:2608.04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you can...",
+      "body": "arXiv:2608.04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you can... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2608.04066",
+      "sourcePublished": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-06T11:26:32.681Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-08-05-openai-news-1",
       "status": "approved",
