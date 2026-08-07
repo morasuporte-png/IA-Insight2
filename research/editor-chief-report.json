@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T11:26:32.748Z",
+  "generatedAt": "2026-08-07T10:03:58.167Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 8,
@@ -10,103 +10,85 @@
   },
   "reviews": [
     {
-      "id": "2026-08-06-openai-news-1",
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "score": 96,
+      "id": "2026-08-07-openai-news-1",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "score": 99,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-06T11:26:32.743Z"
+      "reviewedAt": "2026-08-07T10:03:58.163Z"
     },
     {
-      "id": "2026-08-06-openai-news-2",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "id": "2026-08-07-openai-news-2",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
       "score": 93,
-      "decision": "approve",
-      "blockers": [],
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:12:ainda atual",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-06T11:26:32.744Z"
-    },
-    {
-      "id": "2026-08-06-deepmind-blog-1",
-      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:4:antigo",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-06T11:26:32.744Z"
-    },
-    {
-      "id": "2026-08-06-deepmind-blog-2",
-      "title": "A new way to express yourself: Gemini can now create music",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:4:antigo",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-06T11:26:32.745Z"
-    },
-    {
-      "id": "2026-08-06-the-verge-ai-1",
-      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "hype_flag:secret",
-        "editorial_caution:5",
+        "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-06T11:26:32.745Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-07T10:03:58.163Z"
     },
     {
-      "id": "2026-08-06-the-verge-ai-2",
-      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "id": "2026-08-07-deepmind-blog-1",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "score": 89,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-07T10:03:58.164Z"
+    },
+    {
+      "id": "2026-08-07-deepmind-blog-2",
+      "title": "Accelerating discovery in India through AI-powered science and education",
+      "score": 81,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-07T10:03:58.164Z"
+    },
+    {
+      "id": "2026-08-07-the-verge-ai-1",
+      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -122,11 +104,48 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-06T11:26:32.746Z"
+      "reviewedAt": "2026-08-07T10:03:58.165Z"
     },
     {
-      "id": "2026-08-06-arxiv-ai-1",
-      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "id": "2026-08-07-the-verge-ai-2",
+      "title": "Suno shares plans to combat spammy AI music",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-08-07T10:03:58.165Z"
+    },
+    {
+      "id": "2026-08-07-arxiv-ai-1",
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:19",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-08-07T10:03:58.166Z"
+    },
+    {
+      "id": "2026-08-07-arxiv-ai-2",
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -142,27 +161,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-06T11:26:32.747Z"
-    },
-    {
-      "id": "2026-08-06-arxiv-ai-2",
-      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-06T11:26:32.747Z"
+      "reviewedAt": "2026-08-07T10:03:58.166Z"
     }
   ]
 }
