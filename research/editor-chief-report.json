@@ -1,17 +1,34 @@
 {
-  "generatedAt": "2026-08-13T10:11:34.589Z",
+  "generatedAt": "2026-08-14T10:06:55.514Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 1,
-    "held": 1,
+    "reviewed": 9,
+    "approved": 3,
+    "held": 0,
     "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-13-openai-news-1",
-      "title": "From assistance to execution: How enterprises put AI to work",
+      "id": "2026-08-14-openai-news-1",
+      "title": "The builder’s guide to GPT‑5.6",
+      "score": 99,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:19",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-14T10:06:55.509Z"
+    },
+    {
+      "id": "2026-08-14-openai-news-2",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,68 +41,68 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-13T10:11:34.584Z"
+      "reviewedAt": "2026-08-14T10:06:55.510Z"
     },
     {
-      "id": "2026-08-13-openai-news-2",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-13T10:11:34.585Z"
-    },
-    {
-      "id": "2026-08-13-deepmind-blog-1",
-      "title": "Putting sign language AI into users’ hands",
-      "score": 92,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-13T10:11:34.586Z"
-    },
-    {
-      "id": "2026-08-13-deepmind-blog-2",
-      "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
-      "score": 84,
-      "decision": "hold",
+      "id": "2026-08-14-google-ai-blog-1",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "score": 94,
+      "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
-        "freshness:4:antigo",
+        "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-08-14T10:06:55.510Z"
+    },
+    {
+      "id": "2026-08-14-deepmind-blog-1",
+      "title": "Introducing Gemini 3.7 Flash",
+      "score": 89,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-13T10:11:34.586Z"
+      "reviewedAt": "2026-08-14T10:06:55.511Z"
     },
     {
-      "id": "2026-08-13-the-verge-ai-1",
-      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "id": "2026-08-14-deepmind-blog-2",
+      "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+      "score": 81,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-14T10:06:55.511Z"
+    },
+    {
+      "id": "2026-08-14-the-verge-ai-1",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -101,11 +118,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-13T10:11:34.587Z"
+      "reviewedAt": "2026-08-14T10:06:55.512Z"
     },
     {
-      "id": "2026-08-13-the-verge-ai-2",
-      "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
+      "id": "2026-08-14-the-verge-ai-2",
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -121,11 +138,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-13T10:11:34.588Z"
+      "reviewedAt": "2026-08-14T10:06:55.513Z"
     },
     {
-      "id": "2026-08-13-arxiv-ai-1",
-      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "id": "2026-08-14-arxiv-ai-1",
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -141,11 +158,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-13T10:11:34.588Z"
+      "reviewedAt": "2026-08-14T10:06:55.513Z"
     },
     {
-      "id": "2026-08-13-arxiv-ai-2",
-      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "id": "2026-08-14-arxiv-ai-2",
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -161,7 +178,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-13T10:11:34.588Z"
+      "reviewedAt": "2026-08-14T10:06:55.514Z"
     }
   ]
 }
