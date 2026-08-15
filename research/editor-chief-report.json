@@ -1,34 +1,17 @@
 {
-  "generatedAt": "2026-08-14T10:06:55.514Z",
+  "generatedAt": "2026-08-15T09:29:32.201Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 9,
-    "approved": 3,
-    "held": 0,
-    "rejected": 6,
+    "reviewed": 8,
+    "approved": 2,
+    "held": 1,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-14-openai-news-1",
-      "title": "The builder’s guide to GPT‑5.6",
-      "score": 99,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:19",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-14T10:06:55.509Z"
-    },
-    {
-      "id": "2026-08-14-openai-news-2",
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "id": "2026-08-15-openai-news-1",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -41,48 +24,31 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-14T10:06:55.510Z"
+      "reviewedAt": "2026-08-15T09:29:32.197Z"
     },
     {
-      "id": "2026-08-14-google-ai-blog-1",
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-08-14T10:06:55.510Z"
-    },
-    {
-      "id": "2026-08-14-deepmind-blog-1",
-      "title": "Introducing Gemini 3.7 Flash",
-      "score": 89,
+      "id": "2026-08-15-openai-news-2",
+      "title": "What building an AI-native finance function taught me",
+      "score": 93,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:15:recente",
-        "clarity:7",
+        "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-14T10:06:55.511Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-15T09:29:32.198Z"
     },
     {
-      "id": "2026-08-14-deepmind-blog-2",
-      "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+      "id": "2026-08-15-deepmind-blog-1",
+      "title": "Engineering more resilient crops for a warming climate",
       "score": 81,
       "decision": "reject",
       "blockers": [
@@ -98,11 +64,31 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-14T10:06:55.511Z"
+      "reviewedAt": "2026-08-15T09:29:32.199Z"
     },
     {
-      "id": "2026-08-14-the-verge-ai-1",
-      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "id": "2026-08-15-deepmind-blog-2",
+      "title": "AlphaFold: Five years of impact",
+      "score": 81,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-08-15T09:29:32.199Z"
+    },
+    {
+      "id": "2026-08-15-the-verge-ai-1",
+      "title": "Mark Zuckerberg has an Instagzam",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -118,31 +104,45 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-14T10:06:55.512Z"
+      "reviewedAt": "2026-08-15T09:29:32.199Z"
     },
     {
-      "id": "2026-08-14-the-verge-ai-2",
-      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-15-the-verge-ai-2",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-14T10:06:55.513Z"
+      "reviewedAt": "2026-08-15T09:29:32.200Z"
     },
     {
-      "id": "2026-08-14-arxiv-ai-1",
-      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "id": "2026-08-15-arxiv-ai-1",
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "score": 93,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-08-15T09:29:32.200Z"
+    },
+    {
+      "id": "2026-08-15-arxiv-ai-2",
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -158,27 +158,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-14T10:06:55.513Z"
-    },
-    {
-      "id": "2026-08-14-arxiv-ai-2",
-      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-14T10:06:55.514Z"
+      "reviewedAt": "2026-08-15T09:29:32.201Z"
     }
   ]
 }
