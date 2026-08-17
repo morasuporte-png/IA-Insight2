@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-16T09:30:45.889Z",
+  "generatedAt": "2026-08-17T09:46:39.911Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 6,
+    "reviewed": 9,
     "approved": 2,
     "held": 0,
-    "rejected": 4,
+    "rejected": 7,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-16-openai-news-1",
-      "title": "Putting frontier cyber models in more trusted hands",
+      "id": "2026-08-17-openai-news-1",
+      "title": "Premium seats are coming to ChatGPT Business",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,29 +24,49 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-16T09:30:45.886Z"
+      "reviewedAt": "2026-08-17T09:46:39.906Z"
     },
     {
-      "id": "2026-08-16-openai-news-2",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "score": 96,
+      "id": "2026-08-17-openai-news-2",
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-17T09:46:39.907Z"
+    },
+    {
+      "id": "2026-08-17-google-ai-blog-1",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "score": 94,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:openai.com:trusted:25",
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-16T09:30:45.886Z"
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-08-17T09:46:39.908Z"
     },
     {
-      "id": "2026-08-16-deepmind-blog-1",
-      "title": "Revealing a key protein behind heart disease",
-      "score": 81,
+      "id": "2026-08-17-deepmind-blog-1",
+      "title": "How we’re bringing AI image verification to the Gemini app",
+      "score": 78,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -56,17 +76,17 @@
         "ai_relevance:20",
         "practical_value:13",
         "freshness:4:antigo",
-        "clarity:10",
+        "clarity:7",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-16T09:30:45.887Z"
+      "reviewedAt": "2026-08-17T09:46:39.908Z"
     },
     {
-      "id": "2026-08-16-deepmind-blog-2",
-      "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
-      "score": 81,
+      "id": "2026-08-17-deepmind-blog-2",
+      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+      "score": 78,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -76,16 +96,16 @@
         "ai_relevance:20",
         "practical_value:13",
         "freshness:4:antigo",
-        "clarity:10",
+        "clarity:7",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-16T09:30:45.887Z"
+      "reviewedAt": "2026-08-17T09:46:39.908Z"
     },
     {
-      "id": "2026-08-16-the-verge-ai-1",
-      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "id": "2026-08-17-the-verge-ai-1",
+      "title": "OpenAI reportedly disbanded its preparedness team",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -101,11 +121,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-16T09:30:45.888Z"
+      "reviewedAt": "2026-08-17T09:46:39.909Z"
     },
     {
-      "id": "2026-08-16-the-verge-ai-2",
-      "title": "OpenAI is losing its second executive this week",
+      "id": "2026-08-17-the-verge-ai-2",
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -121,7 +141,47 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-16T09:30:45.888Z"
+      "reviewedAt": "2026-08-17T09:46:39.910Z"
+    },
+    {
+      "id": "2026-08-17-arxiv-ai-1",
+      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-08-17T09:46:39.910Z"
+    },
+    {
+      "id": "2026-08-17-arxiv-ai-2",
+      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-08-17T09:46:39.911Z"
     }
   ]
 }
