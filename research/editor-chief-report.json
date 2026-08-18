@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-08-17T09:46:39.911Z",
+  "generatedAt": "2026-08-18T09:37:21.424Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 9,
-    "approved": 2,
+    "reviewed": 8,
+    "approved": 1,
     "held": 0,
     "rejected": 7,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-17-openai-news-1",
-      "title": "Premium seats are coming to ChatGPT Business",
-      "score": 96,
+      "id": "2026-08-18-openai-news-1",
+      "title": "The Defender’s Window",
+      "score": 99,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-17T09:46:39.906Z"
+      "reviewedAt": "2026-08-18T09:37:21.420Z"
     },
     {
-      "id": "2026-08-17-openai-news-2",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "id": "2026-08-18-openai-news-2",
+      "title": "OpenAI joins PORTS-Pike project",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -44,28 +44,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-17T09:46:39.907Z"
+      "reviewedAt": "2026-08-18T09:37:21.421Z"
     },
     {
-      "id": "2026-08-17-google-ai-blog-1",
-      "title": "Get closer to the game with Gemini and Pixel",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-08-17T09:46:39.908Z"
-    },
-    {
-      "id": "2026-08-17-deepmind-blog-1",
-      "title": "How we’re bringing AI image verification to the Gemini app",
+      "id": "2026-08-18-deepmind-blog-1",
+      "title": "Introducing Nano Banana Pro",
       "score": 78,
       "decision": "reject",
       "blockers": [
@@ -81,11 +64,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-17T09:46:39.908Z"
+      "reviewedAt": "2026-08-18T09:37:21.421Z"
     },
     {
-      "id": "2026-08-17-deepmind-blog-2",
-      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+      "id": "2026-08-18-deepmind-blog-2",
+      "title": "Start building with Gemini 3",
       "score": 78,
       "decision": "reject",
       "blockers": [
@@ -101,11 +84,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-17T09:46:39.908Z"
+      "reviewedAt": "2026-08-18T09:37:21.421Z"
     },
     {
-      "id": "2026-08-17-the-verge-ai-1",
-      "title": "OpenAI reportedly disbanded its preparedness team",
+      "id": "2026-08-18-the-verge-ai-1",
+      "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -121,11 +104,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-17T09:46:39.909Z"
+      "reviewedAt": "2026-08-18T09:37:21.422Z"
     },
     {
-      "id": "2026-08-17-the-verge-ai-2",
-      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "id": "2026-08-18-the-verge-ai-2",
+      "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -141,11 +124,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-17T09:46:39.910Z"
+      "reviewedAt": "2026-08-18T09:37:21.423Z"
     },
     {
-      "id": "2026-08-17-arxiv-ai-1",
-      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "id": "2026-08-18-arxiv-ai-1",
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -161,11 +144,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-17T09:46:39.910Z"
+      "reviewedAt": "2026-08-18T09:37:21.423Z"
     },
     {
-      "id": "2026-08-17-arxiv-ai-2",
-      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "id": "2026-08-18-arxiv-ai-2",
+      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -181,7 +164,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-17T09:46:39.911Z"
+      "reviewedAt": "2026-08-18T09:37:21.424Z"
     }
   ]
 }
