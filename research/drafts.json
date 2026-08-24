@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T09:31:20.114Z",
+  "generatedAt": "2026-08-24T09:52:10.980Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 6,
+    "newDrafts": 8,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,262 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-08-24-openai-news-1",
+      "status": "reject",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "body": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/asana",
+      "sourcePublished": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "collectedAt": "2026-08-24T09:52:10.080Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-openai-news-2",
+      "status": "reject",
+      "title": "New policy ideas for the Intelligence Age",
+      "category": "Segurança",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelli...",
+      "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelli... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "sourcePublished": "Mon, 17 Aug 2026 03:15:00 GMT",
+      "collectedAt": "2026-08-24T09:52:10.080Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-deepmind-blog-1",
+      "status": "reject",
+      "title": "T5Gemma: A new collection of encoder-decoder Gemma models",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Introducing T5Gemma, a new collection of encoder-decoder LLMs.",
+      "body": "Introducing T5Gemma, a new collection of encoder-decoder LLMs. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/",
+      "sourcePublished": "Sat, 25 Oct 2025 18:14:00 +0000",
+      "collectedAt": "2026-08-24T09:52:10.836Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-deepmind-blog-2",
+      "status": "reject",
+      "title": "MedGemma: Our most capable open models for health AI development",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development.",
+      "body": "We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/",
+      "sourcePublished": "Sat, 25 Oct 2025 18:02:50 +0000",
+      "collectedAt": "2026-08-24T09:52:10.836Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 81,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-the-verge-ai-1",
+      "status": "reject",
+      "title": "Meta AI is getting a Mac app",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatb...",
+      "body": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatb... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "sourcePublished": "2026-08-19T13:00:00-04:00",
+      "collectedAt": "2026-08-24T09:52:10.936Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-the-verge-ai-2",
+      "status": "reject",
+      "title": "Nvidia’s new financial strategy does not compute",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to tal...",
+      "body": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to tal... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "sourcePublished": "2026-08-19T08:00:00-04:00",
+      "collectedAt": "2026-08-24T09:52:10.936Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-arxiv-ai-1",
+      "status": "reject",
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "category": "Agentes",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousa...",
+      "body": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousa... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2608.20341",
+      "sourcePublished": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-24T09:52:10.980Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-08-24-arxiv-ai-2",
+      "status": "reject",
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "category": "Agentes",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discardin...",
+      "body": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discardin... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2608.20342",
+      "sourcePublished": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "collectedAt": "2026-08-24T09:52:10.980Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-08-23-openai-news-1",
       "status": "reject",
