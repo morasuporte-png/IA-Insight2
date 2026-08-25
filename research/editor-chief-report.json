@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-24T09:52:11.056Z",
+  "generatedAt": "2026-08-25T09:39:21.015Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 0,
-    "held": 0,
-    "rejected": 8,
+    "reviewed": 7,
+    "approved": 1,
+    "held": 2,
+    "rejected": 4,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-24-openai-news-1",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "id": "2026-08-25-openai-news-1",
+      "title": "Disrupting a new covert influence campaign from Russia",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,71 +27,62 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-24T09:52:11.052Z"
+      "reviewedAt": "2026-08-25T09:39:21.010Z"
     },
     {
-      "id": "2026-08-24-openai-news-2",
-      "title": "New policy ideas for the Intelligence Age",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-25-openai-news-2",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-24T09:52:11.053Z"
+      "reviewedAt": "2026-08-25T09:39:21.011Z"
     },
     {
-      "id": "2026-08-24-deepmind-blog-1",
-      "title": "T5Gemma: A new collection of encoder-decoder Gemma models",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-25-deepmind-blog-1",
+      "title": "Introducing Gemma 3n: The developer guide",
+      "score": 84,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:4:antigo",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-24T09:52:11.053Z"
+      "reviewedAt": "2026-08-25T09:39:21.012Z"
     },
     {
-      "id": "2026-08-24-deepmind-blog-2",
-      "title": "MedGemma: Our most capable open models for health AI development",
-      "score": 81,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-25-deepmind-blog-2",
+      "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
+      "score": 84,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:4:antigo",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-24T09:52:11.055Z"
+      "reviewedAt": "2026-08-25T09:39:21.013Z"
     },
     {
-      "id": "2026-08-24-the-verge-ai-1",
-      "title": "Meta AI is getting a Mac app",
+      "id": "2026-08-25-the-verge-ai-1",
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -107,31 +98,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-24T09:52:11.055Z"
+      "reviewedAt": "2026-08-25T09:39:21.013Z"
     },
     {
-      "id": "2026-08-24-the-verge-ai-2",
-      "title": "Nvidia’s new financial strategy does not compute",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-24T09:52:11.055Z"
-    },
-    {
-      "id": "2026-08-24-arxiv-ai-1",
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "id": "2026-08-25-arxiv-ai-1",
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -147,11 +118,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-24T09:52:11.056Z"
+      "reviewedAt": "2026-08-25T09:39:21.013Z"
     },
     {
-      "id": "2026-08-24-arxiv-ai-2",
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "id": "2026-08-25-arxiv-ai-2",
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -167,7 +138,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-24T09:52:11.056Z"
+      "reviewedAt": "2026-08-25T09:39:21.014Z"
     }
   ]
 }
