@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-27T19:41:21.789Z",
+  "generatedAt": "2026-08-28T20:46:15.094Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 9,
-    "approved": 3,
-    "held": 0,
+    "reviewed": 8,
+    "approved": 1,
+    "held": 1,
     "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-08-27-openai-news-1",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "id": "2026-08-28-openai-news-1",
+      "title": "Supporting Thailand’s next generation of AI startups",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,46 +27,29 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-27T19:41:21.782Z"
+      "reviewedAt": "2026-08-28T20:46:15.088Z"
     },
     {
-      "id": "2026-08-27-openai-news-2",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "score": 99,
+      "id": "2026-08-28-openai-news-2",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "score": 96,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:19",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-08-27T19:41:21.783Z"
-    },
-    {
-      "id": "2026-08-27-google-ai-blog-1",
-      "title": "3 new ways to plan and book travel in Search",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-08-27T19:41:21.784Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-08-28T20:46:15.089Z"
     },
     {
-      "id": "2026-08-27-deepmind-blog-1",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "score": 89,
+      "id": "2026-08-28-deepmind-blog-1",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "score": 92,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -76,36 +59,33 @@
         "ai_relevance:20",
         "practical_value:13",
         "freshness:15:recente",
-        "clarity:7",
+        "clarity:10",
         "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-27T19:41:21.785Z"
+      "reviewedAt": "2026-08-28T20:46:15.090Z"
     },
     {
-      "id": "2026-08-27-deepmind-blog-2",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-08-28-deepmind-blog-2",
+      "title": "Exploring the context of online images with Backstory",
+      "score": 84,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "practical_value:16",
+        "freshness:4:antigo",
+        "clarity:10",
+        "editorial_caution:10"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-08-27T19:41:21.785Z"
+      "reviewedAt": "2026-08-28T20:46:15.090Z"
     },
     {
-      "id": "2026-08-27-the-verge-ai-1",
-      "title": "Google’s AI note-taking app now allows you to interact with books",
+      "id": "2026-08-28-the-verge-ai-1",
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -121,12 +101,12 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-27T19:41:21.786Z"
+      "reviewedAt": "2026-08-28T20:46:15.091Z"
     },
     {
-      "id": "2026-08-27-the-verge-ai-2",
-      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
-      "score": 81,
+      "id": "2026-08-28-the-verge-ai-2",
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "score": 86,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
@@ -137,33 +117,15 @@
         "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "hype_flag:ultimate",
-        "editorial_caution:5",
+        "editorial_caution:10",
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-08-27T19:41:21.787Z"
+      "reviewedAt": "2026-08-28T20:46:15.091Z"
     },
     {
-      "id": "2026-08-27-arxiv-ai-1",
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-27T19:41:21.788Z"
-    },
-    {
-      "id": "2026-08-27-arxiv-ai-2",
-      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "id": "2026-08-28-arxiv-ai-1",
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -179,7 +141,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-08-27T19:41:21.788Z"
+      "reviewedAt": "2026-08-28T20:46:15.093Z"
+    },
+    {
+      "id": "2026-08-28-arxiv-ai-2",
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-08-28T20:46:15.093Z"
     }
   ]
 }
