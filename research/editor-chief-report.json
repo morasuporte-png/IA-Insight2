@@ -1,85 +1,91 @@
 {
-  "generatedAt": "2026-09-02T13:25:42.639Z",
+  "generatedAt": "2026-09-03T13:24:11.811Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 9,
-    "approved": 4,
-    "held": 0,
-    "rejected": 5,
+    "approved": 2,
+    "held": 1,
+    "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-09-02-openai-news-1",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "score": 100,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-09-03-openai-news-1",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:20",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-02T13:25:42.632Z"
+      "reviewedAt": "2026-09-03T13:24:11.805Z"
     },
     {
-      "id": "2026-09-02-openai-news-2",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-09-03-openai-news-2",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-02T13:25:42.633Z"
+      "reviewedAt": "2026-09-03T13:24:11.805Z"
     },
     {
-      "id": "2026-09-02-google-ai-blog-1",
-      "title": "The latest AI news we announced in August 2026",
-      "score": 94,
+      "id": "2026-09-03-google-ai-blog-1",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "score": 97,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-02T13:25:42.634Z"
+      "reviewedAt": "2026-09-03T13:24:11.807Z"
     },
     {
-      "id": "2026-09-02-google-ai-blog-2",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "score": 94,
+      "id": "2026-09-03-deepmind-blog-1",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "score": 92,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:deepmind.google:trusted:24",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
-        "clarity:10",
+        "clarity:7",
         "editorial_caution:10"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-02T13:25:42.635Z"
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-09-03T13:24:11.807Z"
     },
     {
-      "id": "2026-09-02-deepmind-blog-1",
-      "title": "Introducing agentic video understanding with Gemini",
+      "id": "2026-09-03-deepmind-blog-2",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "score": 89,
       "decision": "reject",
       "blockers": [
@@ -95,11 +101,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-09-02T13:25:42.635Z"
+      "reviewedAt": "2026-09-03T13:24:11.808Z"
     },
     {
-      "id": "2026-09-02-the-verge-ai-1",
-      "title": "Google needs Hollywood more than the studios need AI",
+      "id": "2026-09-03-the-verge-ai-1",
+      "title": "Nvidia is buying Hugging Face for almost $13 billion",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -115,31 +121,28 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-02T13:25:42.637Z"
+      "reviewedAt": "2026-09-03T13:24:11.809Z"
     },
     {
-      "id": "2026-09-02-the-verge-ai-2",
-      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-09-03-the-verge-ai-2",
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-02T13:25:42.637Z"
+      "reviewedAt": "2026-09-03T13:24:11.810Z"
     },
     {
-      "id": "2026-09-02-arxiv-ai-1",
-      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "id": "2026-09-03-arxiv-ai-1",
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -155,11 +158,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-02T13:25:42.638Z"
+      "reviewedAt": "2026-09-03T13:24:11.810Z"
     },
     {
-      "id": "2026-09-02-arxiv-ai-2",
-      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "id": "2026-09-03-arxiv-ai-2",
+      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -175,7 +178,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-02T13:25:42.638Z"
+      "reviewedAt": "2026-09-03T13:24:11.810Z"
     }
   ]
 }
