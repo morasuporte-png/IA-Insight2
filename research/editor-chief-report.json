@@ -1,51 +1,57 @@
 {
-  "generatedAt": "2026-09-06T12:43:35.720Z",
+  "generatedAt": "2026-09-07T14:55:12.789Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 4,
-    "approved": 2,
+    "reviewed": 6,
+    "approved": 0,
     "held": 0,
-    "rejected": 2,
+    "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-09-06-openai-news-1",
-      "title": "Safety overview: GPT-6 Astra",
-      "score": 99,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-09-07-openai-news-1",
+      "title": "Supporting independent journalism in Ukraine",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:19",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-06T12:43:35.717Z"
+      "reviewedAt": "2026-09-07T14:55:12.784Z"
     },
     {
-      "id": "2026-09-06-openai-news-2",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-09-07-openai-news-2",
+      "title": "An Alien Mind",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-06T12:43:35.718Z"
+      "reviewedAt": "2026-09-07T14:55:12.785Z"
     },
     {
-      "id": "2026-09-06-the-verge-ai-1",
-      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "id": "2026-09-07-the-verge-ai-1",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -61,11 +67,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-06T12:43:35.719Z"
+      "reviewedAt": "2026-09-07T14:55:12.786Z"
     },
     {
-      "id": "2026-09-06-the-verge-ai-2",
-      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "id": "2026-09-07-the-verge-ai-2",
+      "title": "Instagram’s AI detection is a mess (again)",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -81,7 +87,47 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-06T12:43:35.719Z"
+      "reviewedAt": "2026-09-07T14:55:12.786Z"
+    },
+    {
+      "id": "2026-09-07-arxiv-ai-1",
+      "title": "EXAONE Forecast for Finance",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-09-07T14:55:12.788Z"
+    },
+    {
+      "id": "2026-09-07-arxiv-ai-2",
+      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-09-07T14:55:12.788Z"
     }
   ]
 }
