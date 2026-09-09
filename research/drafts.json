@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T13:25:05.053Z",
+  "generatedAt": "2026-09-09T13:35:14.486Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 4,
+    "newDrafts": 5,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,166 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-09-09-openai-news-1",
+      "status": "reject",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "body": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/codex-quantum-computing-experiments",
+      "sourcePublished": "Tue, 08 Sep 2026 17:00:00 GMT",
+      "collectedAt": "2026-09-09T13:35:12.264Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-09-openai-news-2",
+      "status": "reject",
+      "title": "Introducing ChatGPT Images 2.5",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "sourcePublished": "Tue, 08 Sep 2026 11:30:00 GMT",
+      "collectedAt": "2026-09-09T13:35:12.264Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-09-deepmind-blog-1",
+      "status": "reject",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "category": "Pesquisa",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "body": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "sourcePublished": "Tue, 08 Sep 2026 14:00:15 +0000",
+      "collectedAt": "2026-09-09T13:35:14.280Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 92,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-09-the-verge-ai-1",
+      "status": "reject",
+      "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The feature is only available...",
+      "body": "Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The feature is only available... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+      "sourcePublished": "2026-09-09T09:00:00-04:00",
+      "collectedAt": "2026-09-09T13:35:14.370Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-09-the-verge-ai-2",
+      "status": "reject",
+      "title": "Students who use AI generally score worse at school",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational repor...",
+      "body": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational repor... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "sourcePublished": "2026-09-09T08:05:01-04:00",
+      "collectedAt": "2026-09-09T13:35:14.370Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-09-08-openai-news-1",
       "status": "approved",
