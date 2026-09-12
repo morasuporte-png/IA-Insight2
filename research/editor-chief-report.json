@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-11T13:23:30.476Z",
+  "generatedAt": "2026-09-12T12:44:12.261Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 7,
-    "approved": 2,
-    "held": 1,
-    "rejected": 4,
+    "reviewed": 6,
+    "approved": 1,
+    "held": 0,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-09-11-openai-news-1",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "id": "2026-09-12-openai-news-1",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,65 +27,28 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-11T13:23:30.471Z"
+      "reviewedAt": "2026-09-12T12:44:12.257Z"
     },
     {
-      "id": "2026-09-11-openai-news-2",
-      "title": "Now everyone can put data to work",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-11T13:23:30.472Z"
-    },
-    {
-      "id": "2026-09-11-google-ai-blog-1",
-      "title": "3 ways to prep for your next big race with Search",
-      "score": 94,
+      "id": "2026-09-12-openai-news-2",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "score": 96,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-11T13:23:30.473Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-09-12T12:44:12.259Z"
     },
     {
-      "id": "2026-09-11-the-verge-ai-1",
-      "title": "Slack can now vibe-code interactive charts and reports inside chats",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-11T13:23:30.474Z"
-    },
-    {
-      "id": "2026-09-11-the-verge-ai-2",
-      "title": "Schools are catching on to Big Tech’s playbook",
+      "id": "2026-09-12-the-verge-ai-1",
+      "title": "OpenAI just wants to win",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -101,28 +64,31 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-11T13:23:30.474Z"
+      "reviewedAt": "2026-09-12T12:44:12.259Z"
     },
     {
-      "id": "2026-09-11-arxiv-ai-1",
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-09-12-the-verge-ai-2",
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
-        "source:arxiv.org:trusted:22",
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-11T13:23:30.475Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-09-12T12:44:12.260Z"
     },
     {
-      "id": "2026-09-11-arxiv-ai-2",
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "id": "2026-09-12-arxiv-ai-1",
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -138,7 +104,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-11T13:23:30.475Z"
+      "reviewedAt": "2026-09-12T12:44:12.260Z"
+    },
+    {
+      "id": "2026-09-12-arxiv-ai-2",
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-09-12T12:44:12.261Z"
     }
   ]
 }
