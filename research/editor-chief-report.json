@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:11:33.923Z",
+  "generatedAt": "2026-09-18T13:30:12.187Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 8,
@@ -10,8 +10,8 @@
   },
   "reviews": [
     {
-      "id": "2026-09-17-openai-news-1",
-      "title": "Helping older adults use AI in everyday life",
+      "id": "2026-09-18-openai-news-1",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,11 +27,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-17T14:11:33.919Z"
+      "reviewedAt": "2026-09-18T13:30:12.181Z"
     },
     {
-      "id": "2026-09-17-openai-news-2",
-      "title": "How to connect AI usage to business value",
+      "id": "2026-09-18-openai-news-2",
+      "title": "Introducing Astra for Law",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -44,11 +44,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-17T14:11:33.920Z"
+      "reviewedAt": "2026-09-18T13:30:12.183Z"
     },
     {
-      "id": "2026-09-17-google-ai-blog-1",
-      "title": "AI for everyone in every language",
+      "id": "2026-09-18-google-ai-blog-1",
+      "title": "Co-creating the future of fashion with Google",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -61,11 +61,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-17T14:11:33.921Z"
+      "reviewedAt": "2026-09-18T13:30:12.183Z"
     },
     {
-      "id": "2026-09-17-google-ai-blog-2",
-      "title": "DevFest is back",
+      "id": "2026-09-18-google-ai-blog-2",
+      "title": "Making global data easier to explore",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -78,11 +78,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-17T14:11:33.921Z"
+      "reviewedAt": "2026-09-18T13:30:12.184Z"
     },
     {
-      "id": "2026-09-17-the-verge-ai-1",
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "id": "2026-09-18-the-verge-ai-1",
+      "title": "Flash floods can strike without warning — this new technology could change that",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -98,11 +98,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-17T14:11:33.921Z"
+      "reviewedAt": "2026-09-18T13:30:12.184Z"
     },
     {
-      "id": "2026-09-17-the-verge-ai-2",
-      "title": "AI is feared globally as the destroyer of jobs",
+      "id": "2026-09-18-the-verge-ai-2",
+      "title": "The AI Superintelligence Slowdown",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -118,11 +118,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-17T14:11:33.922Z"
+      "reviewedAt": "2026-09-18T13:30:12.185Z"
     },
     {
-      "id": "2026-09-17-arxiv-ai-1",
-      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "id": "2026-09-18-arxiv-ai-1",
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -138,11 +138,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-17T14:11:33.922Z"
+      "reviewedAt": "2026-09-18T13:30:12.185Z"
     },
     {
-      "id": "2026-09-17-arxiv-ai-2",
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "id": "2026-09-18-arxiv-ai-2",
+      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -158,7 +158,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-17T14:11:33.922Z"
+      "reviewedAt": "2026-09-18T13:30:12.186Z"
     }
   ]
 }
