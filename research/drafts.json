@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T13:30:12.112Z",
+  "generatedAt": "2026-09-19T12:58:55.631Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 8,
+    "newDrafts": 5,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,160 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-09-19-openai-news-1",
+      "status": "approved",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "category": "Segurança",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "body": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "sourcePublished": "Fri, 18 Sep 2026 12:00:00 GMT",
+      "collectedAt": "2026-09-19T12:58:54.876Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 96,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-09-19-openai-news-2",
+      "status": "reject",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "body": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/hex-gpt-6-astra",
+      "sourcePublished": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "collectedAt": "2026-09-19T12:58:54.876Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-19-google-ai-blog-1",
+      "status": "approved",
+      "title": "New experts join Google’s AI & Economy team",
+      "category": "Custos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\">We are expanding our...",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\">We are expanding our... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "sourcePublished": "Fri, 18 Sep 2026 14:00:00 +0000",
+      "collectedAt": "2026-09-19T12:58:55.199Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 94,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-09-19-the-verge-ai-1",
+      "status": "reject",
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation war...",
+      "body": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation war... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "sourcePublished": "2026-09-18T17:07:24-04:00",
+      "collectedAt": "2026-09-19T12:58:55.564Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-19-the-verge-ai-2",
+      "status": "reject",
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data cente...",
+      "body": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data cente... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+      "sourcePublished": "2026-09-18T14:29:17-04:00",
+      "collectedAt": "2026-09-19T12:58:55.564Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-09-18-openai-news-1",
       "status": "reject",

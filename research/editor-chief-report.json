@@ -1,17 +1,34 @@
 {
-  "generatedAt": "2026-09-18T13:30:12.187Z",
+  "generatedAt": "2026-09-19T12:58:55.704Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 3,
+    "reviewed": 5,
+    "approved": 2,
     "held": 0,
-    "rejected": 5,
+    "rejected": 3,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-09-18-openai-news-1",
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "id": "2026-09-19-openai-news-1",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-09-19T12:58:55.700Z"
+    },
+    {
+      "id": "2026-09-19-openai-news-2",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,28 +44,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-18T13:30:12.181Z"
+      "reviewedAt": "2026-09-19T12:58:55.702Z"
     },
     {
-      "id": "2026-09-18-openai-news-2",
-      "title": "Introducing Astra for Law",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-18T13:30:12.183Z"
-    },
-    {
-      "id": "2026-09-18-google-ai-blog-1",
-      "title": "Co-creating the future of fashion with Google",
+      "id": "2026-09-19-google-ai-blog-1",
+      "title": "New experts join Google’s AI & Economy team",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -61,28 +61,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-18T13:30:12.183Z"
+      "reviewedAt": "2026-09-19T12:58:55.703Z"
     },
     {
-      "id": "2026-09-18-google-ai-blog-2",
-      "title": "Making global data easier to explore",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-18T13:30:12.184Z"
-    },
-    {
-      "id": "2026-09-18-the-verge-ai-1",
-      "title": "Flash floods can strike without warning — this new technology could change that",
+      "id": "2026-09-19-the-verge-ai-1",
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -98,11 +81,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-18T13:30:12.184Z"
+      "reviewedAt": "2026-09-19T12:58:55.703Z"
     },
     {
-      "id": "2026-09-18-the-verge-ai-2",
-      "title": "The AI Superintelligence Slowdown",
+      "id": "2026-09-19-the-verge-ai-2",
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -118,47 +101,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-18T13:30:12.185Z"
-    },
-    {
-      "id": "2026-09-18-arxiv-ai-1",
-      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-18T13:30:12.185Z"
-    },
-    {
-      "id": "2026-09-18-arxiv-ai-2",
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-18T13:30:12.186Z"
+      "reviewedAt": "2026-09-19T12:58:55.704Z"
     }
   ]
 }
