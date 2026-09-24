@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-23T14:08:44.644Z",
+  "generatedAt": "2026-09-24T14:06:43.140Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 6,
-    "approved": 0,
-    "held": 0,
-    "rejected": 6,
+    "reviewed": 9,
+    "approved": 3,
+    "held": 1,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-09-23-openai-news-1",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "id": "2026-09-24-openai-news-1",
+      "title": "Two years of OpenAI Academy",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,31 +27,85 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-23T14:08:44.640Z"
+      "reviewedAt": "2026-09-24T14:06:43.135Z"
     },
     {
-      "id": "2026-09-23-openai-news-2",
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-09-24-openai-news-2",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "score": 99,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-23T14:08:44.642Z"
+      "reviewedAt": "2026-09-24T14:06:43.137Z"
     },
     {
-      "id": "2026-09-23-the-verge-ai-1",
-      "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "id": "2026-09-24-google-ai-blog-1",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-09-24T14:06:43.137Z"
+    },
+    {
+      "id": "2026-09-24-deepmind-blog-1",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "score": 92,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-09-24T14:06:43.138Z"
+    },
+    {
+      "id": "2026-09-24-deepmind-blog-2",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "score": 89,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-09-24T14:06:43.138Z"
+    },
+    {
+      "id": "2026-09-24-the-verge-ai-1",
+      "title": "OpenAI agents hacked an Australian government website in search for data",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -67,31 +121,45 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-23T14:08:44.642Z"
+      "reviewedAt": "2026-09-24T14:06:43.138Z"
     },
     {
-      "id": "2026-09-23-the-verge-ai-2",
-      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-09-24-the-verge-ai-2",
+      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-23T14:08:44.642Z"
+      "reviewedAt": "2026-09-24T14:06:43.139Z"
     },
     {
-      "id": "2026-09-23-arxiv-ai-1",
-      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "id": "2026-09-24-arxiv-ai-1",
+      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+      "score": 93,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-09-24T14:06:43.139Z"
+    },
+    {
+      "id": "2026-09-24-arxiv-ai-2",
+      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -107,27 +175,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-23T14:08:44.643Z"
-    },
-    {
-      "id": "2026-09-23-arxiv-ai-2",
-      "title": "An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-23T14:08:44.643Z"
+      "reviewedAt": "2026-09-24T14:06:43.139Z"
     }
   ]
 }
