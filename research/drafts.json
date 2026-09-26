@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T14:29:57.029Z",
+  "generatedAt": "2026-09-26T13:40:42.950Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 7,
+    "newDrafts": 4,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,131 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-09-26-openai-news-1",
+      "status": "reject",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "body": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/proaction",
+      "sourcePublished": "Fri, 25 Sep 2026 19:00:00 GMT",
+      "collectedAt": "2026-09-26T13:40:41.888Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-26-openai-news-2",
+      "status": "approved",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "body": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/ringg",
+      "sourcePublished": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "collectedAt": "2026-09-26T13:40:41.888Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 96,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-09-26-the-verge-ai-1",
+      "status": "reject",
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating...",
+      "body": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "sourcePublished": "2026-09-25T12:49:53-04:00",
+      "collectedAt": "2026-09-26T13:40:42.715Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-09-26-the-verge-ai-2",
+      "status": "reject",
+      "title": "Sony and UMG are suing Suno again",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because i...",
+      "body": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because i... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+      "sourcePublished": "2026-09-25T11:51:56-04:00",
+      "collectedAt": "2026-09-26T13:40:42.715Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-09-25-openai-news-1",
       "status": "reject",
