@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:32:02.466Z",
+  "generatedAt": "2026-09-30T15:45:07.985Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 7,
@@ -10,28 +10,8 @@
   },
   "reviews": [
     {
-      "id": "2026-09-29-openai-news-1",
-      "title": "How we will do better for Australia",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-29T15:32:02.459Z"
-    },
-    {
-      "id": "2026-09-29-openai-news-2",
-      "title": "Towards safety cases for frontier AI training",
+      "id": "2026-09-30-openai-news-1",
+      "title": "Helping small businesses put AI to work",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -44,28 +24,48 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-09-29T15:32:02.460Z"
+      "reviewedAt": "2026-09-30T15:45:07.982Z"
     },
     {
-      "id": "2026-09-29-google-ai-blog-1",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "score": 94,
+      "id": "2026-09-30-openai-news-2",
+      "title": "DevDay 2026 Recap",
+      "score": 100,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:20",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-09-29T15:32:02.461Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-09-30T15:45:07.983Z"
     },
     {
-      "id": "2026-09-29-the-verge-ai-1",
-      "title": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger",
+      "id": "2026-09-30-deepmind-blog-1",
+      "title": "Introducing SynthID Bio",
+      "score": 92,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-09-30T15:45:07.983Z"
+    },
+    {
+      "id": "2026-09-30-the-verge-ai-1",
+      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -81,11 +81,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-29T15:32:02.462Z"
+      "reviewedAt": "2026-09-30T15:45:07.983Z"
     },
     {
-      "id": "2026-09-29-the-verge-ai-2",
-      "title": "Will Chinese AI companies slow down? A top House Democrat wants answers",
+      "id": "2026-09-30-the-verge-ai-2",
+      "title": "Google reportedly tests paying publishers for AI search results",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -101,11 +101,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-09-29T15:32:02.463Z"
+      "reviewedAt": "2026-09-30T15:45:07.984Z"
     },
     {
-      "id": "2026-09-29-arxiv-ai-1",
-      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "id": "2026-09-30-arxiv-ai-1",
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -121,11 +121,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-29T15:32:02.464Z"
+      "reviewedAt": "2026-09-30T15:45:07.984Z"
     },
     {
-      "id": "2026-09-29-arxiv-ai-2",
-      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "id": "2026-09-30-arxiv-ai-2",
+      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -141,7 +141,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-09-29T15:32:02.464Z"
+      "reviewedAt": "2026-09-30T15:45:07.984Z"
     }
   ]
 }
