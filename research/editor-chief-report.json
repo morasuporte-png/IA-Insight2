@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-01T16:10:25.838Z",
+  "generatedAt": "2026-10-02T15:34:10.864Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 7,
-    "approved": 1,
+    "approved": 2,
     "held": 0,
-    "rejected": 6,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-10-01-openai-news-1",
-      "title": "Disrupting a coordinated model-distillation campaign",
+      "id": "2026-10-02-openai-news-1",
+      "title": "The eternal complement",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,48 +27,45 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-01T16:10:25.835Z"
+      "reviewedAt": "2026-10-02T15:34:10.859Z"
     },
     {
-      "id": "2026-10-01-openai-news-2",
-      "title": "Introducing GPT-6.1 Sol",
-      "score": 96,
+      "id": "2026-10-02-openai-news-2",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "score": 99,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:19",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-10-02T15:34:10.860Z"
+    },
+    {
+      "id": "2026-10-02-google-ai-blog-1",
+      "title": "The latest AI news we announced in September 2026",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-01T16:10:25.836Z"
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-10-02T15:34:10.861Z"
     },
     {
-      "id": "2026-10-01-deepmind-blog-1",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-10-01T16:10:25.836Z"
-    },
-    {
-      "id": "2026-10-01-the-verge-ai-1",
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "id": "2026-10-02-the-verge-ai-1",
+      "title": "AI hallucinations are making entitled customers even worse",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -84,11 +81,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-01T16:10:25.837Z"
+      "reviewedAt": "2026-10-02T15:34:10.861Z"
     },
     {
-      "id": "2026-10-01-the-verge-ai-2",
-      "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+      "id": "2026-10-02-the-verge-ai-2",
+      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -104,11 +101,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-01T16:10:25.837Z"
+      "reviewedAt": "2026-10-02T15:34:10.862Z"
     },
     {
-      "id": "2026-10-01-arxiv-ai-1",
-      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "id": "2026-10-02-arxiv-ai-1",
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -124,11 +121,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-01T16:10:25.837Z"
+      "reviewedAt": "2026-10-02T15:34:10.862Z"
     },
     {
-      "id": "2026-10-01-arxiv-ai-2",
-      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "id": "2026-10-02-arxiv-ai-2",
+      "title": "When Do Causal World Models Help Modular LLM Agents",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -144,7 +141,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-01T16:10:25.837Z"
+      "reviewedAt": "2026-10-02T15:34:10.863Z"
     }
   ]
 }
