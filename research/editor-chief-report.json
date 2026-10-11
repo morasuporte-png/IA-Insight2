@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T15:07:35.532Z",
+  "generatedAt": "2026-10-11T15:27:33.449Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 4,
@@ -10,8 +10,8 @@
   },
   "reviews": [
     {
-      "id": "2026-10-10-openai-news-1",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "id": "2026-10-11-openai-news-1",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,11 +24,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-10T15:07:35.530Z"
+      "reviewedAt": "2026-10-11T15:27:33.448Z"
     },
     {
-      "id": "2026-10-10-openai-news-2",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "id": "2026-10-11-openai-news-2",
+      "title": "GPT-6 and Intelligent UI for everyone",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -44,11 +44,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-10T15:07:35.530Z"
+      "reviewedAt": "2026-10-11T15:27:33.448Z"
     },
     {
-      "id": "2026-10-10-the-verge-ai-1",
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "id": "2026-10-11-the-verge-ai-1",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -64,11 +64,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-10T15:07:35.531Z"
+      "reviewedAt": "2026-10-11T15:27:33.449Z"
     },
     {
-      "id": "2026-10-10-the-verge-ai-2",
-      "title": "AI agent makers are promising privacy — will they deliver?",
+      "id": "2026-10-11-the-verge-ai-2",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -84,7 +84,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-10T15:07:35.531Z"
+      "reviewedAt": "2026-10-11T15:27:33.449Z"
     }
   ]
 }
