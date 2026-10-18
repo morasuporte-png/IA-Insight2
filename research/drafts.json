@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:47:44.134Z",
+  "generatedAt": "2026-10-18T13:05:13.340Z",
   "status": "editor-chief-reviewed",
   "summary": {
     "newDrafts": 4,
@@ -13,6 +13,132 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-10-18-openai-news-1",
+      "status": "approved",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "body": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/benefit-street-partners",
+      "sourcePublished": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "collectedAt": "2026-10-18T13:05:12.506Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 96,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-10-18-openai-news-2",
+      "status": "reject",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "body": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/sentinelone",
+      "sourcePublished": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "collectedAt": "2026-10-18T13:05:12.506Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "unsafe_or_high_risk",
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-10-18-the-verge-ai-1",
+      "status": "reject",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to tra...",
+      "body": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to tra... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "sourcePublished": "2026-10-17T11:04:36-04:00",
+      "collectedAt": "2026-10-18T13:05:13.114Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-10-18-the-verge-ai-2",
+      "status": "reject",
+      "title": "Websites are closing their doors to AI agents",
+      "category": "Agentes",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behal...",
+      "body": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behal... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "sourcePublished": "2026-10-17T09:00:00-04:00",
+      "collectedAt": "2026-10-18T13:05:13.114Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-10-17-openai-news-1",
       "status": "reject",
