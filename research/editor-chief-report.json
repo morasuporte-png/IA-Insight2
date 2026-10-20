@@ -1,51 +1,57 @@
 {
-  "generatedAt": "2026-10-19T16:19:11.726Z",
+  "generatedAt": "2026-10-20T14:11:24.668Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 6,
-    "approved": 2,
-    "held": 1,
-    "rejected": 3,
+    "reviewed": 4,
+    "approved": 0,
+    "held": 0,
+    "rejected": 4,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-10-19-openai-news-1",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-20-openai-news-1",
+      "title": "Advancing coding in low‑resource programming languages",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-19T16:19:11.723Z"
+      "reviewedAt": "2026-10-20T14:11:24.666Z"
     },
     {
-      "id": "2026-10-19-openai-news-2",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-20-openai-news-2",
+      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
+        "practical_value:13",
+        "freshness:12:ainda atual",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-19T16:19:11.724Z"
+      "reviewedAt": "2026-10-20T14:11:24.667Z"
     },
     {
-      "id": "2026-10-19-the-verge-ai-1",
-      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "id": "2026-10-20-the-verge-ai-1",
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -61,64 +67,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-19T16:19:11.724Z"
+      "reviewedAt": "2026-10-20T14:11:24.667Z"
     },
     {
-      "id": "2026-10-19-the-verge-ai-2",
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
+      "id": "2026-10-20-the-verge-ai-2",
+      "title": "The fossil fuel comeback is here",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:theverge.com:trusted:18",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-19T16:19:11.724Z"
-    },
-    {
-      "id": "2026-10-19-arxiv-ai-1",
-      "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-19T16:19:11.725Z"
-    },
-    {
-      "id": "2026-10-19-arxiv-ai-2",
-      "title": "Rethinking User Encoders: Routing Diffusion States for Scenario-Adaptive User Representation",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-19T16:19:11.725Z"
+      "reviewedAt": "2026-10-20T14:11:24.668Z"
     }
   ]
 }
