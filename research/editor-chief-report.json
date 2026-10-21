@@ -1,24 +1,75 @@
 {
-  "generatedAt": "2026-10-20T14:11:24.668Z",
+  "generatedAt": "2026-10-21T14:23:56.708Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 4,
-    "approved": 0,
+    "reviewed": 7,
+    "approved": 4,
     "held": 0,
-    "rejected": 4,
+    "rejected": 3,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-10-20-openai-news-1",
-      "title": "Advancing coding in low‑resource programming languages",
-      "score": 93,
+      "id": "2026-10-21-openai-news-1",
+      "title": "OpenAI models are coming to Google Cloud",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-10-21T14:23:56.703Z"
+    },
+    {
+      "id": "2026-10-21-openai-news-2",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-10-21T14:23:56.704Z"
+    },
+    {
+      "id": "2026-10-21-google-ai-blog-1",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-10-21T14:23:56.705Z"
+    },
+    {
+      "id": "2026-10-21-the-verge-ai-1",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "score": 86,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:openai.com:trusted:25",
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:15:recente",
@@ -26,39 +77,39 @@
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-20T14:11:24.666Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-10-21T14:23:56.705Z"
     },
     {
-      "id": "2026-10-20-openai-news-2",
-      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "id": "2026-10-21-the-verge-ai-2",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-10-21T14:23:56.706Z"
+    },
+    {
+      "id": "2026-10-21-arxiv-ai-1",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
       "score": 90,
       "decision": "reject",
       "blockers": [
         "low_practical_value"
       ],
       "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:12:ainda atual",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-20T14:11:24.667Z"
-    },
-    {
-      "id": "2026-10-20-the-verge-ai-1",
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
+        "source:arxiv.org:trusted:22",
         "ai_relevance:20",
         "practical_value:13",
         "freshness:15:recente",
@@ -66,28 +117,25 @@
         "editorial_caution:10",
         "low_practical_signal"
       ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-20T14:11:24.667Z"
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-10-21T14:23:56.706Z"
     },
     {
-      "id": "2026-10-20-the-verge-ai-2",
-      "title": "The fossil fuel comeback is here",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-10-21-arxiv-ai-2",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "score": 93,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
-        "source:theverge.com:trusted:18",
+        "source:arxiv.org:trusted:22",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-20T14:11:24.668Z"
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-10-21T14:23:56.707Z"
     }
   ]
 }
