@@ -1,68 +1,57 @@
 {
-  "generatedAt": "2026-10-21T14:23:56.708Z",
+  "generatedAt": "2026-10-22T14:25:38.087Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 7,
-    "approved": 4,
+    "reviewed": 6,
+    "approved": 0,
     "held": 0,
-    "rejected": 3,
+    "rejected": 6,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-10-21-openai-news-1",
-      "title": "OpenAI models are coming to Google Cloud",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-22-openai-news-1",
+      "title": "What FDE means at OpenAI",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
+        "clarity:7",
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-21T14:23:56.703Z"
+      "reviewedAt": "2026-10-22T14:25:38.085Z"
     },
     {
-      "id": "2026-10-21-openai-news-2",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-22-openai-news-2",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-21T14:23:56.704Z"
+      "reviewedAt": "2026-10-22T14:25:38.085Z"
     },
     {
-      "id": "2026-10-21-google-ai-blog-1",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:blog.google:trusted:23",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-10-21T14:23:56.705Z"
-    },
-    {
-      "id": "2026-10-21-the-verge-ai-1",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "id": "2026-10-22-the-verge-ai-1",
+      "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -78,11 +67,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-21T14:23:56.705Z"
+      "reviewedAt": "2026-10-22T14:25:38.086Z"
     },
     {
-      "id": "2026-10-21-the-verge-ai-2",
-      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "id": "2026-10-22-the-verge-ai-2",
+      "title": "1Password lets AI agents use your passwords without seeing them",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -98,11 +87,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-21T14:23:56.706Z"
+      "reviewedAt": "2026-10-22T14:25:38.086Z"
     },
     {
-      "id": "2026-10-21-arxiv-ai-1",
-      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "id": "2026-10-22-arxiv-ai-1",
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -118,24 +107,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-21T14:23:56.706Z"
+      "reviewedAt": "2026-10-22T14:25:38.086Z"
     },
     {
-      "id": "2026-10-21-arxiv-ai-2",
-      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-22-arxiv-ai-2",
+      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:arxiv.org:trusted:22",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-21T14:23:56.707Z"
+      "reviewedAt": "2026-10-22T14:25:38.087Z"
     }
   ]
 }
