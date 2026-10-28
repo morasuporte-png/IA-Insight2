@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-27T15:13:14.390Z",
+  "generatedAt": "2026-10-28T15:48:39.552Z",
   "mode": "approve-and-publish",
   "summary": {
     "reviewed": 7,
-    "approved": 2,
-    "held": 2,
-    "rejected": 3,
+    "approved": 1,
+    "held": 1,
+    "rejected": 5,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-10-27-openai-news-1",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "score": 99,
+      "id": "2026-10-28-openai-news-1",
+      "title": "Legora is building the agentic operating system for legal work",
+      "score": 96,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:19",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-27T15:13:14.386Z"
+      "reviewedAt": "2026-10-28T15:48:39.548Z"
     },
     {
-      "id": "2026-10-27-openai-news-2",
-      "title": "Working with academic communities to build scientific understanding",
+      "id": "2026-10-28-openai-news-2",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -44,28 +44,51 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-10-27T15:13:14.387Z"
+      "reviewedAt": "2026-10-28T15:48:39.548Z"
     },
     {
-      "id": "2026-10-27-google-ai-blog-1",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "score": 94,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-10-28-deepmind-blog-1",
+      "title": "Genie 4: A new generation of world simulation",
+      "score": 92,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:deepmind.google:trusted:24",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-10-27T15:13:14.387Z"
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-10-28T15:48:39.549Z"
     },
     {
-      "id": "2026-10-27-the-verge-ai-1",
-      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "id": "2026-10-28-the-verge-ai-1",
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "score": 86,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-10-28T15:48:39.549Z"
+    },
+    {
+      "id": "2026-10-28-the-verge-ai-2",
+      "title": "Voters in Texas agree: They hate data centers",
       "score": 89,
       "decision": "hold",
       "blockers": [],
@@ -78,28 +101,11 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-27T15:13:14.388Z"
+      "reviewedAt": "2026-10-28T15:48:39.550Z"
     },
     {
-      "id": "2026-10-27-the-verge-ai-2",
-      "title": "Data center backlash is uniting America",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-10-27T15:13:14.388Z"
-    },
-    {
-      "id": "2026-10-27-arxiv-ai-1",
-      "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+      "id": "2026-10-28-arxiv-ai-1",
+      "title": "Counting the Bandages: On measuring the time that AI saves",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -115,11 +121,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-27T15:13:14.388Z"
+      "reviewedAt": "2026-10-28T15:48:39.550Z"
     },
     {
-      "id": "2026-10-27-arxiv-ai-2",
-      "title": "IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives",
+      "id": "2026-10-28-arxiv-ai-2",
+      "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -135,7 +141,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-10-27T15:13:14.389Z"
+      "reviewedAt": "2026-10-28T15:48:39.551Z"
     }
   ]
 }
