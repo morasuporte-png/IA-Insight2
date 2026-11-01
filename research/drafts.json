@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-31T15:11:20.707Z",
+  "generatedAt": "2026-11-01T15:53:12.971Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 6,
+    "newDrafts": 4,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,131 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-11-01-openai-news-1",
+      "status": "reject",
+      "title": "Fair use benefits everyone",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports...",
+      "body": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/fair-use-benefits-everyone",
+      "sourcePublished": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "collectedAt": "2026-11-01T15:53:11.408Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-01-openai-news-2",
+      "status": "reject",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising cli...",
+      "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising cli... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourcePublished": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "collectedAt": "2026-11-01T15:53:11.408Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-01-the-verge-ai-1",
+      "status": "reject",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Char...",
+      "body": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Char... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "sourcePublished": "2026-10-31T12:05:00-04:00",
+      "collectedAt": "2026-11-01T15:53:12.726Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-01-the-verge-ai-2",
+      "status": "hold",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported...",
+      "body": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "sourcePublished": "2026-10-30T16:26:10-04:00",
+      "collectedAt": "2026-11-01T15:53:12.726Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 89,
+      "editorialDecision": "hold",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
     {
       "id": "2026-10-31-openai-news-1",
       "status": "reject",
