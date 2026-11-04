@@ -2,7 +2,7 @@
   "site": {
     "name": "AI Insights",
     "domain": "ia-insight2.vercel.app",
-    "updatedLabel": "Atualizado em 03 de nov de 2026",
+    "updatedLabel": "Atualizado em 04 de nov de 2026",
     "heroEyebrow": "RADAR REAL DE IA",
     "heroTitle": "Entenda a IA.",
     "heroAccent": "Decida com vantagem.",
@@ -20,6 +20,32 @@
     "Produtividade"
   ],
   "articles": [
+    {
+      "title": "Radar Modelos: OpenAI to acquire Pierre Computer Company, Inc.",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m1",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre modelos. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"OpenAI to acquire Pierre Computer Company, Inc.\". O gestor editorial classificou o material como Modelos por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre"
+    },
+    {
+      "title": "Radar Modelos: Daybreak Red is now available in AWS GovCloud (US-East)",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": true,
+      "editorPick": false,
+      "mediaClass": "m2",
+      "excerpt": "A OpenAI News publicou uma atualização relevante sobre modelos. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
+      "body": "A OpenAI News publicou \"Daybreak Red is now available in AWS GovCloud (US-East)\". O gestor editorial classificou o material como Modelos por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/daybreak-red-aws-govcloud"
+    },
     {
       "title": "Radar Modelos: Heimstaden is changing residential real estate management with AI",
       "category": "Modelos",
@@ -71,32 +97,6 @@
       "body": "A OpenAI News publicou \"Greptile takes bug detection beyond code review with GPT-6 Astra\". O gestor editorial classificou o material como Modelos por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
       "sourceLabel": "OpenAI News",
       "sourceUrl": "https://openai.com/index/greptile-code-review-codex-astra"
-    },
-    {
-      "title": "Radar de segurança em IA: Community safety report and new protections for teens",
-      "category": "Segurança",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m2",
-      "excerpt": "A OpenAI News publicou uma atualização relevante sobre segurança. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A OpenAI News publicou \"Community safety report and new protections for teens\". O gestor editorial classificou o material como Segurança por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety repor... Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
-      "sourceLabel": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
-    },
-    {
-      "title": "Radar de agentes: Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "category": "Agentes",
-      "type": "Radar",
-      "readingTime": "4 min",
-      "featured": true,
-      "editorPick": false,
-      "mediaClass": "m2",
-      "excerpt": "A OpenAI News publicou uma atualização relevante sobre agentes. O tema merece atenção por seu possível impacto em estratégia, produto, operação ou adoção de inteligência artificial.",
-      "body": "A OpenAI News publicou \"Patch the Planet: global response coordination as agents uncover critical vulnerabilities\". O gestor editorial classificou o material como Agentes por combinar fonte confiável, relevância para IA e sinal prático suficiente para acompanhamento. A apuração automática preserva a fonte original, evita copiar trechos extensos e transforma o sinal em uma leitura própria para quem acompanha tecnologia, produto e negócios no Brasil.\n\nO primeiro ponto de atenção é o efeito prático. Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source. Em vez de tratar a novidade como anúncio isolado, a leitura editorial do AI Insights observa onde ela pode mudar decisões de produto, automação, custo, segurança, governança ou produtividade. Esse recorte é importante para separar uma atualização realmente aplicável de uma peça promocional sem consequência operacional.\n\nPara empresas, a pergunta central é simples: isso reduz trabalho manual, melhora qualidade, cria risco novo ou muda o custo de adoção? Quando a resposta é positiva em mais de uma dessas frentes, o tema merece entrar no radar. Times de tecnologia devem avaliar integrações, permissões, dependência de fornecedor, rastreabilidade e impacto no fluxo de trabalho antes de transformar a novidade em processo permanente.\n\nPara criadores, consultores e pequenos negócios, a recomendação é acompanhar sinais de maturidade. Uma ferramenta ou modelo só vira vantagem quando resolve uma tarefa repetível, cabe no orçamento e pode ser explicado para clientes, equipes ou parceiros. A pressa em adotar tudo costuma gerar ruído; a vantagem vem de escolher poucos casos de uso e medir resultado com disciplina.\n\nTambém há um cuidado editorial importante: conteúdo sobre IA não deve prometer ganhos garantidos, substituir análise humana ou induzir decisões financeiras, médicas, jurídicas ou de segurança sem contexto. Por isso, esta publicação trata a fonte como ponto de partida e adiciona análise, limitações e perguntas de decisão. A evolução do tema deve ser acompanhada nas próximas semanas, especialmente se outras fontes confiáveis confirmarem adoção, impacto ou mudança de estratégia.",
-      "sourceLabel": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
     }
   ],
   "tools": [

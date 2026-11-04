@@ -1,54 +1,85 @@
 {
-  "generatedAt": "2026-11-03T16:53:54.472Z",
+  "generatedAt": "2026-11-04T16:57:05.092Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 6,
-    "approved": 2,
+    "reviewed": 5,
+    "approved": 3,
     "held": 1,
-    "rejected": 3,
+    "rejected": 1,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-11-03-openai-news-1",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "score": 99,
+      "id": "2026-11-04-openai-news-1",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "score": 96,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:19",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-03T16:53:54.468Z"
+      "reviewedAt": "2026-11-04T16:57:05.090Z"
     },
     {
-      "id": "2026-11-03-openai-news-2",
-      "title": "Scaling Git at OpenAI",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-11-04-openai-news-2",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "score": 96,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
         "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-03T16:53:54.469Z"
+      "reviewedAt": "2026-11-04T16:57:05.090Z"
     },
     {
-      "id": "2026-11-03-the-verge-ai-1",
-      "title": "Midterm elections 2026: all the news",
+      "id": "2026-11-04-deepmind-blog-1",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "score": 95,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-11-04T16:57:05.091Z"
+    },
+    {
+      "id": "2026-11-04-the-verge-ai-1",
+      "title": "Data centers lost the midterms",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-11-04T16:57:05.091Z"
+    },
+    {
+      "id": "2026-11-04-the-verge-ai-2",
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -64,61 +95,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-03T16:53:54.469Z"
-    },
-    {
-      "id": "2026-11-03-the-verge-ai-2",
-      "title": "Apple is all in on AI — its own and everyone else&#8217;s",
-      "score": 89,
-      "decision": "hold",
-      "blockers": [],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-03T16:53:54.470Z"
-    },
-    {
-      "id": "2026-11-03-arxiv-ai-1",
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-03T16:53:54.470Z"
-    },
-    {
-      "id": "2026-11-03-arxiv-ai-2",
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:16",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-03T16:53:54.471Z"
+      "reviewedAt": "2026-11-04T16:57:05.091Z"
     }
   ]
 }
