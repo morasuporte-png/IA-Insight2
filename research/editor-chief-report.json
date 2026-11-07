@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-06T16:38:59.663Z",
+  "generatedAt": "2026-11-07T15:31:17.134Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 6,
-    "approved": 1,
-    "held": 0,
-    "rejected": 5,
+    "reviewed": 4,
+    "approved": 0,
+    "held": 1,
+    "rejected": 3,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-11-06-openai-news-1",
-      "title": "Australian universities are creating AI-native graduates",
+      "id": "2026-11-07-openai-news-1",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "score": 93,
       "decision": "reject",
       "blockers": [
@@ -27,28 +27,48 @@
         "low_practical_signal"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-06T16:38:59.660Z"
+      "reviewedAt": "2026-11-07T15:31:17.131Z"
     },
     {
-      "id": "2026-11-06-openai-news-2",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "score": 96,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-11-07-openai-news-2",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-11-07T15:31:17.132Z"
+    },
+    {
+      "id": "2026-11-07-the-verge-ai-1",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:theverge.com:trusted:18",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-06T16:38:59.661Z"
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-11-07T15:31:17.133Z"
     },
     {
-      "id": "2026-11-06-the-verge-ai-1",
-      "title": "Amazon will let you text Alexa your shopping list",
+      "id": "2026-11-07-the-verge-ai-2",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -64,67 +84,7 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-06T16:38:59.661Z"
-    },
-    {
-      "id": "2026-11-06-the-verge-ai-2",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "score": 86,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:theverge.com:trusted:18",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-06T16:38:59.662Z"
-    },
-    {
-      "id": "2026-11-06-arxiv-ai-1",
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-06T16:38:59.662Z"
-    },
-    {
-      "id": "2026-11-06-arxiv-ai-2",
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "score": 90,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:arxiv.org:trusted:22",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-06T16:38:59.663Z"
+      "reviewedAt": "2026-11-07T15:31:17.133Z"
     }
   ]
 }
