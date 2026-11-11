@@ -1,74 +1,54 @@
 {
-  "generatedAt": "2026-11-10T16:52:54.298Z",
+  "generatedAt": "2026-11-11T16:58:10.207Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 8,
-    "approved": 2,
+    "reviewed": 10,
+    "approved": 5,
     "held": 1,
-    "rejected": 5,
+    "rejected": 4,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-11-10-openai-news-1",
-      "title": "Helping caregivers use AI in everyday life",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-10T16:52:54.294Z"
-    },
-    {
-      "id": "2026-11-10-openai-news-2",
-      "title": "Closing the AI guidance gap in education",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-10T16:52:54.295Z"
-    },
-    {
-      "id": "2026-11-10-google-ai-blog-1",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "score": 98,
+      "id": "2026-11-11-openai-news-1",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "score": 96,
       "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:blog.google:trusted:23",
+        "source:openai.com:trusted:25",
         "ai_relevance:20",
-        "practical_value:20",
+        "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "blog.google",
-      "reviewedAt": "2026-11-10T16:52:54.295Z"
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-11-11T16:58:10.201Z"
     },
     {
-      "id": "2026-11-10-google-ai-blog-2",
-      "title": "Google Cloud launches Gemini for healthcare.",
+      "id": "2026-11-11-openai-news-2",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "score": 93,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-11-11T16:58:10.202Z"
+    },
+    {
+      "id": "2026-11-11-google-ai-blog-1",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
       "score": 94,
       "decision": "approve",
       "blockers": [],
@@ -81,31 +61,28 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-11-10T16:52:54.296Z"
+      "reviewedAt": "2026-11-11T16:58:10.202Z"
     },
     {
-      "id": "2026-11-10-deepmind-blog-1",
-      "title": "Gemini 4 Carbon is now available",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
+      "id": "2026-11-11-google-ai-blog-2",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "score": 94,
+      "decision": "approve",
+      "blockers": [],
       "reasons": [
-        "source:deepmind.google:trusted:24",
+        "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:13",
+        "practical_value:16",
         "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
+        "clarity:10",
+        "editorial_caution:10"
       ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-11-10T16:52:54.296Z"
+      "sourceDomain": "blog.google",
+      "reviewedAt": "2026-11-11T16:58:10.203Z"
     },
     {
-      "id": "2026-11-10-deepmind-blog-2",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "id": "2026-11-11-deepmind-blog-1",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "score": 92,
       "decision": "reject",
       "blockers": [
@@ -121,11 +98,45 @@
         "low_practical_signal"
       ],
       "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-11-10T16:52:54.296Z"
+      "reviewedAt": "2026-11-11T16:58:10.203Z"
     },
     {
-      "id": "2026-11-10-the-verge-ai-1",
-      "title": "eBay appears to have shut the door on third-party AI agents",
+      "id": "2026-11-11-deepmind-blog-2",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "score": 95,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:deepmind.google:trusted:24",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "deepmind.google",
+      "reviewedAt": "2026-11-11T16:58:10.203Z"
+    },
+    {
+      "id": "2026-11-11-the-verge-ai-1",
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "score": 89,
+      "decision": "hold",
+      "blockers": [],
+      "reasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "theverge.com",
+      "reviewedAt": "2026-11-11T16:58:10.204Z"
+    },
+    {
+      "id": "2026-11-11-the-verge-ai-2",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -141,24 +152,44 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-10T16:52:54.297Z"
+      "reviewedAt": "2026-11-11T16:58:10.205Z"
     },
     {
-      "id": "2026-11-10-the-verge-ai-2",
-      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "score": 89,
-      "decision": "hold",
+      "id": "2026-11-11-arxiv-ai-1",
+      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
+      "reasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-11-11T16:58:10.205Z"
+    },
+    {
+      "id": "2026-11-11-arxiv-ai-2",
+      "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+      "score": 93,
+      "decision": "approve",
       "blockers": [],
       "reasons": [
-        "source:theverge.com:trusted:18",
+        "source:arxiv.org:trusted:22",
         "ai_relevance:20",
         "practical_value:16",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
-      "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-10T16:52:54.297Z"
+      "sourceDomain": "arxiv.org",
+      "reviewedAt": "2026-11-11T16:58:10.206Z"
     }
   ]
 }
