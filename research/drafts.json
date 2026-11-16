@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-15T16:10:04.674Z",
+  "generatedAt": "2026-11-16T19:24:55.727Z",
   "status": "editor-chief-reviewed",
   "summary": {
-    "newDrafts": 4,
+    "newDrafts": 7,
     "sourcesChecked": 6,
     "failures": [
       {
@@ -13,6 +13,224 @@
     ]
   },
   "items": [
+    {
+      "id": "2026-11-16-openai-news-1",
+      "status": "reject",
+      "title": "Broadening access to AI for scientists",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "body": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "sourcePublished": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "collectedAt": "2026-11-16T19:24:54.312Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 93,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-16-openai-news-2",
+      "status": "approved",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "category": "Modelos",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "body": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse. O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/strengthening-online-child-safety",
+      "sourcePublished": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "collectedAt": "2026-11-16T19:24:54.312Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 96,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-11-16-google-ai-blog-1",
+      "status": "approved",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "category": "Negócios",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\">Plan holiday r...",
+      "body": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\">Plan holiday r... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "sourcePublished": "Mon, 16 Nov 2026 14:00:00 +0000",
+      "collectedAt": "2026-11-16T19:24:55.053Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 94,
+      "editorialDecision": "approve",
+      "editorialReasons": [
+        "source:blog.google:trusted:23",
+        "ai_relevance:20",
+        "practical_value:16",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "editorialBlockers": []
+    },
+    {
+      "id": "2026-11-16-the-verge-ai-1",
+      "status": "reject",
+      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the b...",
+      "body": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the b... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+      "sourcePublished": "2026-11-16T13:43:35-05:00",
+      "collectedAt": "2026-11-16T19:24:55.502Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-16-the-verge-ai-2",
+      "status": "reject",
+      "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+      "category": "Produtividade",
+      "type": "Radar",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump...",
+      "body": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "The Verge AI",
+      "sourceUrl": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+      "sourcePublished": "2026-11-16T09:00:00-05:00",
+      "collectedAt": "2026-11-16T19:24:55.502Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 86,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:theverge.com:trusted:18",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-16-arxiv-ai-1",
+      "status": "reject",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "category": "Agentes",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m1",
+      "excerpt": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step ca...",
+      "body": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step ca... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2611.17338",
+      "sourcePublished": "Mon, 16 Nov 2026 00:00:00 -0500",
+      "collectedAt": "2026-11-16T19:24:55.727Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
+    {
+      "id": "2026-11-16-arxiv-ai-2",
+      "status": "reject",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "category": "Pesquisa",
+      "type": "Pesquisa",
+      "readingTime": "4 min",
+      "featured": false,
+      "editorPick": true,
+      "mediaClass": "m2",
+      "excerpt": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B resea...",
+      "body": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B resea... O ponto para acompanhar é como isso muda decisões práticas sobre produtos, times, automação, custo ou segurança em IA. Antes de publicar, revise o contexto completo na fonte original.",
+      "sourceLabel": "arXiv AI recent",
+      "sourceUrl": "https://arxiv.org/abs/2611.17339",
+      "sourcePublished": "Mon, 16 Nov 2026 00:00:00 -0500",
+      "collectedAt": "2026-11-16T19:24:55.727Z",
+      "reviewNotes": "Revisar precisão, relevância para público brasileiro e possível impacto prático antes de aprovar.",
+      "editorialScore": 90,
+      "editorialDecision": "reject",
+      "editorialReasons": [
+        "source:arxiv.org:trusted:22",
+        "ai_relevance:20",
+        "practical_value:13",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10",
+        "low_practical_signal"
+      ],
+      "editorialBlockers": [
+        "low_practical_value"
+      ]
+    },
     {
       "id": "2026-11-15-openai-news-1",
       "status": "reject",
