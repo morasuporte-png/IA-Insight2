@@ -1,17 +1,34 @@
 {
-  "generatedAt": "2026-11-19T18:04:05.206Z",
+  "generatedAt": "2026-11-20T17:39:08.940Z",
   "mode": "approve-and-publish",
   "summary": {
-    "reviewed": 9,
+    "reviewed": 7,
     "approved": 3,
     "held": 0,
-    "rejected": 6,
+    "rejected": 4,
     "threshold": 90
   },
   "reviews": [
     {
-      "id": "2026-11-19-openai-news-1",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "id": "2026-11-20-openai-news-1",
+      "title": "Deploying Daybreak Red",
+      "score": 99,
+      "decision": "approve",
+      "blockers": [],
+      "reasons": [
+        "source:openai.com:trusted:25",
+        "ai_relevance:20",
+        "practical_value:19",
+        "freshness:15:recente",
+        "clarity:10",
+        "editorial_caution:10"
+      ],
+      "sourceDomain": "openai.com",
+      "reviewedAt": "2026-11-20T17:39:08.938Z"
+    },
+    {
+      "id": "2026-11-20-openai-news-2",
+      "title": "See PR scans in action",
       "score": 96,
       "decision": "approve",
       "blockers": [],
@@ -24,88 +41,28 @@
         "editorial_caution:10"
       ],
       "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-19T18:04:05.202Z"
+      "reviewedAt": "2026-11-20T17:39:08.938Z"
     },
     {
-      "id": "2026-11-19-openai-news-2",
-      "title": "The Silent Consensus",
-      "score": 93,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:openai.com:trusted:25",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:10",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "openai.com",
-      "reviewedAt": "2026-11-19T18:04:05.203Z"
-    },
-    {
-      "id": "2026-11-19-google-ai-blog-1",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "score": 94,
+      "id": "2026-11-20-google-ai-blog-1",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "score": 97,
       "decision": "approve",
       "blockers": [],
       "reasons": [
         "source:blog.google:trusted:23",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:19",
         "freshness:15:recente",
         "clarity:10",
         "editorial_caution:10"
       ],
       "sourceDomain": "blog.google",
-      "reviewedAt": "2026-11-19T18:04:05.203Z"
+      "reviewedAt": "2026-11-20T17:39:08.938Z"
     },
     {
-      "id": "2026-11-19-deepmind-blog-1",
-      "title": "Introducing Gemini 4 Neon",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-11-19T18:04:05.204Z"
-    },
-    {
-      "id": "2026-11-19-deepmind-blog-2",
-      "title": "Genie 4 is now available",
-      "score": 89,
-      "decision": "reject",
-      "blockers": [
-        "low_practical_value"
-      ],
-      "reasons": [
-        "source:deepmind.google:trusted:24",
-        "ai_relevance:20",
-        "practical_value:13",
-        "freshness:15:recente",
-        "clarity:7",
-        "editorial_caution:10",
-        "low_practical_signal"
-      ],
-      "sourceDomain": "deepmind.google",
-      "reviewedAt": "2026-11-19T18:04:05.204Z"
-    },
-    {
-      "id": "2026-11-19-the-verge-ai-1",
-      "title": "Anthropic starts trading on Wall Street",
+      "id": "2026-11-20-the-verge-ai-1",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -121,11 +78,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-19T18:04:05.204Z"
+      "reviewedAt": "2026-11-20T17:39:08.939Z"
     },
     {
-      "id": "2026-11-19-the-verge-ai-2",
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "id": "2026-11-20-the-verge-ai-2",
+      "title": "The week everything fell apart",
       "score": 86,
       "decision": "reject",
       "blockers": [
@@ -141,11 +98,11 @@
         "low_practical_signal"
       ],
       "sourceDomain": "theverge.com",
-      "reviewedAt": "2026-11-19T18:04:05.204Z"
+      "reviewedAt": "2026-11-20T17:39:08.939Z"
     },
     {
-      "id": "2026-11-19-arxiv-ai-1",
-      "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+      "id": "2026-11-20-arxiv-ai-1",
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
       "score": 90,
       "decision": "reject",
       "blockers": [
@@ -161,24 +118,27 @@
         "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-19T18:04:05.205Z"
+      "reviewedAt": "2026-11-20T17:39:08.939Z"
     },
     {
-      "id": "2026-11-19-arxiv-ai-2",
-      "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
-      "score": 93,
-      "decision": "approve",
-      "blockers": [],
+      "id": "2026-11-20-arxiv-ai-2",
+      "title": "Training Language Models for Introspective Oversight",
+      "score": 90,
+      "decision": "reject",
+      "blockers": [
+        "low_practical_value"
+      ],
       "reasons": [
         "source:arxiv.org:trusted:22",
         "ai_relevance:20",
-        "practical_value:16",
+        "practical_value:13",
         "freshness:15:recente",
         "clarity:10",
-        "editorial_caution:10"
+        "editorial_caution:10",
+        "low_practical_signal"
       ],
       "sourceDomain": "arxiv.org",
-      "reviewedAt": "2026-11-19T18:04:05.205Z"
+      "reviewedAt": "2026-11-20T17:39:08.940Z"
     }
   ]
 }
